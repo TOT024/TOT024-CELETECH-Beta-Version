@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: programming funnel on TargetA. -->
+  <CMC_ChangeFunnelConfig.reportString>TODO</CMC_ChangeFunnelConfig.reportString>
+  
+  <!-- EN: trading with TargetA. -->
+  <CMCTS_TradeWithShip.reportString>TODO</CMCTS_TradeWithShip.reportString>
+  
+  <!-- EN: installing accessory at TargetB. -->
+  <InstallTurretAccessory.reportString>TODO</InstallTurretAccessory.reportString>
+  
+  <!-- EN: Placing TargetA on TargetBă€‚ -->
+  <PlaceCarriedWeaponOnBench.reportString>TODO</PlaceCarriedWeaponOnBench.reportString>
+  
+</LanguageData>

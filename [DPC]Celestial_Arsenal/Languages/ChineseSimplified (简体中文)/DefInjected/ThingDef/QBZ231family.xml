@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: QBB-231 LMG -->
+  <QBB_fivenine.label>QBB-231R 班用机枪</QBB_fivenine.label>
+  <!-- EN: A light Machine Gun Variant of QBZ-231C. It provides fire support for squads.\n\nThis weapon can automatically switch target after neutralizing the current one. -->
+  <QBB_fivenine.description>基于QBZ-231突击步枪研发的班用机枪，配备大容量弹鼓可提供持续火力支援，但与前者使用同等容积的液态金属散热系统使其需要较长时间冷却。\n\n该武器内置目标分析计算机，能够在消灭当前目标后自动指示下一个目标。</QBB_fivenine.description>
+  <!-- EN: stock -->
+  <QBB_fivenine.tools.stock.label>枪托</QBB_fivenine.tools.stock.label>
+  <!-- EN: barrel -->
+  <QBB_fivenine.tools.barrel.label>枪管</QBB_fivenine.tools.barrel.label>
+  <!-- EN: QBB-231 LMG -->
+  <QBB_fivenine.verbs.Verb_ShootSwitchFire.label>QBB-231R 班用机枪</QBB_fivenine.verbs.Verb_ShootSwitchFire.label>
+  
+  <!-- EN: QBU-231 marksman rifle -->
+  <QBU_fivenine.label>QBU-231R 射手步枪</QBU_fivenine.label>
+  <!-- EN: This marksman rifle is developed from the QBZ-231 assault rifle, featuring an extended barrel for accurate hits at longer distances, though it comes at the cost of reduced rate of fire. -->
+  <QBU_fivenine.description>基于QBZ-231R突击步枪研发的射手步枪，配备加长枪管，使其在更远距离上能够准确命中目标。虽然使用相同类型的弹药，但更长的磁轨使其能将弹头进一步加速并造成更大的破坏</QBU_fivenine.description>
+  <!-- EN: stock -->
+  <QBU_fivenine.tools.stock.label>枪托</QBU_fivenine.tools.stock.label>
+  <!-- EN: barrel -->
+  <QBU_fivenine.tools.barrel.label>枪管</QBU_fivenine.tools.barrel.label>
+  <!-- EN: QBU-231 marksman rifle -->
+  <QBU_fivenine.verbs.Verb_Shoot.label>QBU-231R 射手步枪</QBU_fivenine.verbs.Verb_Shoot.label>
+  
+  <!-- EN: QBZ-231 AR -->
+  <QBZ_fivenine.label>QBZ-231R 突击步枪</QBZ_fivenine.label>
+  <!-- EN: A small-caliber charged assault rifle specifically developed for close-quarters combat environments such as spaceships, capable of firing 4mm charged rounds at an extremely high rate of fire. Although the caliber is small and the power of individual shots is limited, the weapon's exceptionally high rate of fire allows it to effectively suppress enemies. -->
+  <QBZ_fivenine.description>第二代制式小口径化学能/磁轨助推式突击步枪，能够以极高射速发射6X36毫米穿甲弹。该子弹为高穿透力牺牲了后效，但它可以有效压制装备护盾和护甲的敌人。</QBZ_fivenine.description>
+  <!-- EN: stock -->
+  <QBZ_fivenine.tools.stock.label>枪托</QBZ_fivenine.tools.stock.label>
+  <!-- EN: barrel -->
+  <QBZ_fivenine.tools.barrel.label>枪管</QBZ_fivenine.tools.barrel.label>
+  <!-- EN: QBZ-231 AR -->
+  <QBZ_fivenine.verbs.Verb_Shoot.label>QBZ-231R 突击步枪</QBZ_fivenine.verbs.Verb_Shoot.label>
+  
+  <!-- EN: <color=#FFD456>AR-232F "Kirin"</color> -->
+  <QBZ_fivenineFlame.label>&lt;color=#FFD456>AR-231F「麒麟」突击步枪&lt;/color></QBZ_fivenineFlame.label>
+  <!-- EN: The AR-231F "Kirin" is an unofficial variant of the QBZ-231R assault rifle that adopts a more classic configuration while maintaining a high parts commonality. It is available exclusively through custom order from the C.A.G. In response to the harsh environments of border worlds, this configuration simplifies the precision electromagnetic rail assembly in favor of enhanced mechanical durability. However, this results in a slightly reduced effective range, longer heat dissipation cycles, lower accessory compatibility, and a conspicuous muzzle flash when fired.\n\nThis rifle is chambered for a specialized 6×36mm API round, which can ignite targets after penetration and cause secondary fire damage. -->
+  <QBZ_fivenineFlame.description>AR-231F「麒麟」是QBZ-231R突击步枪采用更为经典构型，但仍保持高零件通用率的非官方版本，仅能从天工商盟定制。为了应对边境星球恶劣的环境，该构型简化了精密磁轨组件，转而强化了机械结构的耐用性，但这也造成了其略微缩短的射程、较长的散热时间、较低的配件适配率和射击时会产生的醒目枪口焰。\n\n该枪配有特制的6×36毫米穿甲燃烧弹，在穿透后能点燃目标并造成二次火焰伤害。</QBZ_fivenineFlame.description>
+  <!-- EN: stock -->
+  <QBZ_fivenineFlame.tools.stock.label>枪托</QBZ_fivenineFlame.tools.stock.label>
+  <!-- EN: barrel -->
+  <QBZ_fivenineFlame.tools.barrel.label>枪管</QBZ_fivenineFlame.tools.barrel.label>
+  <!-- EN: <color=#FFD456>AR-232F "Kirin"</color> -->
+  <QBZ_fivenineFlame.verbs.Verb_Shoot.label>&lt;color=#FFD456>AR-231F「麒麟」突击步枪&lt;/color></QBZ_fivenineFlame.verbs.Verb_Shoot.label>
+  
+</LanguageData>

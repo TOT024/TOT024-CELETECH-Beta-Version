@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: BF-01 F.D.S. -->
+  <CMC_FunnelBelt.label>BF-01 多用途浮游炮格纳库</CMC_FunnelBelt.label>
+  <!-- EN: A compact funnel deployment system that stores and launches up to 3 autonomous funnel drones. The system maintains a neural link with the wearer, allowing real-time tactical control of deployed units. -->
+  <CMC_FunnelBelt.description>一个能跟随使用者的浮游炮收容控制系统，可以对释放的单位进行实时控制。</CMC_FunnelBelt.description>
+  <!-- EN: modular funnel core -->
+  <CMC_FunnelBelt.comps.CompApparelReloadable.chargeNoun>浮游炮核心</CMC_FunnelBelt.comps.CompApparelReloadable.chargeNoun>
+  <!-- EN: on cooldown -->
+  <CMC_FunnelBelt.comps.CompApparelReloadable.cooldownGerund>冷却中</CMC_FunnelBelt.comps.CompApparelReloadable.cooldownGerund>
+  
+  <!-- EN: BF-03 F.D.S. -->
+  <CMC_FunnelHauler_Laser.label>BF-03 突击浮游炮格纳库</CMC_FunnelHauler_Laser.label>
+  <!-- EN: A compact deployment system that stores and launches up to 4 autonomous funnel drones. The system maintains a neural link with the wearer, allowing real-time tactical control of deployed units. -->
+  <CMC_FunnelHauler_Laser.description>一个能跟随使用者的先进浮游炮收容控制系统，可以存储大量浮游炮并对释放的单位进行实时控制。</CMC_FunnelHauler_Laser.description>
+  <!-- EN: modular funnel core -->
+  <CMC_FunnelHauler_Laser.comps.CompApparelReloadable.chargeNoun>浮游炮核心</CMC_FunnelHauler_Laser.comps.CompApparelReloadable.chargeNoun>
+  <!-- EN: on cooldown -->
+  <CMC_FunnelHauler_Laser.comps.CompApparelReloadable.cooldownGerund>冷却中</CMC_FunnelHauler_Laser.comps.CompApparelReloadable.cooldownGerund>
+  
+  <!-- EN: BRF-X F.D.S. -->
+  <CMC_FunnelHauler_Mix.label>BRF-03 先进浮游炮格纳库</CMC_FunnelHauler_Mix.label>
+  <!-- EN: . -->
+  <CMC_FunnelHauler_Mix.description>一个能跟随使用者的脉冲激光浮游炮收容控制系统，可以同时操控大量单位，并对释放的单位进行实时控制。</CMC_FunnelHauler_Mix.description>
+  <!-- EN: modular funnel core -->
+  <CMC_FunnelHauler_Mix.comps.CompApparelReloadable.chargeNoun>浮游炮核心</CMC_FunnelHauler_Mix.comps.CompApparelReloadable.chargeNoun>
+  <!-- EN: on cooldown -->
+  <CMC_FunnelHauler_Mix.comps.CompApparelReloadable.cooldownGerund>冷却中</CMC_FunnelHauler_Mix.comps.CompApparelReloadable.cooldownGerund>
+  
+</LanguageData>

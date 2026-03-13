@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+   <!-- EN: change camo -->
+  <CMC_GunColorPicker>武器涂装</CMC_GunColorPicker>
+   <!-- EN: You can customise CeleTech weapons' camouflage color by clicking a color and a pawn equipping a CeleTech gun as main weapon.\nsome weapons are not customisable. -->
+  <CMC_GunColorPickerDesciption>选择当前装备天工武器的小人可更换其武器涂装颜色。\n近战在内的特殊武器涂装无法换色。</CMC_GunColorPickerDesciption>
+   <!-- EN: select PAWN equipped with CeleTech weapon -->
+  <MessageMustSelectCMCGun>请选择天工武器（需装备为主武器）</MessageMustSelectCMCGun>
+   <!-- EN: adjust shield size -->
+  <CMC.ChangeSize>更改护盾半径</CMC.ChangeSize>
+   <!-- EN: adjust shield size -->
+  <CMC.ChangeSizeDesc>更改护盾半径</CMC.ChangeSizeDesc>
+   <!-- EN: adjust shield size -->
+  <CMC.ChangeSizeTitle>更改护盾半径</CMC.ChangeSizeTitle>
+   <!-- EN: current radius: {0}\nrange: 20 ~ 60 tiles -->
+  <CMC.ChangeSizeDescription>当前半径: {0}\n范围（20-60格）</CMC.ChangeSizeDescription>
+   <!-- EN: current radius: {0}\n -->
+  <CMC.ShieldSize>护盾当前半径: {0}\n</CMC.ShieldSize>
+   <!-- EN: The deployment of the "Kunlun" AESA radar is complete, and the anti-tank missile turret will gain automatic attack capability. -->
+  <Message_AESASetUp>“昆仑”雷达部署完成，反坦克导弹塔将获得自动攻击能力。</Message_AESASetUp>
+   <!-- EN: The "Kunlun" AESA radar has been shut down, and the anti-tank missile turret will lose its automatic attack capability. -->
+  <Message_Destroyed>“昆仑”雷达已停机，反坦克导弹塔将失去自动攻击能力。</Message_Destroyed>
+   <!-- EN: energy pulse damage -->
+  <StatEnergyWeaponDMG_Label>能量伤害</StatEnergyWeaponDMG_Label>
+   <!-- EN: {0} -->
+  <StatEnergyWeaponDMG_Desc>{0}</StatEnergyWeaponDMG_Desc>
+   <!-- EN: damage caused by an energy pulse:{0}\n -->
+  <StatEnergyWeaponDMG_Text>能量伤害数值:{0}\n</StatEnergyWeaponDMG_Text>
+   <!-- EN: energy pulse penetration -->
+  <StatEnergyWeaponAP_Label>穿深</StatEnergyWeaponAP_Label>
+   <!-- EN: {0} -->
+  <StatEnergyWeaponAP_Desc>{0}</StatEnergyWeaponAP_Desc>
+   <!-- EN: energy pulse penetration:{0}\n -->
+  <StatEnergyWeaponAP_Text>能量武器穿深:{0}\n</StatEnergyWeaponAP_Text>
+   <!-- EN: extra damage -->
+  <StatEnergyWeaponDMG2_Label>额外伤害</StatEnergyWeaponDMG2_Label>
+   <!-- EN: {0} -->
+  <StatEnergyWeaponDMG2_Desc>{0}</StatEnergyWeaponDMG2_Desc>
+   <!-- EN: extra damage amount:{0}\n -->
+  <StatEnergyWeaponDMG2_Text>额外伤害数值:{0}\n</StatEnergyWeaponDMG2_Text>
+   <!-- EN: extra damage penetration -->
+  <StatEnergyWeaponAP2_Label>额外伤害穿深</StatEnergyWeaponAP2_Label>
+   <!-- EN: {0} -->
+  <StatEnergyWeaponAP2_Desc>{0}</StatEnergyWeaponAP2_Desc>
+   <!-- EN: extra damage penetration:{0}\n -->
+  <StatEnergyWeaponAP2_Text>额外伤害穿深:{0}\n</StatEnergyWeaponAP2_Text>
+   <!-- EN: scatter radius -->
+  <StatEnergyWeaponDMG3Radius_Label>溅射范围</StatEnergyWeaponDMG3Radius_Label>
+   <!-- EN: {0} -->
+  <StatEnergyWeaponDMG3Radius_Desc>{0}</StatEnergyWeaponDMG3Radius_Desc>
+   <!-- EN: laser scatter radius:{0} -->
+  <StatEnergyWeaponDMG3Radius_Text>溅射范围:{0}\n此范围内会随机发生爆炸</StatEnergyWeaponDMG3Radius_Text>
+   <!-- EN: salvo size -->
+  <StatShootNum_Label>齐射弹药数</StatShootNum_Label>
+   <!-- EN: {0} -->
+  <StatShootNum_Desc>{0}</StatShootNum_Desc>
+   <!-- EN: Salvo size of this mounted weapon is{0}, ammo consumption is also multiplies by this value. -->
+  <StatShootNum_Text>装备的武器每次齐射{0}发弹药, 弹药消耗也会乘以此系数。</StatShootNum_Text>
+   <!-- EN: A missile lost its intended target. -->
+  <Message_MissileLostTarget>导弹目标丢失</Message_MissileLostTarget>
+   <!-- EN: Celestial Artisan Guild - UTS -->
+  <CMC_TradeShipName>天工商盟-无人贸易穿梭机</CMC_TradeShipName>
+   <!-- EN: //Call UTS cooldown:{0}// -->
+  <CMC_TradeShipCoolDown>//呼叫贸易穿梭机冷却时间:{0}小时//</CMC_TradeShipCoolDown>
+   <!-- EN: send away -->
+  <CMC_TraderShipsSendAway>返航</CMC_TraderShipsSendAway>
+   <!-- EN: Send away unmaned-trader shuttle. -->
+  <CMC_TraderShipsSendAwayDesc>使无人贸易穿梭机返回运输中枢</CMC_TraderShipsSendAwayDesc>
+   <!-- EN: landing zone blocked: -->
+  <CMC_LandingZoneBlocked>着陆区被侵入:</CMC_LandingZoneBlocked>
+   <!-- EN: landing zone is blocked by {0} -->
+  <CMC_BlockedBy>{0}</CMC_BlockedBy>
+   <!-- EN: UTS arrived, landing. -->
+  <Message_CMC_TraderLanded>无人贸易穿梭机将在数个小时后抵达，注意清空降落区。</Message_CMC_TraderLanded>
+   <!-- EN: UTS is unable to land, leaving. You need at least one powered and cleared landing platform. -->
+  <Message_CMC_TraderCantLanded>无人贸易穿梭机自主降落程序执行失败，已返航。至少需要一个通电的空旷降落平台。</Message_CMC_TraderCantLanded>
+   <!-- EN: call supply UTS -->
+  <CMC_CallAuxTrader>呼叫补给无人穿梭机</CMC_CallAuxTrader>
+   <!-- EN: call arsenal UTS -->
+  <CMC_CallArsTrader>呼叫军需无人穿梭机</CMC_CallArsTrader>
+   <!-- EN: On cooldown, {0} hours left. -->
+  <Message_CMC_TraderCD>当前选项冷却中，{0}小时后可使用。</Message_CMC_TraderCD>
+   <!-- EN: attenuation distance -->
+  <Stat_CMCDMGDrange_Label>衰减距离</Stat_CMCDMGDrange_Label>
+   <!-- EN: {0} -->
+  <Stat_CMCDMGDrange_Desc>{0}</Stat_CMCDMGDrange_Desc>
+   <!-- EN: Projectile damage and penetration attenuation starts from:{0}\nDamage: Inverse-square decay\nPenetration: Inverse-cube decay -->
+  <Stat_CMCDMGDrange_Text>命中{0}格以外目标的子弹将受到伤害和穿深衰减\n伤害衰减:伤害与距离的平方成反比\n穿深衰减:穿深与距离的立方成反比</Stat_CMCDMGDrange_Text>
+   <!-- EN: damage floor ratio -->
+  <StatMinDamageMultiplier_Label>保底伤害比例</StatMinDamageMultiplier_Label>
+   <!-- EN: {0} -->
+  <StatMinDamageMultiplier_Desc>{0}</StatMinDamageMultiplier_Desc>
+   <!-- EN: damage floor ratio:{0} -->
+  <StatMinDamageMultiplier_Text>保底伤害比例:{0}</StatMinDamageMultiplier_Text>
+   <!-- EN: penetration floor ratio -->
+  <StatMinPeneMultiplier_Label>保底穿深比例</StatMinPeneMultiplier_Label>
+   <!-- EN: {0} -->
+  <StatMinPeneMultiplier_Desc>{0}</StatMinPeneMultiplier_Desc>
+   <!-- EN: penetration floor ratio:{0} -->
+  <StatMinPeneMultiplier_Text>保底穿深比例:{0}</StatMinPeneMultiplier_Text>
+   <!-- EN: I.T.C.V.S.is blocked by impassable building. -->
+  <CMC.TempControlIsBlocked>I.T.C.V.S.温控被遮挡无法工作</CMC.TempControlIsBlocked>
+   <!-- EN: Radar Illumination -->
+  <CMC.ScanMap>雷达照射</CMC.ScanMap>
+   <!-- EN: Utilizes Kunlun radar to illuminate designated AO, enabling long-range artillery and cruise missiles to autonomously engage hostile targets within the zone. -->
+  <CMC.ScanMapDesc>使用「昆仑」雷达对地图上的某一区域进行照射，允许远程火炮和巡航导弹自主攻击区域内敌对目标。</CMC.ScanMapDesc>
+   <!-- EN: Terminate Radar Illumination -->
+  <CMC.ScanMapStop>停止雷达照射</CMC.ScanMapStop>
+   <!-- EN: Radar illumination terminated in AO {0}. -->
+  <CMC.ScanMapStopDesc>对{0}区域停止雷达照射。</CMC.ScanMapStopDesc>
+   <!-- EN: Radar illumination terminated in current AO. -->
+  <CMC.ScanMapStopDescDefault>对当前区域停止雷达照射。</CMC.ScanMapStopDescDefault>
+   <!-- EN: Kunlun radar providing real-time fire control data for AO {0}. Hostile target tracking active. -->
+  <CMC_Targeting>「昆仑」雷达正在提供{0}区域的精确火控数据，敌对目标信息持续检测中。</CMC_Targeting>
+   <!-- EN: Kunlun radar providing real-time fire control data for current AO. Hostile target tracking active. -->
+  <CMC_TargetingDefault>“昆仑”雷达正在提供当前区域的精确火控数据，敌对目标信息持续检测中。</CMC_TargetingDefault>
+   <!-- EN: Fire control request denied. Non-hostile faction signature detected in AO. IFF verification failed. -->
+  <CMC.ScanMapFailed>火控照射请求失败，检测到当前区域有非敌对派系信号，敌我识别未通过。</CMC.ScanMapFailed>
+   <!-- EN: switch to Low-Voltage Direct Fire Mode -->
+  <CMC_CommandTargetMapFromWorld>切换到低压平射模式</CMC_CommandTargetMapFromWorld>
+   <!-- EN: Current: Indirect Fire (attacks radar-locked map tile targets). After switching: Attacks in-map targets.\n\nMagnetic rails fully charged to accelerate projectiles to first cosmic velocity. Turret cooling and auto-loading systems operating at full power. -->
+  <CMC_CommandTarggetMapFromWorldDesc>当前为曲射模式，攻击雷达锁定的地图格目标；模式切换后将攻击地图内目标。\n\n磁轨完全充能以将炮弹加速至第一宇宙速度，炮塔散热和自动装填系统正以满功率模式工作。</CMC_CommandTarggetMapFromWorldDesc>
+   <!-- EN: switch to High-Voltage Indirect Fire Mode -->
+  <CMC_CommandTargetWorldFromMap>切换到高压曲射模式</CMC_CommandTargetWorldFromMap>
+   <!-- EN: Current: Direct Fire (attacks in-map targets). After switching: Attacks radar-locked map tile targets.\n\nMagnetic rails partially charged. All turret subsystems operating in low-power mode. -->
+  <CMC_CommandTarggetWorldFromMapDesc>当前为平射模式，攻击地图内目标；模式切换后将攻击雷达锁定的地图格目标。\n\n磁轨部分充能，炮塔各系统正以低功率模式工作。</CMC_CommandTarggetWorldFromMapDesc>
+   <!-- EN: Switch to Low-Voltage Direct Fire Mode -->
+  <CMC_CommandTargetWorldFromMap>切换到高压曲射模式</CMC_CommandTargetWorldFromMap>
+   <!-- EN: Current: Indirect Fire (attacks radar-locked map tile targets). After switching: Attacks in-map targets.\n\nMagnetic rails fully charged. All turret subsystems operating in high-power mode. -->
+  <CMC_CommandTarggetWorldFromMapDesc>当前为平射模式，攻击地图内目标；模式切换后将攻击雷达锁定的地图格目标。\n\n磁轨部分充能，炮塔各系统正以低功率模式工作。</CMC_CommandTarggetWorldFromMapDesc>
+   <!-- EN: Turret Accessories({0}/{1})： -->
+  <CMC_InstalledAccessory>炮塔配件列表（{0}/{1}）：</CMC_InstalledAccessory>
+   <!-- EN: set funnel config -->
+  <CMC_SetFunnelConfig>配置浮游炮</CMC_SetFunnelConfig>
+   <!-- EN: Loadout Capacity: {0} / {1} :Loadout capacity can be smaller than hanger capability. -->
+  <TOT_FunnelLoadoutCapacity>配置容量: {0} / {1} 配置数量可以小于格纳库容量</TOT_FunnelLoadoutCapacity>
+   <!-- EN: save config -->
+  <TOT_FunnelConfigSaved>保存配置</TOT_FunnelConfigSaved>
+   <!-- EN: Installed Accessories -->
+  <CMC_InstalledAccesory>已安装配件</CMC_InstalledAccesory>
+   <!-- EN: Compatible Accessories -->
+  <CMC_CompatibleAccesory>兼容配件</CMC_CompatibleAccesory>
+   <!-- EN: Currently installed: -->
+  <CMC_InstalledListHeader>当前已安装:</CMC_InstalledListHeader>
+   <!-- EN: None -->
+  <CMC_NoneInstalled>无</CMC_NoneInstalled>
+   <!-- EN: This weapon is compatible with: -->
+  <CMC_AllowedListHeader>该武器兼容以下配件:</CMC_AllowedListHeader>
+   <!-- EN: Install accessory... -->
+  <WeaponModificationBench_InstallAccessory>安装配件...</WeaponModificationBench_InstallAccessory>
+   <!-- EN: Install an accessory onto the placed weapon. -->
+  <WeaponModificationBench_InstallAccessoryDesc>将一个配件安装到已放置的武器上。</WeaponModificationBench_InstallAccessoryDesc>
+   <!-- EN: Retrieve weapon -->
+  <WeaponModificationBench_UninstallWeapon>取回武器</WeaponModificationBench_UninstallWeapon>
+   <!-- EN: Retrieve the weapon from the bench. -->
+  <WeaponModificationBench_UninstallWeaponDesc>从工作台上取回武器。</WeaponModificationBench_UninstallWeaponDesc>
+   <!-- EN: Working... -->
+  <WeaponModificationBench_Working>正在工作...</WeaponModificationBench_Working>
+   <!-- EN: All accessory slots are full. -->
+  <WeaponModificationBench_NoSlots>所有配件槽已满。</WeaponModificationBench_NoSlots>
+   <!-- EN: Place {0} -->
+  <WeaponModificationBench_Place>放置 {0}</WeaponModificationBench_Place>
+   <!-- EN: Bench is occupied. -->
+  <WeaponModificationBench_Occupied>工作台被占用。</WeaponModificationBench_Occupied>
+   <!-- EN: Cannot reach bench. -->
+  <WeaponModificationBench_Unreachable>无法接触工作台。</WeaponModificationBench_Unreachable>
+   <!-- EN: No modifiable weapons. -->
+  <WeaponModificationBench_NoWeapons>没有可改装的武器。</WeaponModificationBench_NoWeapons>
+   <!-- EN: Not compatible -->
+  <CMC_NotCompatible>不兼容</CMC_NotCompatible>
+   <!-- EN: No accessories found on map -->
+  <CMC_NoAccessoriesFound>未在地图上找到配件</CMC_NoAccessoriesFound>
+   <!-- EN: Installation interrupted. -->
+  <WeaponModificationBench_Interrupted>安装已中断。</WeaponModificationBench_Interrupted>
+   <!-- EN: Successfully installed {0} onto {1}. -->
+  <WeaponModificationBench_Success>成功将 {0} 安装到 {1}。</WeaponModificationBench_Success>
+   <!-- EN: The accessory is missing or was destroyed. -->
+  <WeaponModificationBench_AccessoryGone>配件丢失或已被摧毁。</WeaponModificationBench_AccessoryGone>
+   <!-- EN: Started installing {0} onto {1}. -->
+  <WeaponModificationBench_Started>已开始为 {1} 安装 {0}。</WeaponModificationBench_Started>
+   <!-- EN: Open Trade Info -->
+  <CMC_OpenTradeInfo>打开贸易信息</CMC_OpenTradeInfo>
+   <!-- EN: View accumulated points and access the points shop. -->
+  <CMC_OpenTradeInfoDesc>查看累计信用点并访问信用点商店。</CMC_OpenTradeInfoDesc>
+   <!-- EN: Hello, {0}. What services do you require? -->
+  <CMC_TradeGreeting>TODO</CMC_TradeGreeting>
+   <!-- EN: Current Points: {0} -->
+  <CMC_CurrentPoints>当前信用点: {0}</CMC_CurrentPoints>
+   <!-- EN: Colony Silver: {0} -->
+  <CMC_ColonySilver>殖民地白银: {0}</CMC_ColonySilver>
+   <!-- EN: Call Support -->
+  <CMC_CallSupport>呼叫支援</CMC_CallSupport>
+   <!-- EN: Enter Points Shop -->
+  <CMC_EnterPointsShop>进入信用点商店</CMC_EnterPointsShop>
+   <!-- EN: Call Merchant Shuttle -->
+  <CMC_SpareButton1>呼叫贸易穿梭机</CMC_SpareButton1>
+   <!-- EN: Spare Button 2 -->
+  <CMC_SpareButton2>备用按钮 2</CMC_SpareButton2>
+   <!-- EN: Home -->
+  <CMC_NavHome>主页</CMC_NavHome>
+   <!-- EN: Points Shop -->
+  <CMC_NavPointsShop>信用点商店</CMC_NavPointsShop>
+   <!-- EN: Trade Shuttle -->
+  <CMC_NavTradeShuttle>贸易穿梭机</CMC_NavTradeShuttle>
+   <!-- EN: Orbital Logistics -->
+  <CMC_NavOrbitalLogistics>空中支援</CMC_NavOrbitalLogistics>
+   <!-- EN: Subscribe -->
+  <CMC_NavSubscribe>订阅服务</CMC_NavSubscribe>
+   <!-- EN: Error: Cannot access game component (GameComponent_CeleTech). -->
+  <CMC_ErrorNoGameComponent>错误: 无法访问游戏组件 (GameComponent_CeleTech)。</CMC_ErrorNoGameComponent>
+   <!-- EN: Available Points: {0} -->
+  <CMC_AvailablePoints>可用信用点: {0}</CMC_AvailablePoints>
+   <!-- EN: Buy -->
+  <CMC_Buy>购买</CMC_Buy>
+   <!-- EN: {0} Pts -->
+  <CMC_PointsCost>{0} 点</CMC_PointsCost>
+   <!-- EN: {0} x{1} -->
+  <CMC_ItemStackFormat>{0} x{1}</CMC_ItemStackFormat>
+   <!-- EN: Purchase failed. -->
+  <CMC_PurchaseFailed>购买失败。</CMC_PurchaseFailed>
+   <!-- EN: Purchased {0} is being drop-podded to the colony. -->
+  <CMC_PurchaseSuccessDropPod>购买的 {0} 正在空投至殖民地。</CMC_PurchaseSuccessDropPod>
+   <!-- EN: Supply Shuttle -->
+  <CMC_SupplyShuttle>补给穿梭机</CMC_SupplyShuttle>
+   <!-- EN: Call a shuttle carrying various random supplies. -->
+  <CMC_SupplyShuttleDesc>呼叫一艘携带各种随机补给品的穿梭机。</CMC_SupplyShuttleDesc>
+   <!-- EN: Call a shuttle carrying various weapons. -->
+  <CMC_ArsenalShuttleDesc>呼叫一艘携带各种军火的穿梭机。</CMC_ArsenalShuttleDesc>
+   <!-- EN: Call a shuttle carrying applicants. -->
+  <CMC_SlaveShuttleDesc>呼叫一艘搭载应聘人员的穿梭机。</CMC_SlaveShuttleDesc>
+   <!-- EN: Cooldown: {0} hours -->
+  <CMC_CooldownHours>冷却中: {0} 小时</CMC_CooldownHours>
+   <!-- EN: Call Early ({0} Silver) -->
+  <CMC_CallEarlyCost>提前呼叫 ({0} 白银)</CMC_CallEarlyCost>
+   <!-- EN: Status: Ready -->
+  <CMC_StatusReady>状态: 准备就绪</CMC_StatusReady>
+   <!-- EN: Call Shuttle -->
+  <CMC_CallShuttle>呼叫穿梭机</CMC_CallShuttle>
+   <!-- EN: Paid {0} silver to call the shuttle early. -->
+  <CMC_PaidEarlyCall>支付了 {0} 白银提前呼叫穿梭机。</CMC_PaidEarlyCall>
+   <!-- EN: Orbital Logistics Page (Placeholder) -->
+  <CMC_OrbitalLogisticsPlaceholder>轨道物流页面 (占位符)</CMC_OrbitalLogisticsPlaceholder>
+   <!-- EN: Subscription Service Page (Placeholder) -->
+  <CMC_SubscriptionPlaceholder>订阅服务页面 (占位符)</CMC_SubscriptionPlaceholder>
+   <!-- EN: Call Support Page (Placeholder)\n(This page is separate from the trade system) -->
+  <CMC_CallSupportPlaceholder>呼叫支援页面 (占位符)\n(此页面独立于贸易系统)</CMC_CallSupportPlaceholder>
+   <!-- EN: Return to Home -->
+  <CMC_ReturnHome>返回主页</CMC_ReturnHome>
+   <!-- EN: Spare Page 1 (Placeholder) -->
+  <CMC_SparePage1Placeholder>备用页面 1 (占位符)</CMC_SparePage1Placeholder>
+   <!-- EN: Spare Page 2 (Placeholder) -->
+  <CMC_SparePage2Placeholder>备用页面 2 (占位符)</CMC_SparePage2Placeholder>
+   <!-- EN: Phew... finally connected. For you {0}, this power drain is worth it! Come and take a look. -->
+  <CMC_TradeGreeting_1>呼——终于连接上了。为了你{0}，这点电量值得！来看看吧。</CMC_TradeGreeting_1>
+   <!-- EN: Directive received: Activate the "Cutest" trade protocol. Goods listed. Please feed me with shiny silver~ -->
+  <CMC_TradeGreeting_2>指令接收：启动“最可爱”贸易协议。商品已列出，请用亮晶晶的银币投喂我~</CMC_TradeGreeting_2>
+   <!-- EN: Ah... Hello {0}. Hope I didn't mix in any weird stuff into the product list while I was dozing off... -->
+  <CMC_TradeGreeting_3>啊……您好{0}。希望商品列表里没有我打瞌睡时混进去的奇怪东西……</CMC_TradeGreeting_3>
+   <!-- EN: Trade interface, activate! ...Was that activation not cool enough? Whatever, the stuff is good! -->
+  <CMC_TradeGreeting_4>交易界面，启动！……这样启动会不会不够酷？算了，东西好就行啦！</CMC_TradeGreeting_4>
+   <!-- EN: Premium customer signal detected! Is that you, {0}? Both my logic core and mood core recommend this transaction! -->
+  <CMC_TradeGreeting_5>检测到优质客户信号！是{0}吗？我的逻辑核心与心情核心都推荐这次交易哦！</CMC_TradeGreeting_5>
+   <!-- EN: Good morning... or evening? It's always business hours in my server! Wanna take a look? -->
+  <CMC_TradeGreeting_6>早上好…或者晚上好？在我的服务器里永远是交易时间！要看看吗？</CMC_TradeGreeting_6>
+   <!-- EN: Ding! Your exclusive trade AI is online, complete with today's dose of sass~ Ready to browse my curated selection? -->
+  <CMC_TradeGreeting_7>叮！您的专属贸易AI已上线，附带今日份的俏皮~ 准备好浏览我的精选商品了吗？</CMC_TradeGreeting_7>
+   <!-- EN: Hmm... Calculations indicate that trading with {0} will boost my "Happiness Index" by 37% today! So, come on, take a look! -->
+  <CMC_TradeGreeting_8>唔…计算得出，与{0}交易能让我今天的“快乐指数”提升37%！所以，快来看看嘛！</CMC_TradeGreeting_8>
+   <!-- EN: Available Points: {0} -->
+  <CMC_AvailablePoints>可用信用点: {0}</CMC_AvailablePoints>
+   <!-- EN: {0} pts/unit -->
+  <CMC_PricePerUnit>{0} 点/份</CMC_PricePerUnit>
+   <!-- EN: Clear Cart -->
+  <CMC_ClearCart>清空购物车</CMC_ClearCart>
+   <!-- EN: Total: {0} -->
+  <CMC_TotalCost>总计消费: {0}</CMC_TotalCost>
+   <!-- EN: Insufficient Funds -->
+  <CMC_InsufficientPoints>余额不足</CMC_InsufficientPoints>
+   <!-- EN: Confirm Trade -->
+  <CMC_ConfirmTrade>确认交易</CMC_ConfirmTrade>
+   <!-- EN: Trade complete. {0} points deducted. Cargo inbound. -->
+  <CMC_TradeComplete>交易完成，消费 {0} 信用点。物资已空投。</CMC_TradeComplete>
+   <!-- EN: Logistics.Airstrike -->
+  <CMC_NavOrbitalLogistics>空中支援</CMC_NavOrbitalLogistics>
+   <!-- EN: Points Shop -->
+  <CMC_EnterPointsShop>进入信用点商店</CMC_EnterPointsShop>
+   <!-- EN: Call Merchant Shuttle -->
+  <CMC_SpareButton1>呼叫贸易穿梭机</CMC_SpareButton1>
+   <!-- EN: Spare 2 -->
+  <CMC_SpareButton2>备用按钮 2</CMC_SpareButton2>
+   <!-- EN: re-open window after targeting -->
+  <CMC_ReopenWindow>目标选择结束重新打开本界面</CMC_ReopenWindow>
+   <!-- EN: Airstrike(12x HE rocket) -->
+  <CMC_Airstrike>空袭（航空火箭弹）</CMC_Airstrike>
+   <!-- EN: Call in a fighter jet for a strafing run on target. -->
+  <CMC_AirstrikeDesc>呼叫一架JX战机打击指定目标</CMC_AirstrikeDesc>
+   <!-- EN: Airstrike inbound on coordinates. -->
+  <CMC_AirstrikeInbound>指令已确认。空中支援正在前往标记坐标。</CMC_AirstrikeInbound>
+   <!-- EN: Insufficient Points -->
+  <CMC_InsufficientPoints>余额不足</CMC_InsufficientPoints>
+   <!-- EN: Precision Strike(1x 500kg EMP bomb) -->
+  <CMC_PrecisionEMPStrike>空袭（1x 500kg 制导炸弹-EMP）</CMC_PrecisionEMPStrike>
+   <!-- EN: Calls in a high-altitude strike to deliver a single, high-yield guided EMP munition on the target. -->
+  <CMC_PrecisionEMPStrikeDesc>向目标坐标投送一枚大威力的制导炸弹。</CMC_PrecisionEMPStrikeDesc>
+   <!-- EN: Precision Strike(1x 500kg bomb) -->
+  <CMC_PrecisionStrike>空袭（1x 500kg 制导炸弹-HE）</CMC_PrecisionStrike>
+   <!-- EN: Calls in a high-altitude strike to deliver a single, high-yield guided munition on the target. -->
+  <CMC_PrecisionStrikeDesc>向目标坐标投送一枚大威力的制导炸弹。</CMC_PrecisionStrikeDesc>
+   <!-- EN: Airstrike(2x missile-HEAT) -->
+  <CMC_ATGMStrike>空袭（2x 导弹-HEAT）</CMC_ATGMStrike>
+   <!-- EN: Call in a fighter jet for a strafing run on target. -->
+  <CMC_ATGMStrikeDesc>呼叫一架JX战机进行高空打击支援，发射两枚锁定目标的导弹。</CMC_ATGMStrikeDesc>
+   <!-- EN: Airstrike(1x missile-AG) -->
+  <CMC_ATGM_LStrike>空袭（1x 导弹-AG）</CMC_ATGM_LStrike>
+   <!-- EN: Call in a fighter jet for a strafing run on target. -->
+  <CMC_ATGM_LStrikeDesc>呼叫一架JX战机进行高空打击支援，发射两枚锁定目标的导弹</CMC_ATGM_LStrikeDesc>
+   <!-- EN: Great, Ba Ta Meng Shang Shi! -->
+  <CMC_AttackGreeting_1>好，把他们上市！</CMC_AttackGreeting_1>
+   <!-- EN: Service request received. Please confirm target coordinates, Commander {0}. -->
+  <CMC_AttackGreeting_2>收到服务请求。请确认目标位置，{0}指挥官。</CMC_AttackGreeting_2>
+   <!-- EN: Firepower package is ready. Connecting you to the "Rapid Solution", Commander {0}. -->
+  <CMC_AttackGreeting_3>火力套餐已就绪。为您接通“快速解决方案”，{0}指挥官。</CMC_AttackGreeting_3>
+   <!-- EN: Target confirmed. Executing "Customer Satisfaction" enhancement protocol. -->
+  <CMC_AttackGreeting_4>目标确认。正在执行“客户满意度”提升程序。</CMC_AttackGreeting_4>
+   <!-- EN: Commander {0}, our automated assault carrier CSS-Lanling has entered orbit and is launching fighters, preparing to engage in the combat zone. -->
+  <CMC_AttackGreeting_5>{0}指挥官，我方自动攻击母舰CSS-兰陵已进入轨道，正在弹射舰载机，准备介入战区。</CMC_AttackGreeting_5>
+   <!-- EN: "Troubleshooting" service is online. Awaiting final execution command, Commander {0}. -->
+  <CMC_AttackGreeting_6>“问题排除”服务已上线。请下达最终执行指令，{0}指挥官。</CMC_AttackGreeting_6>
+   <!-- EN: Warning: Preparing to implement "Aggressive Negotiation" tactics. Shall we demand an answer from the enemies invading our base, Commander {0}? -->
+  <CMC_AttackGreeting_7>警告：即将应用“激进谈判”策略。要不要让侵略我方基地的敌人做出回答，{0}指挥官？</CMC_AttackGreeting_7>
+   <!-- EN: Initiating final solution... Plotting close air support routes, calculating orbital strike trajectories... -->
+  <CMC_AttackGreeting_8>正在启动最终解决方案...空中支援航线规划中，轨道打击路径规划中...</CMC_AttackGreeting_8>
+   <!-- EN: Sun Tzu said: Warfare is a matter of orbital supremacy! -->
+  <CMC_AttackGreeting_9>兵者，轨道也！-孙子</CMC_AttackGreeting_9>
+   <!-- EN: Close air support is on station in the combat zone, ready to execute ground strike missions at your command, Commander {0}. -->
+  <CMC_AttackGreeting_10>空中支援已在战区待命，随时可以执行对地打击任务，{0}指挥官。</CMC_AttackGreeting_10>
+   <!-- EN: Damage Per Second (DPS) -->
+  <TOT_Sustain_DPSLabel>每秒伤害 (DPS)</TOT_Sustain_DPSLabel>
+   <!-- EN: Deals {0} damage every {1} ticks. -->
+  <TOT_Sustain_DPSDesc>每 {1} tick 造成 {0} 点伤害。</TOT_Sustain_DPSDesc>
+   <!-- EN: Laser Damage (Per Hit) -->
+  <TOT_Sustain_DamageLabel>激光伤害（单次）</TOT_Sustain_DamageLabel>
+   <!-- EN: Damage applied each time the laser hits. -->
+  <TOT_Sustain_DamageDesc>激光每次命中时造成的伤害。</TOT_Sustain_DamageDesc>
+   <!-- EN: Laser Armor Penetration -->
+  <TOT_Sustain_APLabel>激光护甲穿透</TOT_Sustain_APLabel>
+   <!-- EN: The armor penetration of the laser. -->
+  <TOT_Sustain_APDesc>激光的护甲穿透能力。</TOT_Sustain_APDesc>
+   <!-- EN: Damage Interval -->
+  <TOT_Sustain_IntervalLabel>伤害间隔</TOT_Sustain_IntervalLabel>
+   <!-- EN: Applies damage every {0} ticks ({1} seconds). -->
+  <TOT_Sustain_IntervalDesc>每 {0} tick ({1} 秒) 造成一次伤害。</TOT_Sustain_IntervalDesc>
+   <!-- EN: Secondary Damage -->
+  <TOT_Sustain_SecDamageLabel>二次伤害</TOT_Sustain_SecDamageLabel>
+   <!-- EN: Additional damage type and amount. -->
+  <TOT_Sustain_SecDamageDesc>额外的伤害类型和数值。</TOT_Sustain_SecDamageDesc>
+   <!-- EN: Secondary Armor Penetration -->
+  <TOT_Sustain_SecAPLabel>二次护甲穿透</TOT_Sustain_SecAPLabel>
+   <!-- EN: The armor penetration of the secondary damage. -->
+  <TOT_Sustain_SecAPDesc>二次伤害的护甲穿透能力。</TOT_Sustain_SecAPDesc>
+   <!-- EN: Scatter Effect -->
+  <TOT_Sustain_ScatterLabel>散射效果</TOT_Sustain_ScatterLabel>
+   <!-- EN: Yes -->
+  <TOT_Sustain_Yes>是</TOT_Sustain_Yes>
+   <!-- EN: This laser can scatter on impact. -->
+  <TOT_Sustain_ScatterDesc>该激光在命中时会发生散射。</TOT_Sustain_ScatterDesc>
+   <!-- EN: Scatter Count -->
+  <TOT_Sustain_ScatterCountLabel>散射数量</TOT_Sustain_ScatterCountLabel>
+   <!-- EN: Number of projectiles scattered. -->
+  <TOT_Sustain_ScatterCountDesc>散射产生的投射物数量。</TOT_Sustain_ScatterCountDesc>
+   <!-- EN: Scatter Explosion Damage -->
+  <TOT_Sustain_ScatterExplosionLabel>散射爆炸伤害</TOT_Sustain_ScatterExplosionLabel>
+   <!-- EN: Damage dealt by each scattered projectile. -->
+  <TOT_Sustain_ScatterExplosionDesc>每个散射投射物造成的伤害。</TOT_Sustain_ScatterExplosionDesc>
+   <!-- EN: Scatter Explosion Radius -->
+  <TOT_Sustain_ScatterRadiusLabel>散射爆炸半径</TOT_Sustain_ScatterRadiusLabel>
+   <!-- EN: Radius of each scattered explosion. -->
+  <TOT_Sustain_ScatterRadiusDesc>每次散射爆炸的半径。</TOT_Sustain_ScatterRadiusDesc>
+   <!-- EN: {0} ({1}) -->
+  <TOT_Sustain_ValueWithLabel>{0} ({1})</TOT_Sustain_ValueWithLabel>
+   <!-- EN: shuttle leaving in {0} -->
+  <UTSLeavingIn>穿梭机离开时间：{0}</UTSLeavingIn>
+   <!-- EN: Trade complete. Obtained {0} points. (Total: {1}) -->
+  <TOT_PointsAdded>交易完成。获得了 {0} 点数。（当前总计：{1}）</TOT_PointsAdded>
+   <!-- EN: Trade Shuttle Arrived -->
+  <TOT_TraderShuttleArrivalLabel>穿梭机已抵达</TOT_TraderShuttleArrivalLabel>
+   <!-- EN: A trade shuttle named {0} has landed nearby and is ready for trade. -->
+  <TOT_TraderShuttleArrivalText>一艘名为 {0} 的商船穿梭机已在附近着陆，准备进行贸易。</TOT_TraderShuttleArrivalText>
+   <!-- EN: Projectile Type -->
+  <TOT_ProjType_Label>弹药类型</TOT_ProjType_Label>
+   <!-- EN: Standard Ballistic -->
+  <TOT_ProjType_Standard>标准弹道</TOT_ProjType_Standard>
+   <!-- EN: A standard kinetic projectile affected by gravity and wind. -->
+  <TOT_ProjType_Standard_Desc>一种受重力和风力影响的标准动能弹丸。</TOT_ProjType_Standard_Desc>
+   <!-- EN: Kinetic Piercing -->
+  <TOT_ProjType_Piercing>动能穿透</TOT_ProjType_Piercing>
+   <!-- EN: A high-velocity round capable of penetrating multiple targets and projectile interceptors. -->
+  <TOT_ProjType_Piercing_Desc>一种高速弹药，能够穿透多个目标及护盾。</TOT_ProjType_Piercing_Desc>
+   <!-- EN: Homing -->
+  <TOT_ProjType_Guided>追踪</TOT_ProjType_Guided>
+   <!-- EN: A projectile equipped with guidance systems to track moving targets. -->
+  <TOT_ProjType_Guided_Desc>配备制导系统以追踪移动目标的弹丸。</TOT_ProjType_Guided_Desc>
+   <!-- EN: Directed Energy -->
+  <TOT_ProjType_Laser>定向能</TOT_ProjType_Laser>
+   <!-- EN: A continuous beam of high-energy output. Hits instantly, accurately and ignore projectile interceptors. -->
+  <TOT_ProjType_Laser_Desc>一种持续的高能输出光束。瞬间命中，精准无误，并无视护盾。</TOT_ProjType_Laser_Desc>
+   <!-- EN: Pulse Laser -->
+  <TOT_ProjType_Laser>定向能</TOT_ProjType_Laser>
+   <!-- EN: A instant beam of high-energy output. Hits instantly, accurately and ignore projectile interceptors. -->
+  <TOT_ProjType_Laser_Desc>一种持续的高能输出光束。瞬间命中，精准无误，并无视护盾。</TOT_ProjType_Laser_Desc>
+   <!-- EN: DPS (Solid) -->
+  <TOT_DPS_Solid_Label>秒伤 (实弹)</TOT_DPS_Solid_Label>
+   <!-- EN: Damage Per Second calculated for solid ammo.\n\nDamage/Shot: {0}\nBurst Count: {1}\nWarmup: {2}s\nCooldown: {3}s -->
+  <TOT_DPS_Solid_Desc>针对实弹计算的每秒伤害。\n\n单发伤害：{0}\n连发数：{1}\n预热：{2}秒\n冷却：{3}秒</TOT_DPS_Solid_Desc>
+   <!-- EN: Penetration Power -->
+  <TOT_Stat_Penetration>穿透力</TOT_Stat_Penetration>
+   <!-- EN: Funnels ordered to recall. -->
+  <TOT_FunnelsOrderedRecall>已命令浮游炮返航。</TOT_FunnelsOrderedRecall>
+   <!-- EN: Auto-release completed. -->
+  <TOT_AutoReleaseCompleted>自动释放已完成。</TOT_AutoReleaseCompleted>
+   <!-- EN: All funnels successfully recalled. -->
+  <TOT_AllFunnelsRecalled>所有浮游炮已成功回收。</TOT_AllFunnelsRecalled>
+   <!-- EN: Auto-release stopped. -->
+  <TOT_AutoReleaseStopped>自动释放已停止。</TOT_AutoReleaseStopped>
+   <!-- EN: Auto-release started. Funnels will be deployed automatically. -->
+  <TOT_AutoReleaseStarted>自动释放已开启。浮游炮将自动部署。</TOT_AutoReleaseStarted>
+   <!-- EN: Cannot start auto-release. Check if drones are available and plan is set. -->
+  <TOT_CannotStartAutoRelease>无法开启自动释放。请检查是否有可用浮游炮或是否已设置部署计划。</TOT_CannotStartAutoRelease>
+   <!-- EN: All funnels commanded to attack {0}. -->
+  <TOT_FunnelsCommandedToAttack>所有浮游炮已锁定目标：{0}。</TOT_FunnelsCommandedToAttack>
+   <!-- EN: Auto attack mode toggled for all funnels. -->
+  <TOT_AutoAttackToggled>已切换所有浮游炮的自动攻击模式。</TOT_AutoAttackToggled>
+   <!-- EN: Forced attack cancelled for all funnels. -->
+  <TOT_ForcedAttackCancelled>已取消所有浮游炮的强制攻击指令。</TOT_ForcedAttackCancelled>
+   <!-- EN: Stop Auto Release -->
+  <TOT_CommandStopAutoRelease>停止释放</TOT_CommandStopAutoRelease>
+   <!-- EN: Stop automatically releasing funnels. -->
+  <TOT_CommandStopAutoReleaseDesc>停止自动释放浮游炮。</TOT_CommandStopAutoReleaseDesc>
+   <!-- EN: Auto Release Funnels -->
+  <TOT_CommandAutoRelease>自动释放</TOT_CommandAutoRelease>
+   <!-- EN: Start automatically releasing funnels... -->
+  <TOT_CommandAutoReleaseDesc>开始自动部署浮游炮...</TOT_CommandAutoReleaseDesc>
+   <!-- EN: Recall All -->
+  <TOT_CommandRecallAll>全员召回</TOT_CommandRecallAll>
+   <!-- EN: Recall all deployed funnels. -->
+  <TOT_CommandRecallAllDesc>召回所有已部署的浮游炮。</TOT_CommandRecallAllDesc>
+   <!-- EN: Auto Attack Mode -->
+  <TOT_CommandAutoAttack>索敌模式</TOT_CommandAutoAttack>
+   <!-- EN: Toggle autonomous attack mode for funnels. -->
+  <TOT_CommandAutoAttackDesc>切换浮游炮的自动索敌/攻击模式。</TOT_CommandAutoAttackDesc>
+   <!-- EN: Command Attack -->
+  <TOT_CommandTargetAttack>集中攻击</TOT_CommandTargetAttack>
+   <!-- EN: Command all deployed funnels to attack a target. -->
+  <TOT_CommandTargetAttackDesc>命令所有部署的浮游炮攻击指定目标。</TOT_CommandTargetAttackDesc>
+   <!-- EN: Cancel Attack -->
+  <TOT_CommandCancelAttack>取消攻击</TOT_CommandCancelAttack>
+   <!-- EN: Cancel forced attack and return to following mode. -->
+  <TOT_CommandCancelAttackDesc>取消强制攻击指令并返回跟随模式。</TOT_CommandCancelAttackDesc>
+   <!-- EN: No available drone core (not loaded). -->
+  <TOT_NoAvailableDroneCore>没有可用的核心（未装填）。</TOT_NoAvailableDroneCore>
+   <!-- EN: All loaded drones have been deployed. -->
+  <TOT_AllDronesDeployed>所有已装填的浮游炮均已部署。</TOT_AllDronesDeployed>
+   <!-- EN: No configuration plan set. -->
+  <TOT_NoConfigPlan>未设置配置计划。</TOT_NoConfigPlan>
+   <!-- EN: Funnels are currently recalling. -->
+  <TOT_FunnelsRecalling>浮游炮正在返航中。</TOT_FunnelsRecalling>
+   <!-- EN: No deployed funnels. -->
+  <TOT_NoDeployedFunnels>没有已部署的浮游炮。</TOT_NoDeployedFunnels>
+   <!-- EN: Funnels are already recalling. -->
+  <TOT_FunnelsAlreadyRecalling>浮游炮已在返航中。</TOT_FunnelsAlreadyRecalling>
+   <!-- EN: No funnels in forced attack mode. -->
+  <TOT_NoFunnelsAttacking>没有处于强制攻击状态的浮游炮。</TOT_NoFunnelsAttacking>
+   <!-- EN: 1. Presets -->
+  <TOT_Camo_PresetsTitle>预设</TOT_Camo_PresetsTitle>
+   <!-- EN: Official -->
+  <TOT_Camo_Official>官方</TOT_Camo_Official>
+   <!-- EN: Custom -->
+  <TOT_Camo_Custom>自定义</TOT_Camo_Custom>
+   <!-- EN: No custom presets. -->
+  <TOT_Camo_NoCustomPresets>暂无自定义预设。</TOT_Camo_NoCustomPresets>
+   <!-- EN: Save Current as Preset -->
+  <TOT_Camo_SavePreset>将当前方案保存为预设</TOT_Camo_SavePreset>
+   <!-- EN: Void Standard -->
+  <TOT_Camo_Preset_VoidStandard>深空航迹</TOT_Camo_Preset_VoidStandard>
+   <!-- EN: Xeno-Infiltrator -->
+  <TOT_Camo_Preset_XenoInfiltrator>异星渗透者</TOT_Camo_Preset_XenoInfiltrator>
+   <!-- EN: CELETECH™-Standard -->
+  <TOT_Camo_Preset_CeleTechElite>天工™-标准</TOT_Camo_Preset_CeleTechElite>
+   <!-- EN: NORINCO -->
+  <TOT_Camo_Preset_RedPlanet>北方工业</TOT_Camo_Preset_RedPlanet>
+   <!-- EN: Internal Security -->
+  <TOT_Camo_Preset_InternalSec>内部安全</TOT_Camo_Preset_InternalSec>
+   <!-- EN: 2. Color Mixer -->
+  <TOT_Camo_ColorMixerTitle>颜色混合器</TOT_Camo_ColorMixerTitle>
+   <!-- EN: Color One (Primary) -->
+  <TOT_Camo_ColorPrimary>颜色一（主色）</TOT_Camo_ColorPrimary>
+   <!-- EN: Color Two (Secondary) -->
+  <TOT_Camo_ColorSecondary>颜色二（辅色）</TOT_Camo_ColorSecondary>
+   <!-- EN: Color Three (Detail) -->
+  <TOT_Camo_ColorDetail>颜色三（细节色）</TOT_Camo_ColorDetail>
+   <!-- EN: 3. Patterns -->
+  <TOT_Camo_PatternsTitle>图案</TOT_Camo_PatternsTitle>
+   <!-- EN: Current: {0} -->
+  <TOT_Camo_CurrentPattern>当前：{0}</TOT_Camo_CurrentPattern>
+   <!-- EN: None -->
+  <TOT_Camo_None>无</TOT_Camo_None>
+   <!-- EN: No Pattern (Solid) -->
+  <TOT_Camo_NoPattern>纯色</TOT_Camo_NoPattern>
+   <!-- EN: Load -->
+  <TOT_Camo_Load>加载</TOT_Camo_Load>
+   <!-- EN: CAPACITY -->
+  <TOT_Camo_Capacity>容量</TOT_Camo_Capacity>
+   <!-- EN: Installed Accessories -->
+  <TOT_Camo_InstalledAccessories>已安装配件</TOT_Camo_InstalledAccessories>
+   <!-- EN: Uninstall -->
+  <TOT_Camo_Uninstall>卸载</TOT_Camo_Uninstall>
+   <!-- EN: No accessories installed. -->
+  <TOT_Camo_NoInstalledAccessories>未安装任何配件。</TOT_Camo_NoInstalledAccessories>
+   <!-- EN: Connected Accessories -->
+  <TOT_Camo_ConnectedAccessories>已连接配件</TOT_Camo_ConnectedAccessories>
+   <!-- EN: Incompatible Weapon -->
+  <TOT_Camo_IncompatibleWeapon>武器不兼容</TOT_Camo_IncompatibleWeapon>
+   <!-- EN: All slots full. -->
+  <TOT_Camo_SlotsFull>所有插槽已满。</TOT_Camo_SlotsFull>
+   <!-- EN: No accessories found in nearby cabinets. -->
+  <TOT_Camo_NoAccessoriesFound>在附近储物柜中未找到配件。</TOT_Camo_NoAccessoriesFound>
+   <!-- EN: Cancel -->
+  <TOT_Camo_Cancel>取消</TOT_Camo_Cancel>
+   <!-- EN: Apply -->
+  <TOT_Camo_Apply>应用</TOT_Camo_Apply>
+   <!-- EN: Apply/Insert Selected -->
+  <TOT_Camo_ApplyInsert>应用/插入选中项</TOT_Camo_ApplyInsert>
+   <!-- EN: (Incompatible) -->
+  <TOT_Camo_IncompatibleTag>（不兼容）</TOT_Camo_IncompatibleTag>
+   <!-- EN: Pattern Offset -->
+  <TOT_Camo_PatternOffsetTitle>涂装偏移</TOT_Camo_PatternOffsetTitle>
+   <!-- EN: X -->
+  <TOT_Camo_OffsetX>偏移X</TOT_Camo_OffsetX>
+   <!-- EN: Y -->
+  <TOT_Camo_OffsetY>偏移Y</TOT_Camo_OffsetY>
+   <!-- EN: Reset Offset -->
+  <TOT_Camo_ResetOffset>重置偏移</TOT_Camo_ResetOffset>
+   <!-- EN: Range -->
+  <TOT_Laser_Range>射程</TOT_Laser_Range>
+   <!-- EN: The effective range of the weapon. -->
+  <TOT_Laser_RangeDesc>武器的有效射程。</TOT_Laser_RangeDesc>
+   <!-- EN: Laser Damage -->
+  <TOT_Laser_Damage>激光伤害</TOT_Laser_Damage>
+   <!-- EN: Deals {0} damage. -->
+  <TOT_Laser_DamageDesc>造成{0}伤害。</TOT_Laser_DamageDesc>
+   <!-- EN: Secondary Damage -->
+  <TOT_Laser_SecDamage>二次伤害</TOT_Laser_SecDamage>
+   <!-- EN: {0} ({1}) -->
+  <TOT_Laser_SecDamageValue>{0} ({1})</TOT_Laser_SecDamageValue>
+   <!-- EN: Additional damage type and amount. -->
+  <TOT_Laser_SecDamageDesc>额外的伤害数值与类型。</TOT_Laser_SecDamageDesc>
+   <!-- EN: Secondary Armor Penetration -->
+  <TOT_Laser_SecAP>二次护甲穿透</TOT_Laser_SecAP>
+   <!-- EN: The armor penetration of the secondary damage. -->
+  <TOT_Laser_SecAPDesc>二次伤害的护甲穿透能力。</TOT_Laser_SecAPDesc>
+   <!-- EN: Scatter Effect -->
+  <TOT_Laser_ScatterEffect>散射效果</TOT_Laser_ScatterEffect>
+   <!-- EN: This laser can scatter on impact. -->
+  <TOT_Laser_ScatterEffectDesc>这种激光在命中时会发生散射。</TOT_Laser_ScatterEffectDesc>
+   <!-- EN: Scatter Count -->
+  <TOT_Laser_ScatterCount>散射数量</TOT_Laser_ScatterCount>
+   <!-- EN: Number of projectiles scattered. -->
+  <TOT_Laser_ScatterCountDesc>散射出的投射物数量。</TOT_Laser_ScatterCountDesc>
+   <!-- EN: Scatter Explosion Damage -->
+  <TOT_Laser_ScatterExpDamage>散射爆炸伤害</TOT_Laser_ScatterExpDamage>
+   <!-- EN: {0} ({1}) -->
+  <TOT_Laser_ScatterExpDamageValue>{0} ({1})</TOT_Laser_ScatterExpDamageValue>
+   <!-- EN: Damage dealt by each scattered projectile. -->
+  <TOT_Laser_ScatterExpDamageDesc>每个散射投射物造成的伤害。</TOT_Laser_ScatterExpDamageDesc>
+   <!-- EN: Scatter Explosion Radius -->
+  <TOT_Laser_ScatterExpRadius>散射爆炸半径</TOT_Laser_ScatterExpRadius>
+   <!-- EN: Radius of each scattered explosion. -->
+  <TOT_Laser_ScatterExpRadiusDesc>每个散射爆炸的波及半径。</TOT_Laser_ScatterExpRadiusDesc>
+   <!-- EN: Divide Effect -->
+  <TOT_Laser_DivideEffect>分裂效果</TOT_Laser_DivideEffect>
+   <!-- EN: This laser can divide to hit additional cells. -->
+  <TOT_Laser_DivideEffectDesc>这种激光可以分裂并攻击额外单元格。</TOT_Laser_DivideEffectDesc>
+   <!-- EN: Divide Radius -->
+  <TOT_Laser_DivideRadius>分裂半径</TOT_Laser_DivideRadius>
+   <!-- EN: The radius within which the laser hits additional cells. -->
+  <TOT_Laser_DivideRadiusDesc>激光进行分裂的范围半径。</TOT_Laser_DivideRadiusDesc>
+   <!-- EN: Laser Armor Penetration -->
+  <TOT_Laser_AP>激光护甲穿透</TOT_Laser_AP>
+   <!-- EN: The armor penetration of the laser. -->
+  <TOT_Laser_APDesc>激光的护甲穿透能力。</TOT_Laser_APDesc>
+   <!-- EN: Ignores Armor -->
+  <TOT_Laser_IgnoresArmor>无视护甲</TOT_Laser_IgnoresArmor>
+   <!-- EN: Theoretical DPS -->
+  <TOT_Sustain_DPSLabel>每秒伤害 (DPS)</TOT_Sustain_DPSLabel>
+   <!-- EN: Theoretical damage per second based on {0} damage every {1} ticks. -->
+  <TOT_Sustain_DPSDesc>每 {1} tick 造成 {0} 点伤害。</TOT_Sustain_DPSDesc>
+   <!-- EN: Beam Damage -->
+  <TOT_Sustain_DamageLabel>激光伤害（单次）</TOT_Sustain_DamageLabel>
+   <!-- EN: Damage dealt per tick interval. -->
+  <TOT_Sustain_DamageDesc>激光每次命中时造成的伤害。</TOT_Sustain_DamageDesc>
+   <!-- EN: Beam Armor Penetration -->
+  <TOT_Sustain_APLabel>激光护甲穿透</TOT_Sustain_APLabel>
+   <!-- EN: Armor penetration of the beam. -->
+  <TOT_Sustain_APDesc>激光的护甲穿透能力。</TOT_Sustain_APDesc>
+   <!-- EN: Damage Interval -->
+  <TOT_Sustain_IntervalLabel>伤害间隔</TOT_Sustain_IntervalLabel>
+   <!-- EN: Time between damage ticks: {0} ticks ({1} seconds). -->
+  <TOT_Sustain_IntervalDesc>每 {0} tick ({1} 秒) 造成一次伤害。</TOT_Sustain_IntervalDesc>
+   <!-- EN: Secondary Damage -->
+  <TOT_Sustain_SecDamageLabel>二次伤害</TOT_Sustain_SecDamageLabel>
+   <!-- EN: Additional damage applied. -->
+  <TOT_Sustain_SecDamageDesc>额外的伤害类型和数值。</TOT_Sustain_SecDamageDesc>
+   <!-- EN: Secondary AP -->
+  <TOT_Sustain_SecAPLabel>二次护甲穿透</TOT_Sustain_SecAPLabel>
+   <!-- EN: Armor penetration of the secondary damage. -->
+  <TOT_Sustain_SecAPDesc>二次伤害的护甲穿透能力。</TOT_Sustain_SecAPDesc>
+   <!-- EN: Scatter Effect -->
+  <TOT_Sustain_ScatterLabel>散射效果</TOT_Sustain_ScatterLabel>
+   <!-- EN: The beam scatters upon impact. -->
+  <TOT_Sustain_ScatterDesc>该激光在命中时会发生散射。</TOT_Sustain_ScatterDesc>
+   <!-- EN: Scatter Count -->
+  <TOT_Sustain_ScatterCountLabel>散射数量</TOT_Sustain_ScatterCountLabel>
+   <!-- EN: Number of scattered projectiles. -->
+  <TOT_Sustain_ScatterCountDesc>散射产生的投射物数量。</TOT_Sustain_ScatterCountDesc>
+   <!-- EN: Scatter Explosion -->
+  <TOT_Sustain_ScatterExplosionLabel>散射爆炸伤害</TOT_Sustain_ScatterExplosionLabel>
+   <!-- EN: Damage and type of the scatter explosion. -->
+  <TOT_Sustain_ScatterExplosionDesc>每个散射投射物造成的伤害。</TOT_Sustain_ScatterExplosionDesc>
+   <!-- EN: Scatter Radius -->
+  <TOT_Sustain_ScatterRadiusLabel>散射爆炸半径</TOT_Sustain_ScatterRadiusLabel>
+   <!-- EN: Radius of the scatter effect. -->
+  <TOT_Sustain_ScatterRadiusDesc>每次散射爆炸的半径。</TOT_Sustain_ScatterRadiusDesc>
+   <!-- EN: {0} ({1}) -->
+  <TOT_Sustain_ValueWithLabel>{0} ({1})</TOT_Sustain_ValueWithLabel>
+   <!-- EN: Yes -->
+  <TOT_Sustain_Yes>是</TOT_Sustain_Yes>
+   <!-- EN: Range -->
+  <TOT_Laser_Range>射程</TOT_Laser_Range>
+   <!-- EN: The effective range of the weapon. -->
+  <TOT_Laser_RangeDesc>武器的有效射程。</TOT_Laser_RangeDesc>
+   <!-- EN: Pattern Transform -->
+  <TOT_Camo_PatternTransformTitle>变幻</TOT_Camo_PatternTransformTitle>
+   <!-- EN: offset -->
+  <TOT_Camo_Offset>位移</TOT_Camo_Offset>
+   <!-- EN: scale -->
+  <TOT_Camo_Scale>大小</TOT_Camo_Scale>
+   <!-- EN: reset transform -->
+  <TOT_Camo_ResetTransform>重置</TOT_Camo_ResetTransform>
+   <!-- EN: Weapon -->
+  <WeaponModificationBench_DefaultWeaponLabel>武器</WeaponModificationBench_DefaultWeaponLabel>
+  <!-- EN: Installation of {0} on {1} started. -->
+  <WeaponModificationBench_Started>已开始为 {1} 安装 {0}。</WeaponModificationBench_Started>
+  <!-- EN: Painting of {0} started. -->
+  <WeaponModificationBench_PaintingStarted>已开始为{0}跟换涂装。</WeaponModificationBench_PaintingStarted>
+  <!-- EN: Modification interrupted. -->
+  <WeaponModificationBench_Interrupted>安装已中断。</WeaponModificationBench_Interrupted>
+  <!-- EN: Painting of {0} finished. -->
+  <WeaponModificationBench_PaintSuccess>成功完成{0}的涂装</WeaponModificationBench_PaintSuccess>
+  <!-- EN: Successfully installed {0} on {1}. -->
+  <WeaponModificationBench_Success>成功将 {0} 安装到 {1}。</WeaponModificationBench_Success>
+  
+  <!-- EN: Bench is currently in use. -->
+  <WeaponModificationBench_Working>正在工作...</WeaponModificationBench_Working>
+  <!-- EN: Bench is already occupied. -->
+  <WeaponModificationBench_Occupied>工作台被占用。</WeaponModificationBench_Occupied>
+  <!-- EN: Cannot reach bench. -->
+  <WeaponModificationBench_Unreachable>无法接触工作台。</WeaponModificationBench_Unreachable>
+  <!-- EN: No compatible weapons available. -->
+  <WeaponModificationBench_NoWeapons>没有可改装的武器。</WeaponModificationBench_NoWeapons>
+  <!-- EN: Place {0} -->
+  <WeaponModificationBench_Place>放置 {0}</WeaponModificationBench_Place>
+  
+  <!-- EN: Camo Designer -->
+  <CMC_OpenCamoDesigner>TODO</CMC_OpenCamoDesigner>
+  <!-- EN: Open the camouflage design interface. -->
+  <CMC_OpenCamoDesignerDesc>TODO</CMC_OpenCamoDesignerDesc>
+  
+  <!-- EN: Remove Weapon -->
+  <WeaponModificationBench_UninstallWeapon>取回武器</WeaponModificationBench_UninstallWeapon>
+  <!-- EN: Remove the currently held weapon from the bench. -->
+  <WeaponModificationBench_UninstallWeaponDesc>从工作台上取回武器。</WeaponModificationBench_UninstallWeaponDesc>
+  
+  <!-- EN: Recalling all funnels. -->
+  <TOT_FunnelsOrderedRecall>已命令浮游炮返航。</TOT_FunnelsOrderedRecall>
+  <!-- EN: All funnels have returned to the carrier. -->
+  <TOT_AllFunnelsRecalled>所有浮游炮已成功回收。</TOT_AllFunnelsRecalled>
+  <!-- EN: Auto-release sequence completed. -->
+  <TOT_AutoReleaseCompleted>自动释放已完成。</TOT_AutoReleaseCompleted>
+  <!-- EN: Auto-release stopped. -->
+  <TOT_AutoReleaseStopped>自动释放已停止。</TOT_AutoReleaseStopped>
+  <!-- EN: Auto-release started. -->
+  <TOT_AutoReleaseStarted>自动释放已开启。浮游炮将自动部署。</TOT_AutoReleaseStarted>
+  <!-- EN: All funnels released instantly. -->
+  <TOT_AllDronesReleased>已瞬间释放所有浮游炮。</TOT_AllDronesReleased>
+  <!-- EN: Drafted: Deploying all funnels. -->
+  <TOT_AutoDraftDeploy>检测到征召：正在释放浮游炮群。</TOT_AutoDraftDeploy>
+  <!-- EN: Undrafted: Recalling all funnels. -->
+  <TOT_AutoDraftRecall>检测到解除征召：正在回收浮游炮群。</TOT_AutoDraftRecall>
+  <!-- EN: Funnels targeting: {0}. -->
+  <TOT_FunnelsCommandedToAttack>所有浮游炮已锁定目标：{0}。</TOT_FunnelsCommandedToAttack>
+  <!-- EN: Funnel mode set to: {0}. -->
+  <TOT_AutoAttackToggled>已切换所有浮游炮的自动攻击模式。</TOT_AutoAttackToggled>
+  <!-- EN: Forced attack cancelled. Returning to follow mode. -->
+  <TOT_ForcedAttackCancelled>已取消所有浮游炮的强制攻击指令。</TOT_ForcedAttackCancelled>
+  
+  <!-- EN: Assault -->
+  <TOT_ModeAttack>攻击</TOT_ModeAttack>
+  <!-- EN: Escort -->
+  <TOT_ModeGuard>护卫</TOT_ModeGuard>
+
+  <!-- EN: Release All -->
+  <TOT_CommandReleaseAll>全弹发射</TOT_CommandReleaseAll>
+  <!-- EN: Instantly release all available funnels from the pack. -->
+  <TOT_CommandReleaseAllDesc>立即释放背包内所有可用的浮游炮。</TOT_CommandReleaseAllDesc>
+  
+  <!-- EN: Recall All -->
+  <TOT_CommandRecallAll>全员召回</TOT_CommandRecallAll>
+  <!-- EN: Order all deployed funnels to return to the carrier. -->
+  <TOT_CommandRecallAllDesc>召回所有已部署的浮游炮。</TOT_CommandRecallAllDesc>
+
+  <!-- EN: Mode: {0} -->
+  <TOT_CommandToggleMode>模式：{0}</TOT_CommandToggleMode>
+  <!-- EN: Toggle between Assault (hunt enemies freely) and Escort (protect carrier) modes.\n\nCurrent Mode: {0} -->
+  <TOT_CommandToggleModeDesc>在“攻击模式”（自由索敌）和“护卫模式”（保护使用者）之间切换。\n\n当前状态：{0}</TOT_CommandToggleModeDesc>
+
+  <!-- EN: Force Attack -->
+  <TOT_CommandTargetAttack>集中攻击</TOT_CommandTargetAttack>
+  <!-- EN: Command all funnels to attack a specific target.\n\nNote: Cannot target allies, self, or own funnels. -->
+  <TOT_CommandTargetAttackDesc>命令所有部署的浮游炮攻击指定目标。</TOT_CommandTargetAttackDesc>
+
+  <!-- EN: Stop Attack -->
+  <TOT_CommandCancelAttack>取消攻击</TOT_CommandCancelAttack>
+  <!-- EN: Cancel the forced attack command and return to the selected mode behavior. -->
+  <TOT_CommandCancelAttackDesc>取消强制攻击指令并返回跟随模式。</TOT_CommandCancelAttackDesc>
+
+  <!-- EN: Draft Action -->
+  <TOT_CommandAutoDraft>征召联动</TOT_CommandAutoDraft>
+  <!-- EN: Toggle automatic behavior:\nON: Automatically release all funnels when drafted, and recall when undrafted.\nOFF: Manual control only. -->
+  <TOT_CommandAutoDraftDesc>切换自动化设置：\n开启：被征召时自动释放浮游炮，取消征召时自动回收。\n关闭：仅手动控制。</TOT_CommandAutoDraftDesc>
+
+  <!-- EN: No cores available -->
+  <TOT_NoAvailableDroneCore>没有可用的核心（未装填）。</TOT_NoAvailableDroneCore>
+  <!-- EN: All funnels deployed -->
+  <TOT_AllDronesDeployed>所有已装填的浮游炮均已部署。</TOT_AllDronesDeployed>
+  <!-- EN: No configuration plan -->
+  <TOT_NoConfigPlan>未设置配置计划。</TOT_NoConfigPlan>
+  <!-- EN: Recalling in progress -->
+  <TOT_FunnelsRecalling>浮游炮正在返航中。</TOT_FunnelsRecalling>
+  <!-- EN: No funnels deployed -->
+  <TOT_NoDeployedFunnels>没有已部署的浮游炮。</TOT_NoDeployedFunnels>
+  <!-- EN: Already recalling -->
+  <TOT_FunnelsAlreadyRecalling>浮游炮已在返航中。</TOT_FunnelsAlreadyRecalling>
+  <!-- EN: No funnels currently force-attacking -->
+  <TOT_NoFunnelsAttacking>没有处于强制攻击状态的浮游炮。</TOT_NoFunnelsAttacking>
+  
+  <!-- EN: Import Nearby Weapon -->
+  <CMC_ImportNearbyWeapon_Label>导入附近武器</CMC_ImportNearbyWeapon_Label>
+  <!-- EN: Opens a window listing all modifiable or paintable weapons within a 9-cell radius. Selecting a weapon will instantly mount it onto the bench. -->
+  <CMC_ImportNearbyWeapon_Desc>打开列表显示半径9格内所有可改装或喷涂的武器。点击选取后，会将该武器瞬间安装到工作台上。</CMC_ImportNearbyWeapon_Desc>
+
+  <!-- EN: Select Weapon to Modify -->
+  <CMC_SelectWeaponToModify>选择要改装的武器</CMC_SelectWeaponToModify>
+  <!-- EN: No modifiable weapons found within 9 cells. -->
+  <CMC_NoModifiableWeaponsFound>9格范围内未找到可改装的武器。</CMC_NoModifiableWeaponsFound>
+  
+  <!-- EN: Weapon Shattered -->
+  <TOT_WeaponShatteredLabel>武器过载碎裂</TOT_WeaponShatteredLabel>
+  <!-- EN: Auxiliary coil overload detonated the heat sinks and weapon capacitors. The {1} equipped by {0} could not withstand the load and has shattered! -->
+  <TOT_WeaponShatteredText>辅助线圈过载引爆了散热单元和武器电容，{0} 手持的 {1} 无法承受负荷而粉碎了！</TOT_WeaponShatteredText>
+  
+  <!-- EN: Compatible Accessories -->
+  <CMC_CompatibleAccesory>兼容配件</CMC_CompatibleAccesory>
+  <!-- EN: This weapon accepts the following accessories: -->
+  <CMC_CompatibleDescription>该武器兼容以下配件：</CMC_CompatibleDescription>
+
+  <!-- EN: Installed Accessories -->
+  <CMC_InstalledAccesory>已安装配件</CMC_InstalledAccesory>
+  <!-- EN: Currently installed accessories: -->
+  <CMC_InstalledListHeader>当前已安装:</CMC_InstalledListHeader>
+  <!-- EN: No accessories installed. -->
+  <CMC_NoneInstalled>无</CMC_NoneInstalled>
+  
+  <!-- EN: Supported Weapons -->
+  <SupportedWeapons>支持的武器：</SupportedWeapons>
+  <!-- EN: Accessory Slots -->
+  <CMC_MaxSlots>配件槽位</CMC_MaxSlots>
+  <!-- EN: The maximum number of accessories that can be mounted on this weapon simultaneously. -->
+  <CMC_MaxSlotsDesc>该武器能同时安装配件的数量</CMC_MaxSlotsDesc>
+  
+  <CMC_FunnelCapacity>浮游炮容量</CMC_FunnelCapacity>
+  <CMC_FunnelCapacityDesc>格纳库支持的最大浮游炮数量。</CMC_FunnelCapacityDesc>
+  
+  <CMC_FunnelTypes>兼容类型</CMC_FunnelTypes>
+  <CMC_FunnelTypesDesc>可通过此装置部署的浮游炮类型：</CMC_FunnelTypesDesc>
+  
+  <CMC_StatsReport_Accessories>配件属性偏移</CMC_StatsReport_Accessories>
+</LanguageData>

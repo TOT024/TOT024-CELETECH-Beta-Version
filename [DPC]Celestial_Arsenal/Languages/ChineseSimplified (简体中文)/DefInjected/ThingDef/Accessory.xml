@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Assault Chip -->
+  <CMC_Accessory_AdvancedScope.label>突击火控芯片</CMC_Accessory_AdvancedScope.label>
+  <!-- EN: An integrated tracking module. Improves mid-range accuracy and target acquisition speed. -->
+  <CMC_Accessory_AdvancedScope.description>集成高级弹道/索敌算法的战术芯片。能显著提升中距离射击精度，并加快索敌反应速度。\n\n适用于大部分远程武器。</CMC_Accessory_AdvancedScope.description>
+  
+  <!-- EN: Ballistic Chip -->
+  <CMC_Accessory_AdvancedScopeB.label>弹道运算芯片</CMC_Accessory_AdvancedScopeB.label>
+  <!-- EN: Advanced trajectory processor. Real-time environmental correction ensures precision at extreme ranges. -->
+  <CMC_Accessory_AdvancedScopeB.description>内置高算力弹道处理器的狙击芯片。通过实时修正环境参数，极大延伸有效射程并确保极限距离下的精准度。\n\n适用于大部分远程实弹武器。</CMC_Accessory_AdvancedScopeB.description>
+  
+  <!-- EN: Auxiliary EM Booster -->
+  <CMC_Accessory_EMBooster.label>辅助电磁加速轨</CMC_Accessory_EMBooster.label>
+  <!-- EN: An external magnetic coil module. It utilizes high-voltage electromagnetic fields to supercharge projectiles, significantly increasing impact damage at the cost of increased weight and aiming time.\n\nCompatible with select electromagnetic weapons.\n\n**Special Ability:** Overloads the coils to release a shockwave, knocking back and stunning nearby enemies.\n\n<color=#D20103>[CELETECH Group Disclaimer: Frequent overcharging may lead to catastrophic structural failure. We accept no liability for damages resulting from the use of sub-standard weapons or uncertified modifications!]</color> -->
+  <CMC_Accessory_EMBooster.description>一款外挂式线圈加速组件。通过高压磁场对弹丸进行二次加速，能显著提升杀伤力，但会增加武器重量并略微延长射击准备时间。\n\n适用于部分电磁武器。\n\n**特殊能力：**过载线圈释放强力冲击波，击退周围的敌人并造成短时间眩晕。\n\n&lt;color=#D20103>【天工武器集团免责声明：频繁过载可能导致灾难性的结构故障。对于因使用劣质武器或未通过质检的配件而造成的任何损失（包括但不限于炸膛），本集团概不负责！】&lt;/color></CMC_Accessory_EMBooster.description>
+  
+  <!-- EN: Psy-Resonator -->
+  <CMC_Accessory_EMBooster_Psy.label>灵能谐振器</CMC_Accessory_EMBooster_Psy.label>
+  <!-- EN: Modified EM booster tuned to resonate with psychic frequencies. Enhances damage output while retaining standard drawbacks.\n\n**Extra Effects: 0.5% chance to clear psychic entropy when weapon installed with this accessory is fired. 100% chance to gain a maximum of 6% psychic focus after an enemy is killed. -->
+  <CMC_Accessory_EMBooster_Psy.description>经过特殊调谐的电磁组件。在保留增伤特性的同时，能与使用者的灵能波产生谐振。\n\n适用于部分电磁武器。\n\n**特殊效果：安装该配件的武器每次射击时有0.5%的概率清空使用者的心灵熵，在击杀敌人时提供6%的专注，仅当使用者有心灵能力时生效。</CMC_Accessory_EMBooster_Psy.description>
+  
+  <!-- EN: Advanced Prism Module -->
+  <CMC_Accessory_Prism.label>先进棱镜模块</CMC_Accessory_Prism.label>
+  <!-- EN: A replacement prism module for pulse laser weapons. Equipped with additional heat sinks, it significantly reduces warm up and cool down time.\n\n**Special Ability:** Activates a remote control protocol that takes over prism deflection for a duration, completely eliminating weapon spread. -->
+  <CMC_Accessory_Prism.description>替换脉冲激光武器的棱镜模块，通过添加额外的散热组件可以大幅降低瞄准和冷却时间。\n\n**特殊能力：**激活远程控制协议，在一段时间内接管棱镜的偏转并完全消除武器散布的影响。</CMC_Accessory_Prism.description>
+  
+</LanguageData>

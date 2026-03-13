@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<SoundDef>
+    <defName>CMC_TurretRotate</defName>  
+    <sustain>True</sustain>  
+    <context>MapOnly</context>
+    <priorityMode>PrioritizeNearest</priorityMode>  
+    <sustainStartSound>GeothermalPlant_Ambience_Start</sustainStartSound>  
+    <sustainStopSound>GeothermalPlant_Ambience_Stop</sustainStopSound>  
+    <subSounds>
+      <li>
+        <muteWhenPaused>True</muteWhenPaused>      
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>New/cannon_turn_loop</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>50.425~50.425</volumeRange>  <!-- 将音量调整到0-1之间 -->
+        <pitchRange>0.98~0.995</pitchRange>      
+        <distRange>0~40</distRange>
+        <sustainLoop>True</sustainLoop>  <!-- 明确启用循环 -->
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>CMC_LaserSustainSound</defName>  
+    <context>MapOnly</context>
+    <sustain>True</sustain> 
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+		<muteWhenPaused>True</muteWhenPaused>   
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>LaserSustainer/LaserBeam_Loop</clipPath> </li>
+        </grains>      
+        <volumeRange>80~80</volumeRange>
+		<pitchRange>0.98~0.995</pitchRange>      
+        <distRange>0~200</distRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+	<priorityMode>PrioritizeNearest</priorityMode>  
+    <sustainStartSound>LaserSustainer/LaserBeam_Start</sustainStartSound> 
+	<sustainStopSound>LaserSustainer/LaserBeam_End</sustainStopSound>
+	<sustainFadeoutTime>0.29</sustainFadeoutTime>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>CMC_EngineSustainSound</defName>  
+    <context>MapOnly</context>
+    <sustain>True</sustain> 
+    <maxSimultaneous>16</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <onCamera>True</onCamera>
+		<muteWhenPaused>true</muteWhenPaused>   
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>EngineSustainer/engine_transport</clipPath> </li>
+        </grains>      
+        <volumeRange>20~20</volumeRange>
+		<pitchRange>0.98~0.995</pitchRange>      
+        <distRange>0~40</distRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+	<priorityMode>PrioritizeNearest</priorityMode>  
+    <sustainStartSound>EngineSustainer/engine_start</sustainStartSound> 
+	<sustainStopSound>EngineSustainer/engine_stop</sustainStopSound>
+	<sustainFadeoutTime>4.29</sustainFadeoutTime>
+  </SoundDef>
+  
+  <SoundDef>
+    <defName>CMC_EngineSustainSound_Fighter</defName>  
+    <context>MapOnly</context>
+    <sustain>True</sustain> 
+    <maxSimultaneous>16</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <onCamera>True</onCamera>
+		<muteWhenPaused>true</muteWhenPaused>   
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>EngineSustainer/engine_transport</clipPath>
+		</li>
+        </grains>      
+        <volumeRange>37~40</volumeRange>
+		<pitchRange>0.98~0.995</pitchRange>      
+        <distRange>0~40</distRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+	<priorityMode>PrioritizeNearest</priorityMode>  
+    <sustainStartSound>EngineSustainer/jet_engine_start</sustainStartSound> 
+	<sustainStopSound>EngineSustainer/jet_engine_stop</sustainStopSound>
+	<sustainFadeoutTime>2.39</sustainFadeoutTime>
+  </SoundDef>
+</Defs>

@@ -1,0 +1,263 @@
+<Defs>
+   <ThingDef ParentName="AutocannonTurret">
+       <defName>CMC_Lasercannon</defName>
+       <label>HPJ-L01 Megawatt Particle Lance</label>
+       <thingClass>TOT_DLL_test.Building_CMCTurretGun</thingClass>
+       <description>Equipped with high-energy particle beam weapons, this turret fires focused particle rays capable of dealing massive damage to targets within short range.</description>
+       <uiIconPath>Things/Buildings/CMCLaserS_UI</uiIconPath>
+       <graphicData>
+           <texPath>Things/Buildings/CMC_MidBase</texPath>
+           <graphicClass>Graphic_Single</graphicClass>
+           <drawSize>(3.88,3.88)</drawSize>
+           <drawOffset>(0,0,0.06)</drawOffset>
+       </graphicData>
+       <size>(2,2)</size>
+       <statBases>
+           <MaxHitPoints>400</MaxHitPoints>
+           <Flammability>0</Flammability>
+           <ShootingAccuracyTurret>0.81</ShootingAccuracyTurret>
+           <WorkToBuild>9000</WorkToBuild>
+       </statBases>
+       <drawerType>MapMeshAndRealTime</drawerType>
+       <tickerType>Normal</tickerType>
+       <killedLeavings>
+           <ChunkSlagSteel>2</ChunkSlagSteel>
+       </killedLeavings>
+       <costList>
+           <Steel>500</Steel>
+           <Plasteel>180</Plasteel>
+           <ComponentIndustrial>12</ComponentIndustrial>
+           <ComponentSpacer>4</ComponentSpacer>
+       </costList>
+       <comps>
+           <li Class="CompProperties_Forbiddable"/>
+           <li Class="CompProperties_Power">
+               <compClass>CompPowerTrader</compClass>
+               <basePowerConsumption>20000</basePowerConsumption>
+           </li>
+           <li Class="CompProperties_Flickable"/>
+           <li Class="CompProperties_Breakdownable"/>
+		   <li Class="TOT_DLL_test.CompProperties_LaserHeat">
+			<maxHeat>120</maxHeat>
+			<heatPerBurstShot>0.25</heatPerBurstShot>
+			<coolPerTick>1</coolPerTick>
+			<overheatBackswingTicks>90</overheatBackswingTicks>
+			</li>
+       </comps>
+       <damageMultipliers>
+           <li>
+               <damageDef>Flame</damageDef>
+               <multiplier>0</multiplier>
+           </li>
+       </damageMultipliers>
+       <building>
+           <turretGunDef>Gun_CMCLasercannon_A</turretGunDef>
+           <turretBurstCooldownTime>1.86</turretBurstCooldownTime>
+           <turretTopDrawSize>3.882</turretTopDrawSize>
+           <ai_combatDangerous>false</ai_combatDangerous>
+       </building>
+       <researchPrerequisites>
+           <li>CMCGunTurretsbasic</li>
+           <li>CMC_DEWII</li>
+       </researchPrerequisites>
+       <designationCategory>CMC_DefensenProduction</designationCategory>
+       <placeWorkers Inherit="False"></placeWorkers>
+       <modExtensions>
+           <li Class="TOT_DLL_test.TurretExtension_CMC">
+               <rotationSpeed>1.78</rotationSpeed>
+           </li>
+       </modExtensions>
+   </ThingDef>
+   <ThingDef ParentName="BaseWeaponTurret">
+       <defName>Gun_CMCLasercannon_A</defName>
+       <label>HPJ-L01 Megawatt Particle Lance Emitter</label>
+       <description>A particle lance emitter mounted on a turret.</description>
+       <graphicData>
+           <texPath>Things/Buildings/CMC_LaserP_topB</texPath>
+           <graphicClass>Graphic_Single</graphicClass>
+       </graphicData>
+       <statBases>
+           <AccuracyTouch>1</AccuracyTouch>
+           <AccuracyShort>1</AccuracyShort>
+           <AccuracyMedium>1</AccuracyMedium>
+           <AccuracyLong>1</AccuracyLong>
+           <RangedWeapon_Cooldown>0</RangedWeapon_Cooldown>
+           <DeteriorationRate>0</DeteriorationRate>
+           <Mass>40</Mass>
+           <Flammability>0</Flammability>
+       </statBases>
+       <weaponTags Inherit = "False">
+           <li>Weapon_CMCf</li>
+       </weaponTags>
+       <verbs>
+           <li>
+               <verbClass>TOT_DLL_test.Verb_Laser_Sustain</verbClass>
+               <hasStandardCommand>true</hasStandardCommand>
+               <warmupTime>0.03</warmupTime>
+               <range>28.9</range>
+               <burstShotCount>360</burstShotCount>
+               <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+               <soundCastTail>GunTail_Medium</soundCastTail>
+               <muzzleFlashScale>0</muzzleFlashScale>
+           </li>
+       </verbs>
+       <comps>
+           <li Class="TOT_DLL_test.CompProperties_LaserData_Sustain">
+               <LaserLine_MoteDef>CMC_Laser_Stay_MoteBlue</LaserLine_MoteDef>
+               <LaserLine_MoteDef_Core>CMC_Laser_Stay_MoteCore</LaserLine_MoteDef_Core>
+               <LaserFleck_End>CMC_Laser_Stay_LaserEndLarge_TT</LaserFleck_End>
+               <LaserFleck_End_Scale_Base>8.0</LaserFleck_End_Scale_Base>
+               <LaserFleck_Spark>CMC_Stay_Laser_Spark</LaserFleck_Spark>
+               <LaserFleck_Spark_Scale_Base>0.3</LaserFleck_Spark_Scale_Base>
+               <LaserFleck_Spark_Scale_Deviation>0.2</LaserFleck_Spark_Scale_Deviation>
+               <LaserFleck_Spark_Num>3</LaserFleck_Spark_Num>
+               <LaserFleck_Spark_Spawn_Chance>0.4</LaserFleck_Spark_Spawn_Chance>
+               <SoundDef>CMC_LaserSustainSound</SoundDef>
+               <Color_Red>255</Color_Red>
+               <Color_Green>255</Color_Green>
+               <Color_Blue>255</Color_Blue>
+               <Color_Alpha>1</Color_Alpha>
+               <StartPositionOffset_Range>0.45</StartPositionOffset_Range>
+               <DamageDef>InfernoBeamPlus</DamageDef>
+               <DamageNum>6</DamageNum>
+               <DamageArmorPenetration>1.2</DamageArmorPenetration>
+               <IfCanScatter>false</IfCanScatter>
+               <ScatterNum>6</ScatterNum>
+               <ScatterRadius>2</ScatterRadius>
+               <ScatterExplosionDef>BulletAoE_Void</ScatterExplosionDef>
+               <ScatterExplosionDamage>8</ScatterExplosionDamage>
+               <ScatterExplosionRadius>1.2</ScatterExplosionRadius>
+               <ScatterExplosionArmorPenetration>2</ScatterExplosionArmorPenetration>
+               <ScatterTickMax>30</ScatterTickMax>
+               <LaserFleck_ScatterLaser>CMC_Laser_instant_ScatterLaser_void</LaserFleck_ScatterLaser>
+           </li>
+       </comps>
+   </ThingDef>
+   <ThingDef ParentName="AutocannonTurret">
+       <defName>CMC_Lasercannon_B</defName>
+       <label>HPJ-L21 Gigawatt Particle Lance</label>
+       <thingClass>TOT_DLL_test.Building_CMCTurretShip</thingClass>
+       <description>A super-heavy energy weapon usually serving as a destroyer's secondary battery array. It fires focused particle rays that can penetrate shields and heavy armor, causing massive damage. It can fire over walls.</description>
+       <uiIconPath>Things/Buildings/ShipLaser_UI</uiIconPath>
+       <graphicData>
+           <texPath>Things/Buildings/largebaseFiveXFive</texPath>
+           <graphicClass>Graphic_Single</graphicClass>
+           <drawSize>(9,9)</drawSize>
+       </graphicData>
+       <size>(5,5)</size>
+       <statBases>
+           <MaxHitPoints>2400</MaxHitPoints>
+           <Flammability>0</Flammability>
+           <ShootingAccuracyTurret>1</ShootingAccuracyTurret>
+           <WorkToBuild>9000</WorkToBuild>
+       </statBases>
+       <drawerType>MapMeshAndRealTime</drawerType>
+       <tickerType>Normal</tickerType>
+       <killedLeavings>
+           <ChunkSlagSteel>2</ChunkSlagSteel>
+       </killedLeavings>
+       <costList>
+           <Steel>500</Steel>
+           <Plasteel>180</Plasteel>
+           <ComponentIndustrial>12</ComponentIndustrial>
+           <ComponentSpacer>4</ComponentSpacer>
+       </costList>
+       <comps>
+           <li Class="CompProperties_Forbiddable"/>
+           <li Class="CompProperties_Power">
+               <compClass>CompPowerTrader</compClass>
+               <basePowerConsumption>2000</basePowerConsumption>
+           </li>
+           <li Class="CompProperties_Flickable"/>
+           <li Class="CompProperties_Breakdownable"/>
+       </comps>
+       <damageMultipliers>
+           <li>
+               <damageDef>Flame</damageDef>
+               <multiplier>0</multiplier>
+           </li>
+       </damageMultipliers>
+       <building>
+           <turretGunDef>Gun_CMCLasercannon_B</turretGunDef>
+           <turretBurstCooldownTime>0</turretBurstCooldownTime>
+           <turretTopDrawSize>9.5</turretTopDrawSize>
+       </building>
+       <researchPrerequisites>
+           <li>CMC_DestroyerTurret</li>
+           <li>CMC_DEWII</li>
+       </researchPrerequisites>
+       <designationCategory>CMC_DefensenProduction</designationCategory>
+       <placeWorkers Inherit="False"></placeWorkers>
+       <modExtensions>
+           <li Class="TOT_DLL_test.TurretExtension_CMC">
+               <rotationSpeed>0.72</rotationSpeed>
+           </li>
+       </modExtensions>
+   </ThingDef>
+   <ThingDef ParentName="BaseWeaponTurret">
+       <defName>Gun_CMCLasercannon_B</defName>
+       <label>HPJ-L21 Gigawatt Particle Lance Emitter</label>
+       <description>A particle lance emitter mounted on a turret.</description>
+       <graphicData>
+           <texPath>Things/Buildings/ShipLaser_Top</texPath>
+           <graphicClass>Graphic_Single</graphicClass>
+       </graphicData>
+       <statBases>
+           <AccuracyTouch>1</AccuracyTouch>
+           <AccuracyShort>1</AccuracyShort>
+           <AccuracyMedium>1</AccuracyMedium>
+           <AccuracyLong>1</AccuracyLong>
+           <RangedWeapon_Cooldown>0</RangedWeapon_Cooldown>
+           <DeteriorationRate>0</DeteriorationRate>
+           <Mass>40</Mass>
+           <Flammability>0</Flammability>
+       </statBases>
+       <weaponTags Inherit = "False">
+           <li>Weapon_CMCf</li>
+       </weaponTags>
+       <verbs>
+           <li>
+               <verbClass>TOT_DLL_test.Verb_Laser_Sustain</verbClass>
+               <hasStandardCommand>true</hasStandardCommand>
+               <warmupTime>0</warmupTime>
+               <range>210</range>
+               <burstShotCount>360</burstShotCount>
+               <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+               <soundCastTail>GunTail_Medium</soundCastTail>
+               <muzzleFlashScale>0</muzzleFlashScale>
+               <requireLineOfSight>false</requireLineOfSight>
+           </li>
+       </verbs>
+       <comps>
+           <li Class="TOT_DLL_test.CompProperties_LaserData_Sustain">
+               <LaserLine_MoteDef>CMC_Laser_Stay_MoteRed_Wide</LaserLine_MoteDef>
+               <LaserFleck_End>CMC_Laser_Stay_LaserEndLarge_TT</LaserFleck_End>
+               <LaserFleck_End_Scale_Base>8.0</LaserFleck_End_Scale_Base>
+               <LaserFleck_Spark>CMC_Stay_Laser_Spark</LaserFleck_Spark>
+               <LaserFleck_Spark>CMC_Stay_Laser_Spark</LaserFleck_Spark>
+               <LaserFleck_Spark_Scale_Base>0.3</LaserFleck_Spark_Scale_Base>
+               <LaserFleck_Spark_Scale_Deviation>0.2</LaserFleck_Spark_Scale_Deviation>
+               <LaserFleck_Spark_Num>3</LaserFleck_Spark_Num>
+               <LaserFleck_Spark_Spawn_Chance>0.4</LaserFleck_Spark_Spawn_Chance>
+               <SoundDef>CMC_LaserSustainSound</SoundDef>
+               <Color_Red>255</Color_Red>
+               <Color_Green>255</Color_Green>
+               <Color_Blue>255</Color_Blue>
+               <Color_Alpha>1</Color_Alpha>
+               <StartPositionOffset_Range>2</StartPositionOffset_Range>
+               <DamageDef>InfernoBeamPlus</DamageDef>
+               <DamageNum>6</DamageNum>
+               <DamageArmorPenetration>4</DamageArmorPenetration>
+			   <IfCanScatter>true</IfCanScatter>
+               <ScatterNum>6</ScatterNum>
+               <ScatterRadius>2</ScatterRadius>
+               <ScatterExplosionDef>BulletAoE_Void</ScatterExplosionDef>
+               <ScatterExplosionDamage>8</ScatterExplosionDamage>
+               <ScatterExplosionRadius>1.2</ScatterExplosionRadius>
+               <ScatterExplosionArmorPenetration>2</ScatterExplosionArmorPenetration>
+               <ScatterTickMax>30</ScatterTickMax>
+               <LaserFleck_ScatterLaser>CMC_Laser_instant_ScatterLaser_void</LaserFleck_ScatterLaser>
+           </li>
+       </comps>
+   </ThingDef>
+</Defs>

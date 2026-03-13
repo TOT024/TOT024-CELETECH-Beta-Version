@@ -1,0 +1,520 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A8860A93-4C43-4C93-A04F-8157E6DB48DE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TOT_DLL_test</RootNamespace>
+    <AssemblyName>TOT_DLL_test</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>.\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>On</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Ability_AoEKnockBack.cs" />
+    <Compile Include="AirplaneDeliveryFlyer.cs" />
+    <Compile Include="AirplaneFighterJet.cs" />
+    <Compile Include="AirstrikeAimUtility.cs" />
+    <Compile Include="AnimatedDraw_Projectile_Inregular.cs" />
+    <Compile Include="AnimationDraw_Projectile.cs" />
+    <Compile Include="AnimationDraw.cs" />
+    <Compile Include="Command_FunnelPanel.cs" />
+    <Compile Include="CompBackpackAmmo.cs" />
+    <Compile Include="CompTurretLifter.cs" />
+    <Compile Include="Apparel_FloatingGunRework.cs" />
+    <Compile Include="Apparel_PersonalTerminal.cs" />
+    <Compile Include="Building_Bunker.cs" />
+    <Compile Include="CompRenderSetDirty.cs" />
+    <Compile Include="CompWeaponAmmo.cs" />
+    <Compile Include="Comp_ApparelWeaponHolder.cs" />
+    <Compile Include="Comp_BasicWeaponHolder.cs" />
+    <Compile Include="Comp_LaserHeat.cs" />
+    <Compile Include="DefModExtension_WeaponAnimation.cs" />
+    <Compile Include="DynamicRendernodeSetUp_Weapon.cs" />
+    <Compile Include="EquipmentUtility.cs" />
+    <Compile Include="FunnelPawnRender.cs" />
+    <Compile Include="Gizmo_LaserHeatStatus.cs" />
+    <Compile Include="Gizmo_WeaponHolderUI.cs" />
+    <Compile Include="HarmonyPatch_SecondaryDamageDisplay.cs" />
+    <Compile Include="PawnRenderNode_WeaponOnPack.cs" />
+    <Compile Include="PawnRenderNode_Weapon.cs" />
+    <Compile Include="CMC_EffectsTool.cs" />
+    <Compile Include="Projectile_Rocket_AntiAir.cs" />
+    <Compile Include="RimWorldShaderBundleBuilder.cs" />
+    <Compile Include="ShaderLoader.cs" />
+    <Compile Include="Building_AccessoryCabinet.cs" />
+    <Compile Include="Building_CMCTurretShip.cs" />
+    <Compile Include="Building_WeaponModificationBench.cs" />
+    <Compile Include="Building_CMCAdvancedGeoThermoGen.cs" />
+    <Compile Include="Building_CMCTurretGun_AAAS.cs" />
+    <Compile Include="Building_CMCTurretGun_MainBattery.cs" />
+    <Compile Include="Building_UnderGroundZPR.cs" />
+    <Compile Include="Building_ZPR.cs" />
+    <Compile Include="Building_AESARadar.cs" />
+    <Compile Include="Building_CMCRocketLauncher.cs" />
+    <Compile Include="Building_CMCS_PDBattery.cs" />
+    <Compile Include="Building_CMCTempControl.cs" />
+    <Compile Include="Building_CMCTurretMissile.cs" />
+    <Compile Include="Building_FRShield.cs" />
+    <Compile Include="Building_CMCTurretGun.cs" />
+    <Compile Include="Building_LandingPlatform.cs" />
+    <Compile Include="Building_QuantumComputer.cs" />
+    <Compile Include="Building_VLS.cs" />
+    <Compile Include="CamoDebug.cs" />
+    <Compile Include="CMCTurretTop_MainBattery.cs" />
+    <Compile Include="CompAbility_Saber_A.cs" />
+    <Compile Include="CompAccessoryEffect.cs" />
+    <Compile Include="CompBuildingDrawExtraFourRot.cs" />
+    <Compile Include="CompCamo.cs" />
+    <Compile Include="CompFunnelProgrammer.cs" />
+    <Compile Include="CompProperties_Ability_SaberA.cs" />
+    <Compile Include="CompProperties_ShowBuildingShieldGizmos.cs" />
+    <Compile Include="CompProperties_FloatingGunRework.cs" />
+    <Compile Include="CompSecondaryVerb_Rework.cs" />
+    <Compile Include="Comp_AccessoryHolder.cs" />
+    <Compile Include="Comp_AccessoryStats.cs" />
+    <Compile Include="Comp_AccessoryStorage.cs" />
+    <Compile Include="Comp_ApparelHediffAdder.cs" />
+    <Compile Include="Comp_DrawTurretBarrel.cs" />
+    <Compile Include="CompFunnelHauler.cs" />
+    <Compile Include="Comp_DroneMovement.cs" />
+    <Compile Include="Comp_FloatingGunRework.cs" />
+    <Compile Include="Comp_UsableByTurret.cs" />
+    <Compile Include="CompWeaponHolder.cs" />
+    <Compile Include="Comp_WeaponRenderDynamic.cs" />
+    <Compile Include="Comp_WeaponRenderStatic.cs" />
+    <Compile Include="GameComponent_CeleTech.cs" />
+    <Compile Include="Gizmo_ApparelReloadableExtra.cs" />
+    <Compile Include="Gizmo_UAVPowerCell.cs" />
+    <Compile Include="Graphic_CamoCMC.cs" />
+    <Compile Include="Harmony_ApparelPatch.cs" />
+    <Compile Include="ITab_Accessory.cs" />
+    <Compile Include="JobDriver_InstallAccessory.cs" />
+    <Compile Include="JobDriver_PlaceWeaponOnBench.cs" />
+    <Compile Include="JobDriver_ChangeFunnelConfig.cs" />
+    <Compile Include="MapComponent_MissileDefenseManager.cs" />
+    <Compile Include="PawnRenderNodeProperties_ApparelParent.cs" />
+    <Compile Include="PawnRenderNodeProperties_HeadWithLight.cs" />
+    <Compile Include="PawnRenderNodeProperties_UAVRework.cs" />
+    <Compile Include="PawnRenderNodeWorker_HeadWithLight.cs" />
+    <Compile Include="PawnRenderNodeWorker_UAVRework.cs" />
+    <Compile Include="PawnRenderNode_ApparelParent.cs" />
+    <Compile Include="PawnRenderNode_HeadWithLight.cs" />
+    <Compile Include="PawnRenderNode_UAVRework.cs" />
+    <Compile Include="ProjectileCache.cs" />
+    <Compile Include="Projectile_BulletPiercing.cs" />
+    <Compile Include="Projectile_PoiMissile_ASG.cs" />
+    <Compile Include="Projectile_PoiMissile_Interceptor.cs" />
+    <Compile Include="Projectile_XM_Rework.cs" />
+    <Compile Include="Recipe_InstallAccessoryDynamic.cs" />
+    <Compile Include="Comp_ShowBuildingShieldGizmos.cs" />
+    <Compile Include="HediffCompProperties_ConstancyDamage.cs" />
+    <Compile Include="HediffComp_ConstancyDamage.cs" />
+    <Compile Include="ModExtension_Splitedbullet.cs" />
+    <Compile Include="Mote_ScaleAndRotate.cs" />
+    <Compile Include="MYDE_ThingDefOf.cs" />
+    <Compile Include="PawnRenderNodeProperties_PowerArmourLight.cs" />
+    <Compile Include="PawnRenderNodeWorker_PowerArmourLight.cs" />
+    <Compile Include="PawnRenderNode_PowerArmourLight.cs" />
+    <Compile Include="Projectile_ChargedThunderer.cs" />
+    <Compile Include="Projectile_Split.cs" />
+    <Compile Include="ShuttleEntry.cs" />
+    <Compile Include="StatPartInjector.cs" />
+    <Compile Include="StatPart_AccessoryModifiers.cs" />
+    <Compile Include="StatWorker_Turret.cs" />
+    <Compile Include="StockGenerator_CMCClones.cs" />
+    <Compile Include="TextureBaker.cs" />
+    <Compile Include="ThingDef_WithRenderNode.cs" />
+    <Compile Include="Thing_Drone.cs" />
+    <Compile Include="Thing_MultiTaskLauncher.cs" />
+    <Compile Include="ThoughtWorker_CMC_DECO_WIFI.cs" />
+    <Compile Include="ModExtentsion_Fragments.cs" />
+    <Compile Include="Verb_CMCJump.cs" />
+    <Compile Include="Verb_MeleeSectorDamage.cs" />
+    <Compile Include="Verb_ShootWithWeaponAmmo.cs" />
+    <Compile Include="WindowTradingSystem.cs" />
+    <Compile Include="Verb_LaserInstantFunnel.cs" />
+    <Compile Include="Verb_Laser_Instant_UAV.cs" />
+    <Compile Include="Verb_ShootDronePos.cs" />
+    <Compile Include="Verb_Shoot_UAV.cs" />
+    <Compile Include="Verb_ShootWorld.cs" />
+    <Compile Include="ModSetting.cs" />
+    <Compile Include="CMCTurretTop.cs" />
+    <Compile Include="CMC_Def.cs" />
+    <Compile Include="CompAbilityEffect_AntiInv.cs" />
+    <Compile Include="CompAbilityEffect_SelfSkip.cs" />
+    <Compile Include="CompAbilityEffect_SwordShower.cs" />
+    <Compile Include="CompProperties_AbilitySwordShower.cs" />
+    <Compile Include="CompProperties_PrismTowerTop.cs" />
+    <Compile Include="CompProperties_TraderShuttle.cs" />
+    <Compile Include="SpawnTradeShip.cs" />
+    <Compile Include="Comp_PrismTowerTop.cs" />
+    <Compile Include="Comp_TraderShuttle.cs" />
+    <Compile Include="Gizmo_ChangeSize.cs" />
+    <Compile Include="Harmony_VerbnWorkerHunterPatch.cs" />
+    <Compile Include="JobDriver_TradewithCMCTS.cs" />
+    <Compile Include="LandedTraderShuttle.cs" />
+    <Compile Include="PawnRenderNodeProperties_UAV.cs" />
+    <Compile Include="PawnRenderNodeWorker_UAV.cs" />
+    <Compile Include="PawnRenderNode_UAV.cs" />
+    <Compile Include="PlaceWorker_ShowTurretRadius_VerbSupport.cs" />
+    <Compile Include="PlaceWorker_TurretTop .cs" />
+    <Compile Include="Mod_Extentsion_ProjectileExtension_CMC .cs" />
+    <Compile Include="Projectile_GigaEMPShell.cs" />
+    <Compile Include="Projectile_RocketUniversal.cs" />
+    <Compile Include="SkillDummy_Sword.cs" />
+    <Compile Include="Skyfaller_TS.cs" />
+    <Compile Include="ModExtentison_TurretExtension_CMC.cs" />
+    <Compile Include="Verb_DeployMech.cs" />
+    <Compile Include="CompProperties_AntiInv.cs" />
+    <Compile Include="CompProperties_BodyShapeAjuster.cs" />
+    <Compile Include="CompProperties_ColorSaver.cs" />
+    <Compile Include="CompProperties_FloatSwordAttack.cs" />
+    <Compile Include="Comp_BodyshapeAjuster.cs" />
+    <Compile Include="Comp_ColorSaver.cs" />
+    <Compile Include="Comp_FloatSwordAttack.cs" />
+    <Compile Include="Comp_FullInterceptor.cs" />
+    <Compile Include="CompPawnEquipmentGizmo.cs" />
+    <Compile Include="CompPreperties_SmartWeapon.cs" />
+    <Compile Include="CompProperties_AoEFist.cs" />
+    <Compile Include="CompProperties_AbilitySelfSkip.cs" />
+    <Compile Include="CompProperties_FCradar.cs" />
+    <Compile Include="CompProperties_FullProjectileInterceptor.cs" />
+    <Compile Include="CompProperties_LaserData_Instant.cs" />
+    <Compile Include="CompProperties_SpawnFleck_Projectile.cs" />
+    <Compile Include="CompProperties_StellarPortal.cs" />
+    <Compile Include="CompProperties_UAV.cs" />
+    <Compile Include="CompProperties_LegendaryWeapons.cs" />
+    <Compile Include="CompAbilityEffect_AoEFist.cs" />
+    <Compile Include="CompProperties_WeaponGiveHediff_Sword.cs" />
+    <Compile Include="CompSecondaryVerb.cs" />
+    <Compile Include="CompLegendaryWeapons.cs" />
+    <Compile Include="CompWeaponGiveHediff_Sword.cs" />
+    <Compile Include="Comp_AutoRepair.cs" />
+    <Compile Include="CompProperties_AutoRepair.cs" />
+    <Compile Include="Comp_CMCShield.cs" />
+    <Compile Include="Comp_FCradar.cs" />
+    <Compile Include="Comp_LaserData_Instant.cs" />
+    <Compile Include="Comp_LaserData_Sustain.cs" />
+    <Compile Include="Comp_SmartWeapon.cs" />
+    <Compile Include="Comp_SpawnFleck_Projectile.cs" />
+    <Compile Include="Comp_UAV.cs" />
+    <Compile Include="DrawWeaponExtraEquipped.cs" />
+    <Compile Include="EffecterDef.cs" />
+    <Compile Include="Gizmo_ProjInterceptorStatus.cs" />
+    <Compile Include="Gizmo_ShieldCMC.cs" />
+    <Compile Include="HarmonyPatches.cs" />
+    <Compile Include="HediffCompProperties_BoostedEffect.cs" />
+    <Compile Include="HediffComproperties_SusDMG.cs" />
+    <Compile Include="HediffComp_AutoStopMentalState.cs" />
+    <Compile Include="HediffCompProperties_AutoHeal.cs" />
+    <Compile Include="HediffCompProperties_AutoStopMentalState.cs" />
+    <Compile Include="HediffComp_AutoHeal.cs" />
+    <Compile Include="HediffComp_SusDMG.cs" />
+    <Compile Include="HediffComp_BoostedEffect.cs" />
+    <Compile Include="IIF.cs" />
+    <Compile Include="MYDE_ModFront.cs" />
+    <Compile Include="PlaceWorker_SAMSite.cs" />
+    <Compile Include="Projectile_ChargedNormal.cs" />
+    <Compile Include="Projectile_CNHitLimb.cs" />
+    <Compile Include="Projectile_CruiseMissile.cs" />
+    <Compile Include="Projectile_ExplosiveNormal.cs" />
+    <Compile Include="Projectile_Fire.cs" />
+    <Compile Include="Projectile_Grenade.cs" />
+    <Compile Include="Projectile_PlasmaShell.cs" />
+    <Compile Include="Projectile_PoiBullet.cs" />
+    <Compile Include="Projectile_PoiMissile.cs" />
+    <Compile Include="Projectile_XM.cs" />
+    <Compile Include="Projectile_ZRPlasmaPulse.cs" />
+    <Compile Include="Projectile_FakeBulletLaser.cs" />
+    <Compile Include="ResearchProjectDef.cs" />
+    <Compile Include="Verb_AntiInv.cs" />
+    <Compile Include="Verb_Invisible.cs" />
+    <Compile Include="Projectile_EMPShell.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="CompAbilityEffect_StellarPortal.cs" />
+    <Compile Include="Verb_Laser_Instant.cs" />
+    <Compile Include="Verb_Laser_Sustain.cs" />
+    <Compile Include="Verb_LaserShoot.cs" />
+    <Compile Include="Verb_PlasmaFlame.cs" />
+    <Compile Include="Verb_RocketShoot.cs" />
+    <Compile Include="Verb_ShootMultiTarget.cs" />
+    <Compile Include="Verb_LaunchProjectileSwitchFire.cs" />
+    <Compile Include="Verb_Shootswithfire.cs" />
+    <Compile Include="WeaponClass_EXRender.cs" />
+    <Compile Include="Window_CamoDesigner.cs" />
+    <Compile Include="Dialog_FunnelConfig.cs" />
+    <Compile Include="Window_NearbyWeaponSelector.cs" />
+    <Compile Include="Window_ShieldSize .cs" />
+    <Compile Include="WorldObject_EMLShell.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\SteamLibrary\steamapps\workshop\content\294100\2009463077\Current\Assemblies\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Aardvark.Base, Version=5.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Aardvark.Base.5.3.19\lib\netstandard2.0\Aardvark.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Aardvark.Base.Telemetry, Version=5.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Aardvark.Base.Telemetry.5.3.19\lib\netstandard2.0\Aardvark.Base.Telemetry.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="com.rlabrecque.steamworks.net">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\com.rlabrecque.steamworks.net.dll</HintPath>
+    </Reference>
+    <Reference Include="HarmonyMod">
+      <HintPath>..\..\SteamLibrary\steamapps\workshop\content\294100\2009463077\Current\Assemblies\HarmonyMod.dll</HintPath>
+    </Reference>
+    <Reference Include="ISharpZipLib">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\ISharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Bcl.AsyncInterfaces.8.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Security">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\Mono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="SingleFileExtractor.Core, Version=2.2.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\SingleFileExtractor.Core.2.2.1\lib\netstandard2.0\SingleFileExtractor.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Immutable, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Collections.Immutable.8.0.0\lib\net462\System.Collections.Immutable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Metadata, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Reflection.Metadata.8.0.0\lib\net462\System.Reflection.Metadata.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Text.Encodings.Web.8.0.0\lib\net462\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json, Version=8.0.0.5, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Text.Json.8.0.5\lib\net462\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.NVIDIAModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.NVIDIAModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PropertiesModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.PropertiesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.SubsystemsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.UnityCurlModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VirtualTexturingModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.VirtualTexturingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>..\..\SteamLibrary\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

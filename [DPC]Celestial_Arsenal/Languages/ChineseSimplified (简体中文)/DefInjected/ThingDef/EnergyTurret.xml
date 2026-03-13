@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: HPJ-L01 Megawatt Particle Lance -->
+  <CMC_Lasercannon.label>HPJ-L01 M级粒子光矛</CMC_Lasercannon.label>
+  <!-- EN: Equipped with high-energy particle beam weapons, this turret fires focused particle rays capable of dealing massive damage to targets within short range. -->
+  <CMC_Lasercannon.description>这些炮塔安装有高能粒子束武器，能够发射聚焦的粒子射线并对短距离内的目标造成巨幅伤害。</CMC_Lasercannon.description>
+  
+  <!-- EN: HPJ-L21 Gigawatt Particle Lance -->
+  <CMC_Lasercannon_B.label>HPJ-L12 G级粒子光矛</CMC_Lasercannon_B.label>
+  <!-- EN: A super-heavy energy weapon usually serving as a destroyer's secondary battery array. It fires focused particle rays that can penetrate shields and heavy armor, causing massive damage. It can fire over walls. -->
+  <CMC_Lasercannon_B.description>通常用于星际驱逐舰的高能粒子束武器，但在大气层内上并不能发挥功率和输出效率上限。得益于内置的散热系统，该武器在低功率模式几乎不会过热。\n\n光矛在摧毁当前目标后会转而扫射临近的目标，并造成范围溅射伤害。</CMC_Lasercannon_B.description>
+  
+  <!-- EN: HPJ-L01 Megawatt Particle Lance Emitter -->
+  <Gun_CMCLasercannon_A.label>HPJ-L01 兆瓦级粒子光矛发射器</Gun_CMCLasercannon_A.label>
+  <!-- EN: A particle lance emitter mounted on a turret. -->
+  <Gun_CMCLasercannon_A.description>安装于炮塔上的粒子光矛发射器</Gun_CMCLasercannon_A.description>
+  <!-- EN: HPJ-L01 Megawatt Particle Lance Emitter -->
+  <Gun_CMCLasercannon_A.verbs.Verb_Laser_Sustain.label>光矛</Gun_CMCLasercannon_A.verbs.Verb_Laser_Sustain.label>
+  
+  <!-- EN: HPJ-L21 Gigawatt Particle Lance Emitter -->
+  <Gun_CMCLasercannon_B.label>HPJ-L12 千兆粒子光矛</Gun_CMCLasercannon_B.label>
+  <!-- EN: A particle lance emitter mounted on a turret. -->
+  <Gun_CMCLasercannon_B.description>安装于炮塔上的粒子光矛发射器</Gun_CMCLasercannon_B.description>
+  <!-- EN: HPJ-L21 Gigawatt Particle Lance Emitter -->
+  <Gun_CMCLasercannon_B.verbs.Verb_Laser_Sustain.label>HPJ-L12 千兆粒子光矛</Gun_CMCLasercannon_B.verbs.Verb_Laser_Sustain.label>
+  
+</LanguageData>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Ammo_45x50mmMTPG HE -->
+  <Ammo_Ammo_45x50mmMTPG_HE.label>TODO</Ammo_Ammo_45x50mmMTPG_HE.label>
+  <!-- EN: TODO
+\n\n高爆弹:
+\n弹头内装填了烈性炸药，在击中物体的时候会发生爆炸，产生2次推进，能够有效穿透目标的装甲，并造成额外的伤害。
+\n\n使用者: -->
+  <Ammo_Ammo_45x50mmMTPG_HE.description>TODO</Ammo_Ammo_45x50mmMTPG_HE.description>
+  
+  <!-- EN: Ammo_45x50mmMTPG S -->
+  <Ammo_Ammo_45x50mmMTPG_S.label>TODO</Ammo_Ammo_45x50mmMTPG_S.label>
+  <!-- EN: TODO
+\n\n烟雾弹:
+\n充满了烟雾剂。在撞击时爆炸，产生厚厚的烟幕。
+\n\n使用者: -->
+  <Ammo_Ammo_45x50mmMTPG_S.description>TODO</Ammo_Ammo_45x50mmMTPG_S.description>
+  
+  <!-- EN: bullet -->
+  <Bullet_Ammo_45x50mmMTPG_HE.label>TODO</Bullet_Ammo_45x50mmMTPG_HE.label>
+  
+  <!-- EN: bullet -->
+  <Bullet_Ammo_45x50mmMTPG_S.label>TODO</Bullet_Ammo_45x50mmMTPG_S.label>
+  
+</LanguageData>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: QBA-131R shotgun -->
+  <CMC_QBAfournine.label>QBA-131R 霰弹枪</CMC_QBAfournine.label>
+  <!-- EN: The QBA-131R utilizes twin-barrel magnetic rail acceleration technology to propel four fragmenting tungsten alloy penetrators at hyper-velocities. It possesses devastating piercing capabilities against projectile interceptors and composite armor. The trade-offs are its tremendous recoil and an archaic mechanical reloading system that compromises sustained fire rates. -->
+  <CMC_QBAfournine.description>QBA-131R 采用双管磁轨加速技术，能将分裂式的四枚钨合金穿甲弹加速至极高初速，对现有的力场护盾及复合装甲具有毁灭性的贯穿力。代价是其惊人的后坐力，且老式的机械装填结构导致火力持续性较差。</CMC_QBAfournine.description>
+  <!-- EN: barrel -->
+  <CMC_QBAfournine.tools.barrel.label>枪管</CMC_QBAfournine.tools.barrel.label>
+  <!-- EN: QBA-131R shotgun -->
+  <CMC_QBAfournine.verbs.Verb_Shoot.label>QBA-131R 霰弹枪</CMC_QBAfournine.verbs.Verb_Shoot.label>
+  
+  <!-- EN: <color=#FFD456>QBA-131F shotgun</color> -->
+  <CMC_QBAfournineFlame.label>TODO</CMC_QBAfournineFlame.label>
+  <!-- EN: . -->
+  <CMC_QBAfournineFlame.description>TODO</CMC_QBAfournineFlame.description>
+  <!-- EN: barrel -->
+  <CMC_QBAfournineFlame.tools.barrel.label>TODO</CMC_QBAfournineFlame.tools.barrel.label>
+  <!-- EN: <color=#FFD456>QBA-131F shotgun</color> -->
+  <CMC_QBAfournineFlame.verbs.Verb_Shoot.label>TODO</CMC_QBAfournineFlame.verbs.Verb_Shoot.label>
+  
+</LanguageData>

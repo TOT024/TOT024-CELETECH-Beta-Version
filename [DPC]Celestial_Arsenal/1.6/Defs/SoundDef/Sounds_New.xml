@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<SoundDef>
+    <defName>Sound_CannonNew_E</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+        <li>
+            <grains>
+                <li Class="AudioGrain_Clip">
+                    <clipPath>New/cannon_E</clipPath>
+                </li>
+            </grains>
+            <pitchRange>
+                <min>2</min>
+                <max>2.112391</max>
+            </pitchRange>
+			<volumeRange>
+				<min>544.5</min>
+				<max>552.2</max>
+			</volumeRange>
+            <paramMappings>
+                <li>
+                    <inParam Class="SoundParamSource_CameraAltitude" />
+                    <outParam Class="SoundParamTarget_PropertyLowPass">
+                        <filterProperty>Cutoff</filterProperty>
+                    </outParam>
+                    <paramUpdateMode>Constant</paramUpdateMode>
+                    <curve>
+                        <points>
+                            <li>
+                                <loc>
+                                    <x>17.08957</x>
+                                    <y>21001.8</y>
+                                </loc>
+                            </li>
+                            <li>
+                                <loc>
+                                    <x>24.77761</x>
+                                    <y>12701.95</y>
+                                </loc>
+                            </li>
+                            <li>
+                                <loc>
+                                    <x>32.786</x>
+                                    <y>7168.717</y>
+                                </loc>
+                            </li>
+                            <li>
+                                <loc>
+                                    <x>45.91975</x>
+                                    <y>4270.358</y>
+                                </loc>
+                            </li>
+                            <li>
+                                <loc>
+                                    <x>66.10088</x>
+                                    <y>2557.69</y>
+                                </loc>
+                            </li>
+                        </points>
+                    </curve>
+                </li>
+            </paramMappings>
+            <filters>
+                <li Class="SoundFilterLowPass">
+                    <cutoffFrequency>10000</cutoffFrequency>
+                    <lowpassResonaceQ>1</lowpassResonaceQ>
+                </li>
+            </filters>
+            <sustainLoop>False</sustainLoop>
+        </li>
+		<li>
+            <grains>
+                <li Class="AudioGrain_Clip">
+                    <clipPath>New/cannon_F</clipPath>
+                </li>
+            </grains>
+            <pitchRange>
+                <min>1.4</min>  <!-- 降低音高范围 -->
+                <max>1.6</max>  <!-- 降低音高范围 -->
+            </pitchRange>
+			<volumeRange>
+				<min>444.5</min>
+				<max>452.2</max>
+			</volumeRange>
+            <paramMappings>
+                <li>
+                    <inParam Class="SoundParamSource_CameraAltitude" />
+                    <outParam Class="SoundParamTarget_PropertyLowPass">
+                        <filterProperty>Cutoff</filterProperty>
+                    </outParam>
+                    <paramUpdateMode>Constant</paramUpdateMode>
+                    <curve>
+                        <points>
+                            <li>
+                                <loc>
+                                    <x>17.08957</x>
+                                    <y>21001.8</y>
+                                </loc>
+                            </li>
+                            <li>
+                                <loc>
+                                    <x>24.77761</x>
+                                    <y>12701.95</y>
+                                </loc>
+                            </li>
+                            <li>
+                                <loc>
+                                    <x>32.786</x>
+                                    <y>7168.717</y>
+                                </loc>
+                            </li>
+                            <li>
+                                <loc>
+                                    <x>45.91975</x>
+                                    <y>4270.358</y>
+                                </loc>
+                            </li>
+                            <li>
+                                <loc>
+                                    <x>66.10088</x>
+                                    <y>2557.69</y>
+                                </loc>
+                            </li>
+                        </points>
+                    </curve>
+                </li>
+            </paramMappings>
+            <filters>
+                <li Class="SoundFilterLowPass">
+                    <cutoffFrequency>8000</cutoffFrequency>
+                    <lowpassResonaceQ>1.2</lowpassResonaceQ>
+                </li>
+            </filters>
+            <sustainLoop>False</sustainLoop>
+        </li>
+    </subSounds>
+</SoundDef>
+
+<SoundDef>
+    <defName>Sound_Cannon30mm</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+        <li>
+            <grains>
+                <li Class="AudioGrain_Clip">
+                    <clipPath>New/cannon_30mmshot</clipPath>
+                </li>
+            </grains>
+            <pitchRange>
+                <min>2</min>
+                <max>2.112391</max>
+            </pitchRange>
+			<volumeRange>
+				<min>300.8</min>  <!-- 修正为合理音量范围 -->
+				<max>350.9</max>
+			</volumeRange>
+            <distRange>0~25</distRange>  <!-- 近距离传播 -->
+            <paramMappings>
+                <li>
+                    <inParam Class="SoundParamSource_CameraAltitude" />
+                    <outParam Class="SoundParamTarget_PropertyLowPass">
+                        <filterProperty>Cutoff</filterProperty>
+                    </outParam>
+                    <paramUpdateMode>Constant</paramUpdateMode>
+                    <curve>
+                        <points>
+                            <li>
+                                <loc>
+                                    <x>0</x>  <!-- 近距离 -->
+                                    <y>18000</y>  <!-- 高频 -->
+                                </loc>
+                            </li>
+                            <li>
+                                <loc>
+                                    <x>15</x>
+                                    <y>12000</y>
+                                </loc>
+                            </li>
+                            <li>
+                                <loc>
+                                    <x>25</x>  <!-- 最大距离 -->
+                                    <y>6000</y>  <!-- 低频 -->
+                                </loc>
+                            </li>
+                        </points>
+                    </curve>
+                </li>
+                <li>
+                    <inParam Class="SoundParamSource_CameraAltitude" />
+                    <outParam Class="SoundParamTarget_Volume" />
+                    <paramUpdateMode>Constant</paramUpdateMode>
+                    <curve>
+                        <points>
+                            <li>
+                                <loc>
+                                    <x>0</x>
+                                    <y>1.0</y>  <!-- 近距离最大音量 -->
+                                </loc>
+                            </li>
+                            <li>
+                                <loc>
+                                    <x>25</x>
+                                    <y>0.3</y>  <!-- 远距离较低音量 -->
+                                </loc>
+                            </li>
+                        </points>
+                    </curve>
+                </li>
+            </paramMappings>
+            <filters>
+                <li Class="SoundFilterLowPass">
+                    <cutoffFrequency>18000</cutoffFrequency>  <!-- 初始高频 -->
+                    <lowpassResonaceQ>1</lowpassResonaceQ>
+                </li>
+            </filters>
+            <sustainLoop>False</sustainLoop>
+        </li>
+		<li>
+            <grains>
+                <li Class="AudioGrain_Clip">
+                    <clipPath>New/cannon_30mmShotLow</clipPath>
+                </li>
+            </grains>
+            <pitchRange>
+                <min>1.4</min>
+                <max>1.6</max>  <!-- 缩小范围，更一致的低沉效果 -->
+            </pitchRange>
+			<volumeRange>
+				<min>329.7</min>
+				<max>330.8</max>
+			</volumeRange>
+            <distRange>15~70</distRange>  <!-- 中远距离传播 -->
+            <paramMappings>
+                <li>
+                    <inParam Class="SoundParamSource_CameraAltitude" />
+                    <outParam Class="SoundParamTarget_PropertyLowPass">
+                        <filterProperty>Cutoff</filterProperty>
+                    </outParam>
+                    <paramUpdateMode>Constant</paramUpdateMode>
+                    <curve>
+                        <points>
+                            <li>
+                                <loc>
+                                    <x>15</x>  <!-- 中距离开始 -->
+                                    <y>8000</y>
+                                </loc>
+                            </li>
+                            <li>
+                                <loc>
+                                    <x>40</x>
+                                    <y>4000</y>
+                                </loc>
+                            </li>
+                            <li>
+                                <loc>
+                                    <x>70</x>  <!-- 远距离 -->
+                                    <y>2000</y>  <!-- 非常沉闷 -->
+                                </loc>
+                            </li>
+                        </points>
+                    </curve>
+                </li>
+                <li>
+                    <inParam Class="SoundParamSource_CameraAltitude" />
+                    <outParam Class="SoundParamTarget_Volume" />
+                    <paramUpdateMode>Constant</paramUpdateMode>
+                    <curve>
+                        <points>
+                            <li>
+                                <loc>
+                                    <x>15</x>
+                                    <y>0.7</y>
+                                </loc>
+                            </li>
+                            <li>
+                                <loc>
+                                    <x>40</x>
+                                    <y>0.4</y>
+                                </loc>
+                            </li>
+                            <li>
+                                <loc>
+                                    <x>70</x>
+                                    <y>0.1</y>  <!-- 远距离几乎听不见 -->
+                                </loc>
+                            </li>
+                        </points>
+                    </curve>
+                </li>
+            </paramMappings>
+            <filters>
+                <li Class="SoundFilterLowPass">
+                    <cutoffFrequency>8000</cutoffFrequency>
+                    <lowpassResonaceQ>1.2</lowpassResonaceQ>
+                </li>
+            </filters>
+            <sustainLoop>False</sustainLoop>
+        </li>
+    </subSounds>
+</SoundDef>
+
+<SoundDef>
+    <defName>Sound_Cannon30mm_Sinper</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+        <li>
+            <grains>
+                <li Class="AudioGrain_Clip">
+                    <clipPath>New/cannon30mm_A</clipPath>
+                </li>
+            </grains>
+            <pitchRange>
+                <min>2</min>
+                <max>2.112391</max>
+            </pitchRange>
+			<volumeRange>
+				<min>400.8</min>  <!-- 修正为合理音量范围 -->
+				<max>400.9</max>
+			</volumeRange>
+            <distRange>0~25</distRange>  <!-- 近距离传播 -->
+            <paramMappings>
+                <li>
+                    <inParam Class="SoundParamSource_CameraAltitude" />
+                    <outParam Class="SoundParamTarget_PropertyLowPass">
+                        <filterProperty>Cutoff</filterProperty>
+                    </outParam>
+                    <paramUpdateMode>Constant</paramUpdateMode>
+                    <curve>
+                        <points>
+                            <li>
+                                <loc>
+                                    <x>0</x>  <!-- 近距离 -->
+                                    <y>18000</y>  <!-- 高频 -->
+                                </loc>
+                            </li>
+                            <li>
+                                <loc>
+                                    <x>15</x>
+                                    <y>12000</y>
+                                </loc>
+                            </li>
+                            <li>
+                                <loc>
+                                    <x>25</x>  <!-- 最大距离 -->
+                                    <y>6000</y>  <!-- 低频 -->
+                                </loc>
+                            </li>
+                        </points>
+                    </curve>
+                </li>
+                <li>
+                    <inParam Class="SoundParamSource_CameraAltitude" />
+                    <outParam Class="SoundParamTarget_Volume" />
+                    <paramUpdateMode>Constant</paramUpdateMode>
+                    <curve>
+                        <points>
+                            <li>
+                                <loc>
+                                    <x>0</x>
+                                    <y>1.0</y>  <!-- 近距离最大音量 -->
+                                </loc>
+                            </li>
+                            <li>
+                                <loc>
+                                    <x>25</x>
+                                    <y>0.3</y>  <!-- 远距离较低音量 -->
+                                </loc>
+                            </li>
+                        </points>
+                    </curve>
+                </li>
+            </paramMappings>
+            <filters>
+                <li Class="SoundFilterLowPass">
+                    <cutoffFrequency>18000</cutoffFrequency>  <!-- 初始高频 -->
+                    <lowpassResonaceQ>1</lowpassResonaceQ>
+                </li>
+            </filters>
+            <sustainLoop>False</sustainLoop>
+        </li>
+		<li>
+            <grains>
+                <li Class="AudioGrain_Clip">
+                    <clipPath>New/cannon_30mmShotLow</clipPath>
+                </li>
+            </grains>
+            <pitchRange>
+                <min>1.4</min>
+                <max>1.6</max>  <!-- 缩小范围，更一致的低沉效果 -->
+            </pitchRange>
+			<volumeRange>
+				<min>329.7</min>
+				<max>330.8</max>
+			</volumeRange>
+            <distRange>15~70</distRange>  <!-- 中远距离传播 -->
+            <paramMappings>
+                <li>
+                    <inParam Class="SoundParamSource_CameraAltitude" />
+                    <outParam Class="SoundParamTarget_PropertyLowPass">
+                        <filterProperty>Cutoff</filterProperty>
+                    </outParam>
+                    <paramUpdateMode>Constant</paramUpdateMode>
+                    <curve>
+                        <points>
+                            <li>
+                                <loc>
+                                    <x>15</x>  <!-- 中距离开始 -->
+                                    <y>8000</y>
+                                </loc>
+                            </li>
+                            <li>
+                                <loc>
+                                    <x>40</x>
+                                    <y>4000</y>
+                                </loc>
+                            </li>
+                            <li>
+                                <loc>
+                                    <x>70</x>  <!-- 远距离 -->
+                                    <y>2000</y>  <!-- 非常沉闷 -->
+                                </loc>
+                            </li>
+                        </points>
+                    </curve>
+                </li>
+                <li>
+                    <inParam Class="SoundParamSource_CameraAltitude" />
+                    <outParam Class="SoundParamTarget_Volume" />
+                    <paramUpdateMode>Constant</paramUpdateMode>
+                    <curve>
+                        <points>
+                            <li>
+                                <loc>
+                                    <x>15</x>
+                                    <y>0.7</y>
+                                </loc>
+                            </li>
+                            <li>
+                                <loc>
+                                    <x>40</x>
+                                    <y>0.4</y>
+                                </loc>
+                            </li>
+                            <li>
+                                <loc>
+                                    <x>70</x>
+                                    <y>0.1</y>  <!-- 远距离几乎听不见 -->
+                                </loc>
+                            </li>
+                        </points>
+                    </curve>
+                </li>
+            </paramMappings>
+            <filters>
+                <li Class="SoundFilterLowPass">
+                    <cutoffFrequency>8000</cutoffFrequency>
+                    <lowpassResonaceQ>1.2</lowpassResonaceQ>
+                </li>
+            </filters>
+            <sustainLoop>False</sustainLoop>
+        </li>
+    </subSounds>
+</SoundDef>
+
+<SoundDef>
+    <defName>Sound_CannonReloading_45mm</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+        <li>
+            <grains>
+                <li Class="AudioGrain_Clip">
+                    <clipPath>New/cannon_reloading</clipPath>
+                </li>
+            </grains>
+            <pitchRange>
+                <min>2</min>
+                <max>2.112391</max>
+            </pitchRange>
+			<volumeRange>
+				<min>24.5</min>
+				<max>32.2</max>
+			</volumeRange>
+            <paramMappings>
+                <li>
+                    <inParam Class="SoundParamSource_CameraAltitude" />
+                    <outParam Class="SoundParamTarget_PropertyLowPass">
+                        <filterProperty>Cutoff</filterProperty>
+                    </outParam>
+                    <paramUpdateMode>Constant</paramUpdateMode>
+                    <curve>
+                        <points>
+                            <li>
+                                <loc>
+                                    <x>17.08957</x>
+                                    <y>21001.8</y>
+                                </loc>
+                            </li>
+                            <li>
+                                <loc>
+                                    <x>24.77761</x>
+                                    <y>12701.95</y>
+                                </loc>
+                            </li>
+                            <li>
+                                <loc>
+                                    <x>32.786</x>
+                                    <y>7168.717</y>
+                                </loc>
+                            </li>
+                            <li>
+                                <loc>
+                                    <x>45.91975</x>
+                                    <y>4270.358</y>
+                                </loc>
+                            </li>
+                            <li>
+                                <loc>
+                                    <x>66.10088</x>
+                                    <y>2557.69</y>
+                                </loc>
+                            </li>
+                        </points>
+                    </curve>
+                </li>
+            </paramMappings>
+            <filters>
+                <li Class="SoundFilterLowPass">
+                    <cutoffFrequency>10000</cutoffFrequency>
+                    <lowpassResonaceQ>1</lowpassResonaceQ>
+                </li>
+            </filters>
+            <sustainLoop>False</sustainLoop>
+        </li>
+    </subSounds>
+</SoundDef>
+
+<SoundDef>
+    <defName>Sound_CannonReloading_Rail</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+        <li>
+            <grains>
+                <li Class="AudioGrain_Clip">
+                    <clipPath>New/railgunreload_01</clipPath>
+                </li>
+            </grains>
+            <pitchRange>
+                <min>2</min>
+                <max>2.112391</max>
+            </pitchRange>
+			<volumeRange>
+				<min>24.5</min>
+				<max>32.2</max>
+			</volumeRange>
+            <paramMappings>
+                <li>
+                    <inParam Class="SoundParamSource_CameraAltitude" />
+                    <outParam Class="SoundParamTarget_PropertyLowPass">
+                        <filterProperty>Cutoff</filterProperty>
+                    </outParam>
+                    <paramUpdateMode>Constant</paramUpdateMode>
+                    <curve>
+                        <points>
+                            <li>
+                                <loc>
+                                    <x>17.08957</x>
+                                    <y>21001.8</y>
+                                </loc>
+                            </li>
+                            <li>
+                                <loc>
+                                    <x>24.77761</x>
+                                    <y>12701.95</y>
+                                </loc>
+                            </li>
+                            <li>
+                                <loc>
+                                    <x>32.786</x>
+                                    <y>7168.717</y>
+                                </loc>
+                            </li>
+                            <li>
+                                <loc>
+                                    <x>45.91975</x>
+                                    <y>4270.358</y>
+                                </loc>
+                            </li>
+                            <li>
+                                <loc>
+                                    <x>66.10088</x>
+                                    <y>2557.69</y>
+                                </loc>
+                            </li>
+                        </points>
+                    </curve>
+                </li>
+            </paramMappings>
+            <filters>
+                <li Class="SoundFilterLowPass">
+                    <cutoffFrequency>10000</cutoffFrequency>
+                    <lowpassResonaceQ>1</lowpassResonaceQ>
+                </li>
+            </filters>
+            <sustainLoop>False</sustainLoop>
+        </li>
+    </subSounds>
+</SoundDef>
+<SoundDef>
+    <defName>Sound_CannonReloading_Rail_Auto</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>3</maxSimultaneous>
+    <subSounds>
+        <li>
+            <grains>
+                <li Class="AudioGrain_Clip">
+                    <clipPath>New/railgunreload_02</clipPath>
+                </li>
+            </grains>
+            <pitchRange>
+                <min>2.1</min>
+                <max>2.3</max>
+            </pitchRange>
+			<volumeRange>
+				<min>20.06</min>
+				<max>20.08</max>
+			</volumeRange>
+            <distRange>0~45</distRange>
+            <paramMappings>
+                <li>
+                    <inParam Class="SoundParamSource_CameraAltitude" />
+                    <outParam Class="SoundParamTarget_PropertyLowPass">
+                        <filterProperty>Cutoff</filterProperty>
+                    </outParam>
+                    <paramUpdateMode>Constant</paramUpdateMode>
+                    <curve>
+                        <points>
+                            <li>
+                                <loc>
+                                    <x>17.08957</x>
+                                    <y>18000</y>
+                                </loc>
+                            </li>
+                            <li>
+                                <loc>
+                                    <x>24.77761</x>
+                                    <y>11000</y>
+                                </loc>
+                            </li>
+                            <li>
+                                <loc>
+                                    <x>32.786</x>
+                                    <y>6500</y>
+                                </loc>
+                            </li>
+                            <li>
+                                <loc>
+                                    <x>45.91975</x>
+                                    <y>3800</y>
+                                </loc>
+                            </li>
+                            <li>
+                                <loc>
+                                    <x>66.10088</x>
+                                    <y>2200</y>
+                                </loc>
+                            </li>
+                        </points>
+                    </curve>
+                </li>
+            </paramMappings>
+            <filters>
+                <li Class="SoundFilterLowPass">
+                    <cutoffFrequency>14000</cutoffFrequency>
+                    <lowpassResonaceQ>1.2</lowpassResonaceQ>
+                </li>
+            </filters>
+            <sustainLoop>False</sustainLoop>
+        </li>
+    </subSounds>
+</SoundDef>
+<SoundDef>
+    <defName>Sound_CannonReloading_Rail_Small</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>2</maxSimultaneous>
+    <subSounds>
+        <li>
+            <grains>
+                <li Class="AudioGrain_Clip">
+                    <clipPath>New/railgunreload_03</clipPath>
+                </li>
+            </grains>
+            <pitchRange>
+                <min>2.3</min>
+                <max>2.5</max>
+            </pitchRange>
+			<volumeRange>
+				<min>20.08</min>
+				<max>20.1</max>
+			</volumeRange>
+            <paramMappings>
+                <li>
+                    <inParam Class="SoundParamSource_CameraAltitude" />
+                    <outParam Class="SoundParamTarget_PropertyLowPass">
+                        <filterProperty>Cutoff</filterProperty>
+                    </outParam>
+                    <paramUpdateMode>Constant</paramUpdateMode>
+                    <curve>
+                        <points>
+                            <li>
+                                <loc>
+                                    <x>17.08957</x>
+                                    <y>22000</y>
+                                </loc>
+                            </li>
+                            <li>
+                                <loc>
+                                    <x>24.77761</x>
+                                    <y>14000</y>
+                                </loc>
+                            </li>
+                            <li>
+                                <loc>
+                                    <x>32.786</x>
+                                    <y>8000</y>
+                                </loc>
+                            </li>
+                            <li>
+                                <loc>
+                                    <x>45.91975</x>
+                                    <y>5000</y>
+                                </loc>
+                            </li>
+                            <li>
+                                <loc>
+                                    <x>66.10088</x>
+                                    <y>3000</y>
+                                </loc>
+                            </li>
+                        </points>
+                    </curve>
+                </li>
+            </paramMappings>
+            <filters>
+                <li Class="SoundFilterLowPass">
+                    <cutoffFrequency>12000</cutoffFrequency>
+                    <lowpassResonaceQ>1.1</lowpassResonaceQ>
+                </li>
+            </filters>
+            <sustainLoop>False</sustainLoop>
+        </li>
+    </subSounds>
+</SoundDef>
+
+<SoundDef>
+    <defName>Sound_ReleaseRocket</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+        <li>
+            <grains>
+                <li Class="AudioGrain_Clip">
+                    <clipPath>New/rocket_fire</clipPath>
+                </li>
+            </grains>
+            <pitchRange>
+                <min>2</min>
+                <max>2.112391</max>
+            </pitchRange>
+			<volumeRange>
+				<min>300.8</min>  <!-- 修正为合理音量范围 -->
+				<max>350.9</max>
+			</volumeRange>
+            <distRange>0~25</distRange>  <!-- 近距离传播 -->
+            <paramMappings>
+                <li>
+                    <inParam Class="SoundParamSource_CameraAltitude" />
+                    <outParam Class="SoundParamTarget_PropertyLowPass">
+                        <filterProperty>Cutoff</filterProperty>
+                    </outParam>
+                    <paramUpdateMode>Constant</paramUpdateMode>
+                    <curve>
+                        <points>
+                            <li>
+                                <loc>
+                                    <x>0</x>  <!-- 近距离 -->
+                                    <y>18000</y>  <!-- 高频 -->
+                                </loc>
+                            </li>
+                            <li>
+                                <loc>
+                                    <x>15</x>
+                                    <y>12000</y>
+                                </loc>
+                            </li>
+                            <li>
+                                <loc>
+                                    <x>25</x>  <!-- 最大距离 -->
+                                    <y>6000</y>  <!-- 低频 -->
+                                </loc>
+                            </li>
+                        </points>
+                    </curve>
+                </li>
+                <li>
+                    <inParam Class="SoundParamSource_CameraAltitude" />
+                    <outParam Class="SoundParamTarget_Volume" />
+                    <paramUpdateMode>Constant</paramUpdateMode>
+                    <curve>
+                        <points>
+                            <li>
+                                <loc>
+                                    <x>0</x>
+                                    <y>1.0</y>  <!-- 近距离最大音量 -->
+                                </loc>
+                            </li>
+                            <li>
+                                <loc>
+                                    <x>25</x>
+                                    <y>0.3</y>  <!-- 远距离较低音量 -->
+                                </loc>
+                            </li>
+                        </points>
+                    </curve>
+                </li>
+            </paramMappings>
+            <filters>
+                <li Class="SoundFilterLowPass">
+                    <cutoffFrequency>18000</cutoffFrequency>  <!-- 初始高频 -->
+                    <lowpassResonaceQ>1</lowpassResonaceQ>
+                </li>
+            </filters>
+            <sustainLoop>False</sustainLoop>
+        </li>
+		<li>
+            <grains>
+                <li Class="AudioGrain_Clip">
+                    <clipPath>New/cannon_30mmShotLow</clipPath>
+                </li>
+            </grains>
+            <pitchRange>
+                <min>1.4</min>
+                <max>1.6</max>  <!-- 缩小范围，更一致的低沉效果 -->
+            </pitchRange>
+			<volumeRange>
+				<min>329.7</min>
+				<max>330.8</max>
+			</volumeRange>
+            <distRange>15~70</distRange>  <!-- 中远距离传播 -->
+            <paramMappings>
+                <li>
+                    <inParam Class="SoundParamSource_CameraAltitude" />
+                    <outParam Class="SoundParamTarget_PropertyLowPass">
+                        <filterProperty>Cutoff</filterProperty>
+                    </outParam>
+                    <paramUpdateMode>Constant</paramUpdateMode>
+                    <curve>
+                        <points>
+                            <li>
+                                <loc>
+                                    <x>15</x>  <!-- 中距离开始 -->
+                                    <y>8000</y>
+                                </loc>
+                            </li>
+                            <li>
+                                <loc>
+                                    <x>40</x>
+                                    <y>4000</y>
+                                </loc>
+                            </li>
+                            <li>
+                                <loc>
+                                    <x>70</x>  <!-- 远距离 -->
+                                    <y>2000</y>  <!-- 非常沉闷 -->
+                                </loc>
+                            </li>
+                        </points>
+                    </curve>
+                </li>
+                <li>
+                    <inParam Class="SoundParamSource_CameraAltitude" />
+                    <outParam Class="SoundParamTarget_Volume" />
+                    <paramUpdateMode>Constant</paramUpdateMode>
+                    <curve>
+                        <points>
+                            <li>
+                                <loc>
+                                    <x>15</x>
+                                    <y>0.7</y>
+                                </loc>
+                            </li>
+                            <li>
+                                <loc>
+                                    <x>40</x>
+                                    <y>0.4</y>
+                                </loc>
+                            </li>
+                            <li>
+                                <loc>
+                                    <x>70</x>
+                                    <y>0.1</y>  <!-- 远距离几乎听不见 -->
+                                </loc>
+                            </li>
+                        </points>
+                    </curve>
+                </li>
+            </paramMappings>
+            <filters>
+                <li Class="SoundFilterLowPass">
+                    <cutoffFrequency>8000</cutoffFrequency>
+                    <lowpassResonaceQ>1.2</lowpassResonaceQ>
+                </li>
+            </filters>
+            <sustainLoop>False</sustainLoop>
+        </li>
+    </subSounds>
+</SoundDef>
+
+<SoundDef>
+    <defName>CMC_Sound_PrecisionBomb_Explosion</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Explosion/explosion_01_v3_sharp</clipPath>
+          </li>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Explosion/explosion_01_v4</clipPath>
+          </li>
+        </grains>
+        <volumeRange>210~220</volumeRange>
+        <pitchRange>0.95~1.05</pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Explosion/CMC_Explosion_main</clipPath>
+          </li>
+        </grains>
+        <volumeRange>160~175</volumeRange>
+        <pitchRange>0.85~0.95</pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Explosion/explosive_base_layer_03</clipPath>
+          </li>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Explosion/explosive_base_layer_04</clipPath>
+          </li>
+        </grains>
+        <volumeRange>130~140</volumeRange>
+        <pitchRange>0.65~0.75</pitchRange>
+        <distRange>0~250</distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Explosion/explosion_far_2</clipPath>
+          </li>
+        </grains>
+        <volumeRange>90~100</volumeRange>
+        <pitchRange>0.55~0.65</pitchRange>
+        <distRange>100~9999</distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+</SoundDef>
+
+<SoundDef>
+    <defName>CMC_Sound_Small_Explosion</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>16</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Explosion/explosion_01_v3_sharp</clipPath>
+          </li>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Explosion/explosion_01_v4</clipPath>
+          </li>
+        </grains>
+        <volumeRange>140~155</volumeRange>
+        <pitchRange>1.1~1.3</pitchRange>
+      </li>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Explosion/explosive_base_layer_03</clipPath>
+          </li>
+        </grains>
+        <volumeRange>90~100</volumeRange>
+        <pitchRange>0.9~1.0</pitchRange>
+      </li>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Explosion/explosion_far_4</clipPath>
+          </li>
+        </grains>
+        <volumeRange>50~60</volumeRange>
+        <pitchRange>0.98~1.02</pitchRange>
+      </li>
+    </subSounds>
+</SoundDef>
+</Defs>

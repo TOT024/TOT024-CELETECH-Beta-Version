@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: EM-rail(AP/EMP) -->
+  <CMC_EMBullet_AP.label>TODO</CMC_EMBullet_AP.label>
+  <!-- EN: Electromagnetic rail-launched armor-piercing round, capable of both hard and soft kill. Penetrates heavy armor and releases EMP to disable electronics. -->
+  <CMC_EMBullet_AP.description>TODO</CMC_EMBullet_AP.description>
+  
+  <!-- EN: EM-rail(Ion) -->
+  <CMC_EMBullet_Ion.label>TODO</CMC_EMBullet_Ion.label>
+  <!-- EN: Electromagnetic rail-launched ion round, disrupts target integrity and electronics through ionization, highly effective against shields. -->
+  <CMC_EMBullet_Ion.description>TODO</CMC_EMBullet_Ion.description>
+  
+  <!-- EN: EM-rail(standard) -->
+  <CMC_EMBullet_R.label>TODO</CMC_EMBullet_R.label>
+  <!-- EN: Standard Electromagnetic rail-launched round, able to penetrate heavy armor. -->
+  <CMC_EMBullet_R.description>TODO</CMC_EMBullet_R.description>
+  
+  <!-- EN: homing-AP/EMP -->
+  <CMC_HomingBullet_AP.label>TODO</CMC_HomingBullet_AP.label>
+  <!-- EN: Homing armor-piercing round with trajectory adjustment capability for precision hits, combined with EMP effect for dual damage. -->
+  <CMC_HomingBullet_AP.description>TODO</CMC_HomingBullet_AP.description>
+  
+  <!-- EN: homing -->
+  <CMC_HomingBullet_Regular.label>TODO</CMC_HomingBullet_Regular.label>
+  <!-- EN: Standard homing ammunition, locks onto and tracks targets via built-in sensors, ideal for engaging high-speed moving units. -->
+  <CMC_HomingBullet_Regular.description>TODO</CMC_HomingBullet_Regular.description>
+  
+  <!-- EN: hypersonic -->
+  <CMC_HomingHPVBullet.label>TODO</CMC_HomingHPVBullet.label>
+  <!-- EN: Hypersonic homing projectile, penetrates enemy defenses with extreme velocity, causing massive damage via kinetic energy. -->
+  <CMC_HomingHPVBullet.description>TODO</CMC_HomingHPVBullet.description>
+  
+  <!-- EN: hypersonic(inverse entropy) -->
+  <CMC_HomingHPVBullet_IE.label>TODO</CMC_HomingHPVBullet_IE.label>
+  <!-- EN: Hypersonic homing projectile utilizing inverse entropy technology, self-adjusts in flight to counter precision loss from entropy, achieving near-perfect hit rate. -->
+  <CMC_HomingHPVBullet_IE.description>TODO</CMC_HomingHPVBullet_IE.description>
+  
+</LanguageData>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 6x36mm Electromagnetic-Smart (AP) -->
+  <Ammo_6x36mmElectromagneticS_AP.label>TODO</Ammo_6x36mmElectromagneticS_AP.label>
+  <!-- EN: Electromagnetic projectile ammunition used by advanced EM rifle systems.
+\n\nEM-rail(AP/EMP):
+\nElectromagnetic rail-launched armor-piercing round, capable of both hard and soft kill. Penetrates heavy armor and releases EMP to disable electronics.
+\n\n使用者: -->
+  <Ammo_6x36mmElectromagneticS_AP.description>TODO</Ammo_6x36mmElectromagneticS_AP.description>
+  
+  <!-- EN: 6x36mm Electromagnetic-Smart (Ion) -->
+  <Ammo_6x36mmElectromagneticS_Ion.label>TODO</Ammo_6x36mmElectromagneticS_Ion.label>
+  <!-- EN: Electromagnetic projectile ammunition used by advanced EM rifle systems.
+\n\nEM-rail(Ion):
+\nElectromagnetic rail-launched ion round, disrupts target integrity and electronics through ionization, highly effective against shields.
+\n\n使用者: -->
+  <Ammo_6x36mmElectromagneticS_Ion.description>TODO</Ammo_6x36mmElectromagneticS_Ion.description>
+  
+  <!-- EN: 6x36mm Electromagnetic projectile (AP) -->
+  <Bullet_6x36mmElectromagneticS_AP.label>TODO</Bullet_6x36mmElectromagneticS_AP.label>
+  
+  <!-- EN: 6x36mm Electromagnetic projectile (Ion) -->
+  <Bullet_6x36mmElectromagneticS_Ion.label>TODO</Bullet_6x36mmElectromagneticS_Ion.label>
+  
+</LanguageData>

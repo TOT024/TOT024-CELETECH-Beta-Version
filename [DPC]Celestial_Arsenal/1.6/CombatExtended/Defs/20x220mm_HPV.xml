@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingCategoryDef>
+    <defName>AmmoCategory_CMC_20x220mmSmart</defName>
+    <label>20x220mm MTS</label>
+    <parent>AmmoAdvanced</parent>
+    <iconPath>Things/Ammo/12x65mmUI</iconPath>
+  </ThingCategoryDef>
+
+  <!-- ==================== AmmoSet ========================== -->
+
+  <CombatExtended.AmmoSetDef>
+    <defName>AmmoSet_CMC_20x220mmSmart</defName>
+    <label>20x220mm MTS</label>
+    <ammoTypes>
+      <Ammo_CMC_20x220mmSmart_Regular>Bullet_CMC_20x220mmSmart_Regular</Ammo_CMC_20x220mmSmart_Regular>
+    </ammoTypes>
+  </CombatExtended.AmmoSetDef>
+
+  <!-- ==================== Ammo ========================== -->
+
+  <ThingDef Class="CombatExtended.AmmoDef" Name="Ammo_CMC_20x220mmSmart_Base" ParentName="SpacerMediumAmmoBase" Abstract="True">
+    <description>20x220mm multi-task smart ammo by CeleTech</description>
+    <statBases>
+      <Mass>0.303</Mass>
+      <Bulk>0.21</Bulk>
+    </statBases>
+    <tradeTags>
+      <li>CE_AutoEnableTrade</li>
+      <li>CE_AutoEnableCrafting_TableMachining</li>
+      <li>CE_AutoEnableCrafting_CMC_FacBench</li>
+    </tradeTags>
+    <thingCategories>
+      <li>AmmoCategory_CMC_20x220mmSmart</li>
+    </thingCategories>
+  </ThingDef>
+
+  <ThingDef Class="CombatExtended.AmmoDef" ParentName="Ammo_CMC_20x220mmSmart_Base">
+    <defName>Ammo_CMC_20x220mmSmart_Regular</defName>
+    <label>CMC_20x220mmSmart R</label>
+    <graphicData>
+      <texPath>Things/Ammo/12x65mm_R</texPath>
+      <graphicClass>Verse.Graphic_StackCount</graphicClass>
+    </graphicData>
+    <ammoClass>CMC_HomingHPVBullet_IE</ammoClass>
+    <cookOffProjectile>Bullet_CMC_20x220mmSmart_Regular</cookOffProjectile>
+  </ThingDef>
+
+  <!-- ================== Projectiles ================== -->
+
+  <ThingDef Name="Bullet_CMC_20x220mmSmart_Base" ParentName="BaseBulletCE" Abstract="True">
+    <graphicData>
+      <texPath>Things/Projectile/Charge_Small</texPath>
+      <graphicClass>Verse.Graphic_Single</graphicClass>
+    </graphicData>
+    <thingClass>CeleTechXCE_DLL.ProjectileGuidedBulletCE</thingClass>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <speed>406</speed>
+      <damageDef>Bullet</damageDef>
+      <dropsCasings>true</dropsCasings>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="Bullet_CMC_20x220mmSmart_Base">
+    <defName>Bullet_CMC_20x220mmSmart_Regular</defName>
+    <thingClass>CeleTechXCE_DLL.ProjectileGuidedBulletCE</thingClass>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageAmountBase>133</damageAmountBase>
+      <armorPenetrationSharp>303.3</armorPenetrationSharp>
+      <armorPenetrationBlunt>24750</armorPenetrationBlunt>
+      <secondaryDamage>
+        <li>
+          <def>EMP</def>
+          <amount>45</amount>
+        </li>
+        <li>
+          <def>AntiEntropyBullet</def>
+          <amount>80</amount>
+        </li>
+      </secondaryDamage>
+    </projectile>
+  </ThingDef>
+
+  <!-- ==================== Recipes ========================== -->
+
+  <RecipeDef ParentName="AmmoRecipeBase">
+    <defName>MakeAmmo_CMC_20x220mmSmart_Regular</defName>
+    <label>make CMC_20x220mmSmart R cartridge x100</label>
+    <description>Craft 100 CMC_20x220mmSmart R cartridges.</description>
+    <jobString>Making CMC_20x220mmSmart R cartridges.</jobString>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Uranium</li>
+          </thingDefs>
+        </filter>
+        <count>55</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ComponentSpacer</li>
+        <li>ComponentIndustrial</li>
+        <li>Plasteel</li>
+        <li>Uranium</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Ammo_CMC_20x220mmSmart_Regular>100</Ammo_CMC_20x220mmSmart_Regular>
+    </products>
+    <workAmount>12000</workAmount>
+  </RecipeDef>
+</Defs>

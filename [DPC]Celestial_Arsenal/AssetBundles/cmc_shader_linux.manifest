@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.0f1
+CRC: 786889669
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f1e51d399202335d8adac67975e2badd
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 235cbca85ccdf28f10f6ab4fde453a14
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 2956784b51c33b2d89766f1c94a26696
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/TOT.CeleTech.MKIII/Materials/Map/CMC_UniversalCamoShader_RGB.shader
+Dependencies: []

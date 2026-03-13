@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 4x20mm MTS-R -->
+  <Ammo_CMC_4x20mmsmartAmmo_Regular.label>TODO</Ammo_CMC_4x20mmsmartAmmo_Regular.label>
+  <!-- EN: TODO
+\n\nHoming:
+\nStandard homing ammunition, locks onto and tracks targets via built-in sensors, ideal for engaging high-speed moving units.
+\n\n使用者: -->
+  <Ammo_CMC_4x20mmsmartAmmo_Regular.description>TODO</Ammo_CMC_4x20mmsmartAmmo_Regular.description>
+  
+  <!-- EN: bullet -->
+  <Bullet_CMC_4x20mmsmartAmmo_Regular.label>TODO</Bullet_CMC_4x20mmsmartAmmo_Regular.label>
+  
+</LanguageData>

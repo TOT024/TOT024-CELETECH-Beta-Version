@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: B-PF201 recoilless rifle ammo pack -->
+  <CMC_RCAmmoPack.label>B-PF201 无后座力炮弹药背包</CMC_RCAmmoPack.label>
+  <!-- EN: A tactical resupply backpack specifically designed for the PF201 recoilless rifle. It contains 7 internal spare rounds and a micro-automatic loading mechanism. After the shooter fires, they simply need to attach the launcher to the side of the backpack, and the system will automatically complete the reloading process in the background. During this time, the shooter is free to reposition or engage with their sidearm.\n\nThis backpack comes standard with one PF120 launcher upon manufacture. If the launcher is accidentally damaged or lost, an additional purchase is required.\n\n<color=#FF5555>Safety Warnings</color>\n- Do not expose to open flames. The company is not responsible for casualties caused by ammunition cook-off.\n- Children aged 12 and under must operate under adult supervision.\n- Contains toxic propellant. Absolutely do not eat. -->
+  <CMC_RCAmmoPack.description>专为 PF201 无后坐力炮设计的战术供弹背包，内置 7 发备弹与微型自动装弹机。射手开火后只需将发射器挂载至背包侧面，系统便会在后台自动完成装填作业，期间射手完全可以自由跑位或使用副武器交战。\n\n该背包在出厂（制造）时标配一具 PF120 发射器，若发射器意外损毁或遗失，则需额外补充采购。\n\n&lt;color=#FF5555>安全警告&lt;/color>\n- 严禁接触明火，弹药殉爆导致的伤亡本公司概不负责。\n- 12岁及以下学龄儿童请在成年人陪同下操作。\n- 内含剧毒推进剂，绝对不可食用。</CMC_RCAmmoPack.description>
+  <!-- EN: Ammo -->
+  <CMC_RCAmmoPack.comps.CompBackpackAmmo.chargeNoun>弹药</CMC_RCAmmoPack.comps.CompBackpackAmmo.chargeNoun>
+  <!-- EN: on cooldown -->
+  <CMC_RCAmmoPack.comps.CompBackpackAmmo.cooldownGerund>冷却</CMC_RCAmmoPack.comps.CompBackpackAmmo.cooldownGerund>
+  
+  <!-- EN: PF201 recoilless rifle(backpack-fed) -->
+  <CMC_RocketLauncher.label>PF201 无后座力炮（背包供弹）</CMC_RocketLauncher.label>
+  <!-- EN: A man-portable recoilless rifle utilizing auxiliary electromagnetic rail acceleration technology. Thanks to the electromagnetic assist, its projectile velocity and effective range far exceed those of traditional similar weapons. However, due to its extremely flat trajectory, it is only capable of direct-fire and cannot fire over walls or tall obstacles.\n\nNote: This launcher itself does not have an independent magazine and must rely on the B-PF120 Recoilless Rifle Ammo Pack for feeding and cycle reloading. -->
+  <CMC_RocketLauncher.description>一款采用辅助电磁轨道加速技术的单兵无后坐力炮。得益于电磁加速，其炮弹初速与有效射程远超传统的同类武器。但由于弹道极其平直，它只能进行直瞄射击，无法跨越墙体或高大障碍物。\n\n注意：该发射器自身不具备独立弹仓，必须依靠B-PF120无后坐力炮弹药背包才能进行供弹与循环装填。</CMC_RocketLauncher.description>
+  <!-- EN: barrel -->
+  <CMC_RocketLauncher.tools.barrel.label>炮管</CMC_RocketLauncher.tools.barrel.label>
+  <!-- EN: PF201 recoilless rifle(backpack-fed) -->
+  <CMC_RocketLauncher.verbs.Verb_ShootWithWeaponAmmo.label>PF201 无后座力炮</CMC_RocketLauncher.verbs.Verb_ShootWithWeaponAmmo.label>
+  
+</LanguageData>

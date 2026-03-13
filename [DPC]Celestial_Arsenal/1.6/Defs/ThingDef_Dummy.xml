@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="EtherealThingBase">
+	<defName>CMC_SkillDummy</defName>
+	<label>skill pawnsaver dummy</label>
+	<graphicData>
+	  <texPath>Things/CMC_Void</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+	<thingClass>TOT_DLL_test.SkillDummy_Sword</thingClass>
+	<tickerType>Normal</tickerType>
+	<drawerType>MapMeshAndRealTime</drawerType>
+  </ThingDef>
+
+  <ThingDef>
+    <defName>CMC_DeliveryAirplane</defName>
+    <label>delivery airplane</label>
+    <thingClass>TOT_DLL_test.AirplaneDeliveryFlyer</thingClass>
+	<category>Ethereal</category>
+	<tickerType>Normal</tickerType>
+	<altitudeLayer>FogOfWar</altitudeLayer>
+	<useHitPoints>false</useHitPoints>
+    <selectable>false</selectable>
+	<tickerType>Normal</tickerType>
+    <drawerType>RealtimeOnly</drawerType>
+	<graphicData>
+      <texPath>Things/Aerocraft/Y50_Base</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(23,23)</drawSize>
+    </graphicData>
+  </ThingDef>
+  
+  <ThingDef>
+    <defName>CMC_FighterJet</defName>
+    <label>fighter jet</label>
+    <thingClass>TOT_DLL_test.AirplaneAttackFlyer</thingClass>
+	<uiIconPath>Things/Aerocraft/J50_UI</uiIconPath>
+    <category>Ethereal</category>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>FogOfWar</altitudeLayer>
+    <useHitPoints>false</useHitPoints>
+    <selectable>false</selectable>
+    <drawerType>RealtimeOnly</drawerType>
+    <graphicData>
+      <texPath>Things/Aerocraft/JX_Skyfall</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(11,11)</drawSize>
+    </graphicData>
+  </ThingDef>
+  
+  <ThingDef>
+    <defName>CMC_FighterJetB</defName>
+    <label>fighter jet</label>
+    <thingClass>TOT_DLL_test.AirplaneAttackFlyer</thingClass>
+	<uiIconPath>Things/Aerocraft/J50_UI_B</uiIconPath>
+    <category>Ethereal</category>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>FogOfWar</altitudeLayer>
+    <useHitPoints>false</useHitPoints>
+    <selectable>false</selectable>
+    <drawerType>RealtimeOnly</drawerType>
+    <graphicData>
+      <texPath>Things/Aerocraft/JX_Skyfall</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(11,11)</drawSize>
+    </graphicData>
+  </ThingDef>
+  
+  <ThingDef>
+    <defName>CMC_FighterJetC</defName>
+    <label>fighter jet</label>
+    <thingClass>TOT_DLL_test.AirplaneAttackFlyer</thingClass>
+	<uiIconPath>Things/Aerocraft/J50_UI_C</uiIconPath>
+    <category>Ethereal</category>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>FogOfWar</altitudeLayer>
+    <useHitPoints>false</useHitPoints>
+    <selectable>false</selectable>
+    <drawerType>RealtimeOnly</drawerType>
+    <graphicData>
+      <texPath>Things/Aerocraft/JX_Skyfall</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(11,11)</drawSize>
+    </graphicData>
+  </ThingDef>
+  
+  <ThingDef>
+    <defName>CMC_FighterJetD</defName>
+    <label>fighter jet</label>
+    <thingClass>TOT_DLL_test.AirplaneAttackFlyer</thingClass>
+	<uiIconPath>Things/Aerocraft/J50_UI_D</uiIconPath>
+    <category>Ethereal</category>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>FogOfWar</altitudeLayer>
+    <useHitPoints>false</useHitPoints>
+    <selectable>false</selectable>
+    <drawerType>RealtimeOnly</drawerType>
+    <graphicData>
+      <texPath>Things/Aerocraft/JX_Skyfall</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(11,11)</drawSize>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="SkyfallerBase">
+    <defName>CMC_CargoCrateIncoming</defName>
+    <label>cargo crate</label>
+    <graphicData>
+      <texPath>Things/CMC_Void</texPath>
+	  <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,2)</drawSize>
+    </graphicData>
+    <skyfaller>
+      <shadow>Things/Skyfaller/SkyfallerShadowDropPod</shadow>
+	  <shadowSize>(2,2)</shadowSize>
+      <anticipationSound>DropPod_Fall</anticipationSound>
+      <impactSound>DropPod_Impact</impactSound>
+      <motesPerCell>0</motesPerCell>
+    </skyfaller>
+  </ThingDef>
+</Defs>

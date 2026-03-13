@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingCategoryDef>
+		<defName>Ammo8x50mmElectromagnetic</defName>
+		<label>8x50mm EM-CMC</label>
+		<parent>AmmoAdvanced</parent>
+		<iconPath>Things/Ammo/8x50mmUI</iconPath>
+	</ThingCategoryDef>
+
+	<!-- ==================== AmmoSet ========================== -->
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_8x50mmElectromagnetic</defName>
+		<label>8x50mm Electromagnetic</label>
+		<ammoTypes>
+			<Ammo_8x50mmElectromagnetic_AP>Bullet_8x50mmElectromagnetic_AP</Ammo_8x50mmElectromagnetic_AP>
+			<Ammo_8x50mmElectromagnetic_Ion>Bullet_8x50mmElectromagnetic_Ion</Ammo_8x50mmElectromagnetic_Ion>
+		</ammoTypes>
+		<similarTo>AmmoSet_ChargedRifle</similarTo>
+	</CombatExtended.AmmoSetDef>
+
+	<!-- ==================== Ammo ========================== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" Name="8x50mmElectromagneticBase" ParentName="SpacerAmmoBase" Abstract="True">
+		<description>High power electromagnetic projectile ammunition used by advanced railgun battle rifles, machineguns and sniper rifles.</description>
+		<statBases>
+			<Mass>0.011</Mass>
+			<Bulk>0.01</Bulk>
+		</statBases>
+		<tradeTags>
+			<li>CE_AutoEnableTrade</li>
+			<li>CE_AutoEnableCrafting_TableMachining</li>
+			<li>CE_AutoEnableCrafting_CMC_FacBench</li>
+		</tradeTags>
+		<thingCategories>
+			<li>Ammo8x50mmElectromagnetic</li>
+		</thingCategories>
+		<stackLimit>5000</stackLimit>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="8x50mmElectromagneticBase">
+		<defName>Ammo_8x50mmElectromagnetic_AP</defName>
+		<label>8x50mm Electromagnetic (AP)</label>
+		<graphicData>
+			<texPath>Things/Ammo/8x50mm_AP</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<ammoClass>CMC_EMBullet_AP</ammoClass>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="8x50mmElectromagneticBase">
+		<defName>Ammo_8x50mmElectromagnetic_Ion</defName>
+		<label>8x50mm Electromagnetic (Ion)</label>
+		<graphicData>
+			<texPath>Things/Ammo/8x50mm_EMP</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<ammoClass>CMC_EMBullet_Ion</ammoClass>
+		<generateAllowChance>0.4</generateAllowChance>
+	</ThingDef>
+
+	<!-- ================== Projectiles ================== -->
+
+	<ThingDef Name="Base8x50mmElectromagneticBullet" ParentName="BaseBulletCE" Abstract="true">
+		<graphicData>
+			<texPath>Things/Projectile/Charged/ChargeShot</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.25,1.25)</drawSize>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Bullet</damageDef>
+			<speed>327</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="Base8x50mmElectromagneticBullet">
+		<defName>Bullet_8x50mmElectromagnetic_AP</defName>
+		<label>8x50mm Electromagnetic projectile (AP)</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>25</damageAmountBase>
+			<secondaryDamage>
+				<li>
+					<def>Bomb_Secondary</def>
+					<amount>8</amount>
+				</li>
+			</secondaryDamage>
+			<armorPenetrationSharp>80.6</armorPenetrationSharp>
+			<armorPenetrationBlunt>506.26</armorPenetrationBlunt>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="Base8x50mmElectromagneticBullet">
+		<defName>Bullet_8x50mmElectromagnetic_Ion</defName>
+		<label>8x50mm Electromagnetic projectile (Ion)</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>25</damageAmountBase>
+			<secondaryDamage>
+				<li>
+					<def>EMP</def>
+					<amount>16</amount>
+				</li>
+			</secondaryDamage>
+			<armorPenetrationSharp>80.6</armorPenetrationSharp>
+			<armorPenetrationBlunt>506.26</armorPenetrationBlunt>
+			<empShieldBreakChance>1</empShieldBreakChance>
+		</projectile>
+	</ThingDef>
+
+	<!-- ==================== Recipes ========================== -->
+
+	<RecipeDef ParentName="ChargeAmmoRecipeBase">
+		<defName>MakeAmmo_8x50mmElectromagnetic_AP</defName>
+		<label>make 8x50mm Electromagnetic (AP) cartridge x500</label>
+		<description>Craft 500 8x50mm Electromagnetic (AP) cartridges.</description>
+		<jobString>Making 8x50mm Electromagnetic (AP) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Uranium</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Plasteel</li>
+				<li>Uranium</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_8x50mmElectromagnetic_AP>500</Ammo_8x50mmElectromagnetic_AP>
+		</products>
+		<workAmount>1500</workAmount>
+	</RecipeDef>
+
+	<RecipeDef ParentName="ChargeAmmoRecipeBase">
+		<defName>MakeAmmo_8x50mmElectromagnetic_Ion</defName>
+		<label>make 8x50mm Electromagnetic (Ion) cartridge x500</label>
+		<description>Craft 500 8x50mm Electromagnetic (Ion) cartridges.</description>
+		<jobString>Making 8x50mm Electromagnetic (Ion) cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Uranium</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Plasteel</li>
+				<li>ComponentIndustrial</li>
+				<li>Uranium</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_8x50mmElectromagnetic_Ion>500</Ammo_8x50mmElectromagnetic_Ion>
+		</products>
+		<workAmount>1800</workAmount>
+	</RecipeDef>
+
+</Defs>

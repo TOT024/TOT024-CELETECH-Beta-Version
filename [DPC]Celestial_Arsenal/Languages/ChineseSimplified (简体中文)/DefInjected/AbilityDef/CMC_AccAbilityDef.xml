@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: neutron pulse -->
+  <CMC_NeutronPluse.label>TODO</CMC_NeutronPluse.label>
+  <!-- EN: The weapon releases a deadly pulse of accelerated neutrons.\n\nOnly cause damage to pawns. -->
+  <CMC_NeutronPluse.description>TODO</CMC_NeutronPluse.description>
+  
+  <!-- EN: shockwave -->
+  <CMC_ShockwavePush.label>TODO</CMC_ShockwavePush.label>
+  <!-- EN: Releases a powerful shockwave that knocks back and stuns all nearby non-friendly units. Terrain obstacles will stop the knockback. -->
+  <CMC_ShockwavePush.description>TODO</CMC_ShockwavePush.description>
+  
+  <!-- EN: Initiate Calibration Protocol -->
+  <CMC_UsePrecisionSkill.label>TODO</CMC_UsePrecisionSkill.label>
+  <!-- EN: Activates the prism's remote control protocol. For a short duration, the weapon is guided directly by the fire control system, completely eliminating shooting spread. -->
+  <CMC_UsePrecisionSkill.description>TODO</CMC_UsePrecisionSkill.description>
+  
+</LanguageData>

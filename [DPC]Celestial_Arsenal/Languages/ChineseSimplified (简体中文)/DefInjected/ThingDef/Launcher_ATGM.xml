@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: B-HJ301 ATGM ammo pack -->
+  <CMC_ATGMAmmoPack.label>B-HJ301 反坦克导弹弹药背包</CMC_ATGMAmmoPack.label>
+  <!-- EN: A tactical resupply backpack specifically designed for the HJ301 ATGM launcher. It contains 6 internal spare rounds and a micro-automatic loading mechanism. After the shooter fires, they simply need to attach the launcher to the side of the backpack, and the system will automatically complete the reloading process in the background. During this time, the shooter is free to reposition or engage with their sidearm.\n\nThis backpack comes standard with one HJ301 launcher upon manufacture. If the launcher is accidentally damaged or lost, an additional purchase is required.\n\n<color=#FF5555>Safety Warnings</color>\n- Do not expose to open flames. The company is not responsible for casualties caused by ammunition cook-off.\n- Children aged 12 and under must operate under adult supervision.\n- Contains toxic propellant. Absolutely do not eat. -->
+  <CMC_ATGMAmmoPack.description>专为HJ301 反坦克导弹发射器设计的战术供弹背包，内置 6 发备弹与微型自动装弹机。射手开火后只需将发射器挂载至背包侧面，系统便会在后台自动完成装填作业，期间射手完全可以自由跑位或使用副武器交战。\n\n该背包在出厂（制造）时标配一具 HJ301 发射器，若发射器意外损毁或遗失，则需额外补充采购。\n\n&lt;color=#FF5555>安全警告&lt;/color>\n- 严禁接触明火，弹药殉爆导致的伤亡本公司概不负责。\n- 12岁及以下学龄儿童请在成年人陪同下操作。\n- 内含剧毒推进剂，绝对不可食用。</CMC_ATGMAmmoPack.description>
+  <!-- EN: Ammo -->
+  <CMC_ATGMAmmoPack.comps.CompBackpackAmmo.chargeNoun>弹药</CMC_ATGMAmmoPack.comps.CompBackpackAmmo.chargeNoun>
+  <!-- EN: on cooldown -->
+  <CMC_ATGMAmmoPack.comps.CompBackpackAmmo.cooldownGerund>冷却</CMC_ATGMAmmoPack.comps.CompBackpackAmmo.cooldownGerund>
+  
+  <!-- EN: HJ301 ATGM launcher -->
+  <CMC_HJX_ATGM.label>HJ301 反坦克导弹发射器（背包供弹）</CMC_HJX_ATGM.label>
+  <!-- EN: An advanced man-portable launcher utilizing auxiliary electromagnetic rail acceleration technology, firing advanced top-attack anti-tank missiles.\n\nNote: This launcher itself does not have an independent magazine and must rely on the B-HJ301 ATGM ammo pack for feeding and cycle reloading. -->
+  <CMC_HJX_ATGM.description>一款采用辅助电磁轨道加速技术的先进的单兵发射装置，发射采用攻顶弹道的先进反坦克导弹。\n\n注意：该发射器自身不具备独立弹仓，必须依靠B-HJ301 反坦克导弹弹药背包才能进行供弹与循环装填。</CMC_HJX_ATGM.description>
+  <!-- EN: barrel -->
+  <CMC_HJX_ATGM.tools.barrel.label>炮管</CMC_HJX_ATGM.tools.barrel.label>
+  <!-- EN: HJ301 ATGM launcher -->
+  <CMC_HJX_ATGM.verbs.Verb_ShootWithWeaponAmmo.label>HJ301 反坦克导弹发射器</CMC_HJX_ATGM.verbs.Verb_ShootWithWeaponAmmo.label>
+  
+</LanguageData>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: “Qinggang Barragefire” EM cannon turret -->
+  <CMCcannon.label>“青釭·燎原”速射机炮塔</CMCcannon.label>
+  <!-- EN: A charged rapid auto cannon equipped on a turret. It fires accurate bursts and does heavy damage to light-armored targets over range, but its barrel must be refurbished after use. -->
+  <CMCcannon.description>大口径高射速自动机炮塔。炮塔本身的装甲可使其一定程度上可抵御小口径武器和爆炸造成的伤害。</CMCcannon.description>
+  <!-- EN: Barrel durability -->
+  <CMCcannon.comps.CompRefuelable.fuelGizmoLabel>炮管耐久</CMCcannon.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Shots until barrel change -->
+  <CMCcannon.comps.CompRefuelable.fuelLabel>剩余射击次数</CMCcannon.comps.CompRefuelable.fuelLabel>
+  <!-- EN: Needs new barrel -->
+  <CMCcannon.comps.CompRefuelable.outOfFuelMessage>需要更换炮管</CMCcannon.comps.CompRefuelable.outOfFuelMessage>
+  
+  <!-- EN: 4*30mm EM-CIWS -->
+  <CMCcannon_BF.label>“倚天”电磁近防系统</CMCcannon_BF.label>
+  <!-- EN: A charged Close-in weapon system equipped on a turret. It fires accurate bursts and does heavy damage to light-armored targets over range, but its barrel must be refurbished after use. -->
+  <CMCcannon_BF.description>四联装30mm电磁近防系统，可以追踪高速目标。</CMCcannon_BF.description>
+  <!-- EN: Barrel durability -->
+  <CMCcannon_BF.comps.CompRefuelable.fuelGizmoLabel>炮管耐久</CMCcannon_BF.comps.CompRefuelable.fuelGizmoLabel>
+  <!-- EN: Shots until barrel change -->
+  <CMCcannon_BF.comps.CompRefuelable.fuelLabel>剩余射击次数</CMCcannon_BF.comps.CompRefuelable.fuelLabel>
+  <!-- EN: Needs new barrel -->
+  <CMCcannon_BF.comps.CompRefuelable.outOfFuelMessage>需要更换炮管</CMCcannon_BF.comps.CompRefuelable.outOfFuelMessage>
+  
+  <!-- EN: charged auto cannon -->
+  <Gun_CMCcannon.label>近防炮</Gun_CMCcannon.label>
+  <!-- EN: A self-loading large-bore cannon designed to attach to a turret. -->
+  <Gun_CMCcannon.description>用于防空和压制步兵大口径电荷自动机炮。</Gun_CMCcannon.description>
+  <!-- EN: charged auto cannon -->
+  <Gun_CMCcannon.verbs.Verb_Shoot.label>电荷弹</Gun_CMCcannon.verbs.Verb_Shoot.label>
+  
+  <!-- EN: charged auto cannon -->
+  <Gun_CMCcannon_BF.label>四联装30mm电磁近防系统</Gun_CMCcannon_BF.label>
+  <!-- EN: A self-loading large-bore cannon designed to attach to a turret. -->
+  <Gun_CMCcannon_BF.description>安装于炮塔上的四联装30mm电磁近防系统。</Gun_CMCcannon_BF.description>
+  <!-- EN: charged auto cannon -->
+  <Gun_CMCcannon_BF.verbs.Verb_ShootSwitchFire.label>四联装30mm电磁近防系统</Gun_CMCcannon_BF.verbs.Verb_ShootSwitchFire.label>
+  
+</LanguageData>

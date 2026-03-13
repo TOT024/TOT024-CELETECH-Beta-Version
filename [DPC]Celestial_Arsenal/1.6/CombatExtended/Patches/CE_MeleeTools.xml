@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!--汉剑-->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CMC_EMPsword"]/tools</xpath>
+    <value>
+      <tools>
+        <li Class="CombatExtended.ToolCE">
+          <label>edge</label>
+          <capacities>
+            <li>Cut</li>
+          </capacities>
+          <power>50</power>
+          <extraMeleeDamages>
+            <li>
+              <def>EMP</def>
+              <amount>25</amount>
+              <chance>15</chance>
+            </li>
+          </extraMeleeDamages>
+          <armorPenetrationBlunt>100</armorPenetrationBlunt>
+          <armorPenetrationSharp>40</armorPenetrationSharp>
+          <cooldownTime>0.6</cooldownTime>
+        </li>
+        <li Class="CombatExtended.ToolCE">
+          <label>point</label>
+          <capacities>
+            <li>Stab</li>
+          </capacities>
+          <power>80</power>
+          <extraMeleeDamages>
+            <li>
+              <def>EMP</def>
+              <amount>45</amount>
+              <chance>15</chance>
+            </li>
+          </extraMeleeDamages>
+          <armorPenetrationBlunt>150</armorPenetrationBlunt>
+          <armorPenetrationSharp>60</armorPenetrationSharp>
+          <cooldownTime>1.2</cooldownTime>
+        </li>
+      </tools>
+    </value>
+  </Operation>
+
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="CMC_EMPsword"]/statBases</xpath>
+    <value>
+      <Bulk>8</Bulk>
+      <MeleeCounterParryBonus>0.5</MeleeCounterParryBonus>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="CMC_EMPsword"]/equippedStatOffsets</xpath>
+    <value>
+      <MeleeCritChance>1.2</MeleeCritChance>
+      <MeleeParryChance>0.4</MeleeParryChance>
+      <MeleeDodgeChance>0.4</MeleeDodgeChance>
+    </value>
+  </Operation>
+
+  <!--汉剑【七星】-->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CMC_EMPsword_sevenstars"]/tools</xpath>
+    <value>
+      <tools>
+        <li Class="CombatExtended.ToolCE">
+          <label>point</label>
+          <capacities>
+            <li>Cut</li>
+          </capacities>
+          <power>108</power>
+          <cooldownTime>1.0</cooldownTime>
+          <extraMeleeDamages>
+            <li>
+              <def>NeutronBomb</def>
+              <amount>98</amount>
+            </li>
+          </extraMeleeDamages>
+          <armorPenetrationBlunt>450</armorPenetrationBlunt>
+          <armorPenetrationSharp>120</armorPenetrationSharp>
+        </li>
+        <li Class="CombatExtended.ToolCE">
+          <label>edge</label>
+          <capacities>
+            <li>Cut</li>
+          </capacities>
+          <power>108</power>
+          <cooldownTime>0.7</cooldownTime>
+          <extraMeleeDamages>
+            <li>
+              <def>NeutronBomb</def>
+              <amount>40</amount>
+            </li>
+          </extraMeleeDamages>
+          <armorPenetrationBlunt>450</armorPenetrationBlunt>
+          <armorPenetrationSharp>120</armorPenetrationSharp>
+        </li>
+      </tools>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="CMC_EMPsword_sevenstars"]/statBases</xpath>
+    <value>
+      <Bulk>8</Bulk>
+      <MeleeCounterParryBonus>1.4</MeleeCounterParryBonus>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="CMC_EMPsword_sevenstars"]/equippedStatOffsets</xpath>
+    <value>
+      <MeleeCritChance>4.8</MeleeCritChance>
+      <MeleeParryChance>1.8</MeleeParryChance>
+      <MeleeDodgeChance>1.2</MeleeDodgeChance>
+    </value>
+  </Operation>
+
+  <!--唐刀-->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TangDao"]/tools</xpath>
+    <value>
+      <tools>
+        <li Class="CombatExtended.ToolCE">
+          <label>edge</label>
+          <capacities>
+            <li>Cut</li>
+          </capacities>
+          <power>58</power>
+          <cooldownTime>1</cooldownTime>
+          <armorPenetrationBlunt>50</armorPenetrationBlunt>
+          <armorPenetrationSharp>30</armorPenetrationSharp>
+        </li>
+      </tools>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="TangDao"]/statBases</xpath>
+    <value>
+      <Bulk>8</Bulk>
+      <MeleeCounterParryBonus>0.4</MeleeCounterParryBonus>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="TangDao"]/equippedStatOffsets</xpath>
+    <value>
+      <MeleeCritChance>0.8</MeleeCritChance>
+      <MeleeParryChance>0.4</MeleeParryChance>
+      <MeleeDodgeChance>0.4</MeleeDodgeChance>
+    </value>
+  </Operation>
+
+  <!--DX-01「睚眦」共振单分子刃-->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TangDao_A"]/tools</xpath>
+    <value>
+      <tools>
+        <li Class="CombatExtended.ToolCE">
+          <label>edge</label>
+          <capacities>
+            <li>Cut</li>
+          </capacities>
+          <power>36</power>
+          <cooldownTime>1</cooldownTime>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>4</amount>
+            </li>
+          </extraMeleeDamages>
+          <armorPenetrationBlunt>60</armorPenetrationBlunt>
+          <armorPenetrationSharp>36</armorPenetrationSharp>
+        </li>
+      </tools>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="TangDao_A"]/statBases</xpath>
+    <value>
+      <Bulk>8</Bulk>
+      <MeleeCounterParryBonus>0.4</MeleeCounterParryBonus>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="TangDao_A"]/equippedStatOffsets</xpath>
+    <value>
+      <MeleeCritChance>0.9</MeleeCritChance>
+      <MeleeParryChance>0.5</MeleeParryChance>
+      <MeleeDodgeChance>0.5</MeleeDodgeChance>
+    </value>
+  </Operation>
+
+  <!--DX-04「螭吻」等离子刃-->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TangDao_B"]/tools</xpath>
+    <value>
+      <tools>
+        <li Class="CombatExtended.ToolCE">
+          <label>edge</label>
+          <capacities>
+            <li>Cut</li>
+          </capacities>
+          <power>40</power>
+          <cooldownTime>1.1</cooldownTime>
+          <extraMeleeDamages>
+            <li>
+              <def>InfernoBeam</def>
+              <amount>8</amount>
+            </li>
+          </extraMeleeDamages>
+          <armorPenetrationBlunt>100</armorPenetrationBlunt>
+          <armorPenetrationSharp>54</armorPenetrationSharp>
+        </li>
+      </tools>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="TangDao_B"]/statBases</xpath>
+    <value>
+      <Bulk>8</Bulk>
+      <MeleeCounterParryBonus>0.5</MeleeCounterParryBonus>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="TangDao_B"]/equippedStatOffsets</xpath>
+    <value>
+      <MeleeCritChance>0.9</MeleeCritChance>
+      <MeleeParryChance>0.5</MeleeParryChance>
+      <MeleeDodgeChance>0.5</MeleeDodgeChance>
+    </value>
+  </Operation>
+
+  <!--唐刀Δ-->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TangDaoPersona"]/tools</xpath>
+    <value>
+      <tools>
+        <li Class="CombatExtended.ToolCE">
+          <label>edge</label>
+          <capacities>
+            <li>Cut</li>
+          </capacities>
+          <power>80</power>
+          <cooldownTime>0.6</cooldownTime>
+          <armorPenetrationBlunt>200</armorPenetrationBlunt>
+          <armorPenetrationSharp>80</armorPenetrationSharp>
+        </li>
+      </tools>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="TangDaoPersona"]/statBases</xpath>
+    <value>
+      <Bulk>8</Bulk>
+      <MeleeCounterParryBonus>1.1</MeleeCounterParryBonus>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="TangDaoPersona"]/equippedStatOffsets</xpath>
+    <value>
+      <MeleeCritChance>2.5</MeleeCritChance>
+      <MeleeParryChance>1.1</MeleeParryChance>
+      <MeleeDodgeChance>1.1</MeleeDodgeChance>
+    </value>
+  </Operation>
+
+</Patch>

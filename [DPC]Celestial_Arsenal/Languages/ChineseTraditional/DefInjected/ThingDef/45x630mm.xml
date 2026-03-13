@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: CMC_Ammo_45x630mm APDS-EMP -->
+  <Ammo_CMC_Ammo_45x630mm_APDS-EMP.label>TODO</Ammo_CMC_Ammo_45x630mm_APDS-EMP.label>
+  <!-- EN: High caliber EM-shell
+\n\n脱壳穿甲弹:
+\n当发射时轻金属套环脱落而钨合金弹芯继续飞向目标，极大地提高装甲穿透能力。
+\n\n使用者: -->
+  <Ammo_CMC_Ammo_45x630mm_APDS-EMP.description>TODO</Ammo_CMC_Ammo_45x630mm_APDS-EMP.description>
+  
+  <!-- EN: CMC_Ammo_45x630mm APHE -->
+  <Ammo_CMC_Ammo_45x630mm_APHE.label>TODO</Ammo_CMC_Ammo_45x630mm_APHE.label>
+  <!-- EN: High caliber EM-shell
+\n\n高爆弹:
+\n钢质外壳内填装高爆炸药与引信。炸药被引信引爆后，炸裂的外壳变成许多高温锐利的破片以高速四散。
+\n\n使用者: -->
+  <Ammo_CMC_Ammo_45x630mm_APHE.description>TODO</Ammo_CMC_Ammo_45x630mm_APHE.description>
+  
+  <!-- EN: bullet -->
+  <Bullet_CMC_Ammo_45x630mm_APDS-EMP.label>TODO</Bullet_CMC_Ammo_45x630mm_APDS-EMP.label>
+  
+  <!-- EN: bullet -->
+  <Bullet_CMC_Ammo_45x630mm_APHE.label>TODO</Bullet_CMC_Ammo_45x630mm_APHE.label>
+  
+</LanguageData>

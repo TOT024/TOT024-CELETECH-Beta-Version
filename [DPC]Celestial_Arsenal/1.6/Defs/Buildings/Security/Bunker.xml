@@ -1,0 +1,694 @@
+<Defs>
+	<ThingDef ParentName="BuildingBase">
+		<defName>CMC_ReinforcedBunker</defName>
+		<label>pop-up HMG bastion</label>
+		<thingClass>TOT_DLL_test.Building_Bunker</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<tickerType>Normal</tickerType>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<description>A subterranean bastion cloaked in neutron-charged plating, impervious to directed energy weapons including plasma cannons. When health drops below 25% or it is one holdfire mode, it descends for repairs - consuming 50 steel and quadruple power every 10 seconds to restore 100 HP. Though its suppressive fire lacks precision, the tortoise-shell armor renders it nigh indestructible against frontal assaults.</description>
+		<uiIconPath>Things/Buildings/BunkerB_Display</uiIconPath>
+		<graphicData>
+			<texPath>Things/Buildings/Bunker_New_Base</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4.8,4.8)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<size>(3,3)</size>
+		<statBases>
+			<MaxHitPoints>10000</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<ShootingAccuracyTurret>0.87</ShootingAccuracyTurret>
+			<WorkToBuild>12000</WorkToBuild>
+		</statBases>
+		<killedLeavings>
+			<ChunkSlagSteel>2</ChunkSlagSteel>
+			<Steel>60</Steel>
+		</killedLeavings>
+		<costList>
+			<Steel>800</Steel>
+			<Plasteel>150</Plasteel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Uranium>120</Uranium>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Refuelable">
+				<fuelLabel>Shots until barrel change</fuelLabel>
+				<fuelGizmoLabel>Barrel durability</fuelGizmoLabel>
+				<outOfFuelMessage>Needs new barrel</outOfFuelMessage>
+				<fuelFilter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</fuelFilter>
+				<fuelCapacity>2000</fuelCapacity>
+				<fuelMultiplier>10</fuelMultiplier>
+				<initialFuelPercent>1</initialFuelPercent>
+				<autoRefuelPercent>0.8</autoRefuelPercent>
+				<showFuelGizmo>true</showFuelGizmo>
+				<minimumFueledThreshold>1</minimumFueledThreshold>
+				<factorByDifficulty>true</factorByDifficulty>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+			</li>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>CMC_FCradar</li>
+				</linkableFacilities>
+			</li>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>200</basePowerConsumption>
+			</li>
+			<li Class="TOT_DLL_test.CompProperties_TurretLifter">
+				<texturePath>Things/Buildings/Bunker_New_LiftB</texturePath>
+				<doorLeftTexturePath>Things/Buildings/Bunker_Left</doorLeftTexturePath>
+				<doorRightTexturePath>Things/Buildings/Bunker_Right</doorRightTexturePath>
+				<ticksToFull>600</ticksToFull>
+				<textureScale>(2.5, 2.5)</textureScale>
+				<drawOffset>(0, 0, -1.2)</drawOffset>
+				<doorSize>(2.65,2.65)</doorSize>
+				<doorOffset>(0, 0, 0)</doorOffset>
+				<yOffset>0.05</yOffset>
+				<gunSize>(5.33, 5.33)</gunSize>
+				<barrelSize>(5.33, 5.33)</barrelSize>
+				<barrelExtensionDist>0</barrelExtensionDist>
+				<gunTopTexturePath>Things/CMC_Void</gunTopTexturePath>
+				<gunBarrelTexturePath>Things/CMC_Void</gunBarrelTexturePath>
+			</li>
+		</comps>
+		<damageMultipliers>
+			<li>
+				<damageDef>Arrow</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+			<li>
+				<damageDef>Vaporize</damageDef>
+				<multiplier>0.5</multiplier>
+			</li>
+			<li>
+				<damageDef>EMP</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+			<li>
+				<damageDef>Stun</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+		</damageMultipliers>
+		<building>
+			<turretGunDef>Gun_BunkerHMG</turretGunDef>
+			<turretTopDrawSize>1.2</turretTopDrawSize>
+			<turretBurstCooldownTime>1.5</turretBurstCooldownTime>
+		</building>
+		<researchPrerequisites>
+			<li>CMCGunTurretsbasic</li>
+		</researchPrerequisites>
+		<designationCategory>CMC_DefensenProduction</designationCategory>
+		<placeWorkers>
+			<li>PlaceWorker_BandNode</li>
+		</placeWorkers>
+		<modExtensions>
+			<li Class="TOT_DLL_test.TurretExtension_CMC">
+				<rotationSpeed>1</rotationSpeed>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<ThingDef ParentName="BaseWeaponTurret">
+		<defName>Gun_BunkerHMG</defName>
+		<label>charged heavy machine gun(hidden)</label>
+		<description>An auto charged HMG equipped in the bunker, nightmare for light infantry.</description>
+		<graphicData>
+			<texPath>Things/CMC_Void</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.8,1.8)</drawSize>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.98</AccuracyTouch>
+			<AccuracyShort>0.62</AccuracyShort>
+			<AccuracyMedium>0.46</AccuracyMedium>
+			<AccuracyLong>0.35</AccuracyLong>
+			<RangedWeapon_Cooldown>0</RangedWeapon_Cooldown>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Mass>70</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<weaponTags Inherit = "False">
+			<li>Weapon_CMCf</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<defaultProjectile>Bullet_HMG_API</defaultProjectile>
+				<warmupTime>0</warmupTime>
+				<range>31.9</range>
+				<burstShotCount>18</burstShotCount>
+				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+				<soundCast>ChargeLance_Fire</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>33</muzzleFlashScale>
+				<consumeFuelPerShot>1</consumeFuelPerShot>
+			</li>
+		</verbs>
+	</ThingDef>
+	<ThingDef ParentName="BuildingBase">
+		<defName>CMC_ReinforcedBunker_R</defName>
+		<label>Pop-up Twin HMG Turret</label>
+		<thingClass>TOT_DLL_test.Building_Bunker</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<tickerType>Normal</tickerType>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<description>test</description>
+		<uiIconPath>Things/Buildings/BunkerA_Display</uiIconPath>
+		<graphicData>
+			<texPath>Things/Buildings/Bunker_New_Base</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4.8,4.8)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<size>(3,3)</size>
+		<statBases>
+			<MaxHitPoints>10000</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<ShootingAccuracyTurret>0.87</ShootingAccuracyTurret>
+			<WorkToBuild>12000</WorkToBuild>
+		</statBases>
+		<killedLeavings>
+			<ChunkSlagSteel>2</ChunkSlagSteel>
+			<Steel>60</Steel>
+		</killedLeavings>
+		<costList>
+			<Steel>500</Steel>
+			<Plasteel>50</Plasteel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Uranium>20</Uranium>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Refuelable">
+				<fuelLabel>Shots until barrel change</fuelLabel>
+				<fuelGizmoLabel>Barrel durability</fuelGizmoLabel>
+				<outOfFuelMessage>Needs new barrel</outOfFuelMessage>
+				<fuelFilter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</fuelFilter>
+				<fuelCapacity>2000</fuelCapacity>
+				<fuelMultiplier>10</fuelMultiplier>
+				<initialFuelPercent>1</initialFuelPercent>
+				<autoRefuelPercent>0.8</autoRefuelPercent>
+				<showFuelGizmo>true</showFuelGizmo>
+				<minimumFueledThreshold>1</minimumFueledThreshold>
+				<factorByDifficulty>true</factorByDifficulty>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+			</li>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>CMC_FCradar</li>
+				</linkableFacilities>
+			</li>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>200</basePowerConsumption>
+			</li>
+			<li Class="TOT_DLL_test.CompProperties_TurretLifter">
+				<texturePath>Things/Buildings/Bunker_New_Lift</texturePath>
+				<doorLeftTexturePath>Things/Buildings/Bunker_Left</doorLeftTexturePath>
+				<doorRightTexturePath>Things/Buildings/Bunker_Right</doorRightTexturePath>
+				<ticksToFull>600</ticksToFull>
+				<textureScale>(2.5, 2.5)</textureScale>
+				<drawOffset>(0, 0, -1.2)</drawOffset>
+				<doorSize>(2.65,2.65)</doorSize>
+				<doorOffset>(0, 0, 0)</doorOffset>
+				<yOffset>0.05</yOffset>
+				<gunSize>(5.33, 5.33)</gunSize>
+				<barrelSize>(5.33, 5.33)</barrelSize>
+				<barrelExtensionDist>0.25</barrelExtensionDist>
+				<gunTopTexturePath>Things/Buildings/CMC_BunkerLifter_Top</gunTopTexturePath>
+				<gunBarrelTexturePath>Things/Buildings/CMC_BunkerLifter_Barrel</gunBarrelTexturePath>
+			</li>
+			<li Class="TOT_DLL_test.CompProperties_DrawTurretBarrel">
+				<BarrelTexture>
+					<texPath>Things/Buildings/CMC_BunkerLifter_Barrel</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(5.33,5.33)</drawSize>
+				</BarrelTexture>
+				<OverHeatTexture>
+					<texPath>Things/Buildings/CMC_BunkerLifter_OH</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<shaderType>MoteGlow</shaderType>
+					<drawSize>(5.33,5.33)</drawSize>
+				</OverHeatTexture>
+				<totalTicks>60</totalTicks>
+				<rapidPhase>10</rapidPhase>
+				<holdPhase>12</holdPhase>
+				<maxRecoil>0.2</maxRecoil>
+				<TurretOffset>(0,-0.23,0.25)</TurretOffset>
+				<smokeChance>0</smokeChance>
+				<smokeSize>0.20</smokeSize>
+				<smokeDuration>18</smokeDuration>
+				<MuzzleOffset>(0,0,1.35)</MuzzleOffset>
+				<smokeFleck>CMC_Fleck_SmokeMuzzle</smokeFleck>
+				<SoundReloading>Sound_CannonReloading_Rail_Small</SoundReloading>
+				<SideSmokde>false</SideSmokde>
+			</li>
+		</comps>
+		<damageMultipliers>
+			<li>
+				<damageDef>Arrow</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+			<li>
+				<damageDef>Vaporize</damageDef>
+				<multiplier>0.5</multiplier>
+			</li>
+			<li>
+				<damageDef>EMP</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+			<li>
+				<damageDef>Stun</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+		</damageMultipliers>
+		<building>
+			<turretGunDef>Gun_BunkerHMG_R</turretGunDef>
+			<turretTopDrawSize>5.332</turretTopDrawSize>
+			<turretBurstCooldownTime>1.0</turretBurstCooldownTime>
+		</building>
+		<researchPrerequisites>
+			<li>CMCGunTurretsbasic</li>
+		</researchPrerequisites>
+		<designationCategory>CMC_DefensenProduction</designationCategory>
+		<placeWorkers>
+			<li>PlaceWorker_BandNode</li>
+		</placeWorkers>
+		<modExtensions>
+			<li Class="TOT_DLL_test.TurretExtension_CMC">
+				<rotationSpeed>1</rotationSpeed>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<ThingDef ParentName="BuildingBase">
+		<defName>CMC_ReinforcedBunkerAGS_R</defName>
+		<label>Pop-up AGS Turret</label>
+		<thingClass>TOT_DLL_test.Building_Bunker</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<tickerType>Normal</tickerType>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<description>test</description>
+		<graphicData>
+			<texPath>Things/Buildings/Bunker_New_Base</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4.8,4.8)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<size>(3,3)</size>
+		<statBases>
+			<MaxHitPoints>10000</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<ShootingAccuracyTurret>0.87</ShootingAccuracyTurret>
+			<WorkToBuild>12000</WorkToBuild>
+		</statBases>
+		<killedLeavings>
+			<ChunkSlagSteel>2</ChunkSlagSteel>
+			<Steel>60</Steel>
+		</killedLeavings>
+		<costList>
+			<Steel>500</Steel>
+			<Plasteel>50</Plasteel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Uranium>20</Uranium>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Refuelable">
+				<fuelLabel>Shots until barrel change</fuelLabel>
+				<fuelGizmoLabel>Barrel durability</fuelGizmoLabel>
+				<outOfFuelMessage>Needs new barrel</outOfFuelMessage>
+				<fuelFilter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</fuelFilter>
+				<fuelCapacity>2000</fuelCapacity>
+				<fuelMultiplier>10</fuelMultiplier>
+				<initialFuelPercent>1</initialFuelPercent>
+				<autoRefuelPercent>0.8</autoRefuelPercent>
+				<showFuelGizmo>true</showFuelGizmo>
+				<minimumFueledThreshold>1</minimumFueledThreshold>
+				<factorByDifficulty>true</factorByDifficulty>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+			</li>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>200</basePowerConsumption>
+			</li>
+			<li Class="TOT_DLL_test.CompProperties_TurretLifter">
+				<texturePath>Things/Buildings/Bunker_New_Lift</texturePath>
+				<doorLeftTexturePath>Things/Buildings/Bunker_Left</doorLeftTexturePath>
+				<doorRightTexturePath>Things/Buildings/Bunker_Right</doorRightTexturePath>
+				<ticksToFull>600</ticksToFull>
+				<textureScale>(2.5, 2.5)</textureScale>
+				<drawOffset>(0, 0, -1.2)</drawOffset>
+				<doorSize>(2.65,2.65)</doorSize>
+				<doorOffset>(0, 0, 0)</doorOffset>
+				<yOffset>0.05</yOffset>
+				<gunSize>(5.33, 5.33)</gunSize>
+				<barrelSize>(5.33, 5.33)</barrelSize>
+				<barrelExtensionDist>0.25</barrelExtensionDist>
+				<gunTopTexturePath>Things/Buildings/CMC_BunkerLifterAGS_Top</gunTopTexturePath>
+				<gunBarrelTexturePath>Things/Buildings/CMC_BunkerLifterAGS_TopBarrel</gunBarrelTexturePath>
+			</li>
+			<li Class="TOT_DLL_test.CompProperties_DrawTurretBarrel">
+				<BarrelTexture>
+					<texPath>Things/Buildings/CMC_BunkerLifterAGS_TopBarrel</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(5.33,5.33)</drawSize>
+				</BarrelTexture>
+				<OverHeatTexture>
+					<texPath>Things/CMC_Void</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<shaderType>MoteGlow</shaderType>
+					<drawSize>(5.33,5.33)</drawSize>
+				</OverHeatTexture>
+				<totalTicks>60</totalTicks>
+				<rapidPhase>10</rapidPhase>
+				<holdPhase>12</holdPhase>
+				<maxRecoil>0.2</maxRecoil>
+				<TurretOffset>(0,-0.23,0.25)</TurretOffset>
+				<smokeChance>0</smokeChance>
+				<smokeSize>0.20</smokeSize>
+				<smokeDuration>18</smokeDuration>
+				<MuzzleOffset>(0,0,1.35)</MuzzleOffset>
+				<smokeFleck>CMC_Fleck_SmokeMuzzle</smokeFleck>
+				<SoundReloading>Sound_CannonReloading_Rail_Small</SoundReloading>
+				<SideSmokde>false</SideSmokde>
+			</li>
+		</comps>
+		<damageMultipliers>
+			<li>
+				<damageDef>Arrow</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+			<li>
+				<damageDef>Vaporize</damageDef>
+				<multiplier>0.5</multiplier>
+			</li>
+			<li>
+				<damageDef>EMP</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+			<li>
+				<damageDef>Stun</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+		</damageMultipliers>
+		<building>
+			<turretGunDef>Gun_BunkerAGS_R</turretGunDef>
+			<turretTopDrawSize>5.332</turretTopDrawSize>
+			<turretBurstCooldownTime>1.0</turretBurstCooldownTime>
+		</building>
+		<researchPrerequisites>
+			<li>CMCGunTurretsbasic</li>
+		</researchPrerequisites>
+		<designationCategory>CMC_DefensenProduction</designationCategory>
+		<placeWorkers>
+			<li>PlaceWorker_BandNode</li>
+		</placeWorkers>
+		<modExtensions>
+			<li Class="TOT_DLL_test.TurretExtension_CMC">
+				<rotationSpeed>1</rotationSpeed>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<ThingDef ParentName="BaseWeaponTurret">
+		<defName>Gun_BunkerHMG_R</defName>
+		<label>EM-HMG</label>
+		<description>An auto HMG equipped on a turret.</description>
+		<graphicData>
+			<texPath>Things/Buildings/CMC_BunkerLifter_Top</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.8,1.8)</drawSize>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.98</AccuracyTouch>
+			<AccuracyShort>0.62</AccuracyShort>
+			<AccuracyMedium>0.46</AccuracyMedium>
+			<AccuracyLong>0.35</AccuracyLong>
+			<RangedWeapon_Cooldown>0</RangedWeapon_Cooldown>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Mass>70</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<weaponTags Inherit = "False">
+			<li>Weapon_CMCf</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<defaultProjectile>Bullet_HMG_API</defaultProjectile>
+				<warmupTime>0</warmupTime>
+				<range>36.9</range>
+				<burstShotCount>8</burstShotCount>
+				<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+				<soundCast>ChargeLance_Fire</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>33</muzzleFlashScale>
+				<consumeFuelPerShot>1</consumeFuelPerShot>
+			</li>
+		</verbs>
+	</ThingDef>
+	<ThingDef ParentName="BaseWeaponTurret">
+		<defName>Gun_BunkerAGS_R</defName>
+		<label>EM-AGS</label>
+		<description>An EM-AGS equipped on a turret.</description>
+		<graphicData>
+			<texPath>Things/Buildings/CMC_BunkerLifterAGS_Top</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.8,1.8)</drawSize>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.98</AccuracyTouch>
+			<AccuracyShort>0.62</AccuracyShort>
+			<AccuracyMedium>0.46</AccuracyMedium>
+			<AccuracyLong>0.35</AccuracyLong>
+			<RangedWeapon_Cooldown>0</RangedWeapon_Cooldown>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Mass>70</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<weaponTags Inherit = "False">
+			<li>Weapon_CMCf</li>
+		</weaponTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<defaultProjectile>CMC_40mmGrenade</defaultProjectile>
+				<warmupTime>0</warmupTime>
+				<range>36.9</range>
+				<minRange>7.9</minRange>
+				<forcedMissRadius>1.9</forcedMissRadius>
+				<burstShotCount>4</burstShotCount>
+				<ticksBetweenBurstShots>14</ticksBetweenBurstShots>
+				<soundCast>ChargeLance_Fire</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>33</muzzleFlashScale>
+				<consumeFuelPerShot>1</consumeFuelPerShot>
+			</li>
+		</verbs>
+	</ThingDef>
+	<ThingDef ParentName="BuildingBase" MayRequire="Ludeon.RimWorld.Anomaly">
+		<defName>CMC_ReinforcedBunker_Fire</defName>
+		<label>"Xuanwu Abyssal"flame bastion</label>
+		<thingClass>TOT_DLL_test.Building_Bunker</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<tickerType>Normal</tickerType>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<description>A subterranean bastion cloaked in neutron-charged plating, impervious to directed energy weapons including plasma cannons. When health drops below 25% or it is one holdfire mode, it descends for repairs - consuming 50 steel and quadruple power every 10 seconds to restore 100 HP. Though its suppressive fire lacks precision, the tortoise-shell armor renders it nigh indestructible against frontal assaults.</description>
+		<uiIconPath>Things/Buildings/BunkerFlame_Display</uiIconPath>
+		<graphicData>
+			<texPath>Things/Buildings/Bunker_New_Base</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4.8,4.8)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<size>(3,3)</size>
+		<statBases>
+			<MaxHitPoints>10000</MaxHitPoints>
+			<Flammability>0</Flammability>
+			<ShootingAccuracyTurret>0.87</ShootingAccuracyTurret>
+			<WorkToBuild>12000</WorkToBuild>
+		</statBases>
+		<killedLeavings>
+			<ChunkSlagSteel>2</ChunkSlagSteel>
+			<Steel>60</Steel>
+		</killedLeavings>
+		<costList>
+			<Steel>500</Steel>
+			<Plasteel>50</Plasteel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Uranium>20</Uranium>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>720</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Refuelable">
+				<fuelLabel>Shots until barrel change</fuelLabel>
+				<fuelGizmoLabel>Storage</fuelGizmoLabel>
+				<outOfFuelMessage>Needs steel</outOfFuelMessage>
+				<fuelFilter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</fuelFilter>
+				<fuelCapacity>500</fuelCapacity>
+				<fuelMultiplier>10</fuelMultiplier>
+				<initialFuelPercent>1</initialFuelPercent>
+				<autoRefuelPercent>0.8</autoRefuelPercent>
+				<showFuelGizmo>true</showFuelGizmo>
+				<minimumFueledThreshold>1</minimumFueledThreshold>
+				<factorByDifficulty>true</factorByDifficulty>
+				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+				<fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+			</li>
+			<li Class="TOT_DLL_test.CompProperties_TurretLifter">
+				<texturePath>Things/Buildings/Bunker_New_LiftFlame</texturePath>
+				<doorLeftTexturePath>Things/Buildings/Bunker_Left</doorLeftTexturePath>
+				<doorRightTexturePath>Things/Buildings/Bunker_Right</doorRightTexturePath>
+				<ticksToFull>600</ticksToFull>
+				<textureScale>(2.5, 2.5)</textureScale>
+				<drawOffset>(0, 0, -1.2)</drawOffset>
+				<doorSize>(2.65,2.65)</doorSize>
+				<doorOffset>(0, 0, 0)</doorOffset>
+				<yOffset>0.05</yOffset>
+				<gunSize>(5.33, 5.33)</gunSize>
+				<barrelSize>(5.33, 5.33)</barrelSize>
+				<barrelExtensionDist>0</barrelExtensionDist>
+				<gunTopTexturePath>Things/CMC_Void</gunTopTexturePath>
+				<gunBarrelTexturePath>Things/CMC_Void</gunBarrelTexturePath>
+			</li>
+		</comps>
+		<damageMultipliers>
+			<li>
+				<damageDef>Flame</damageDef>
+				<multiplier>0</multiplier>
+			</li>
+			<li>
+				<damageDef>Vaporize</damageDef>
+				<multiplier>0.5</multiplier>
+			</li>
+		</damageMultipliers>
+		<building>
+			<turretGunDef>Gun_Bunker_Fireblaster</turretGunDef>
+			<turretTopDrawSize>1.2</turretTopDrawSize>
+			<turretBurstCooldownTime>0.1</turretBurstCooldownTime>
+		</building>
+		<researchPrerequisites>
+			<li>CMCGunTurretsbasic</li>
+		</researchPrerequisites>
+		<designationCategory>CMC_DefensenProduction</designationCategory>
+		<placeWorkers>
+			<li>PlaceWorker_BandNode</li>
+		</placeWorkers>
+		<modExtensions>
+			<li Class="TOT_DLL_test.TurretExtension_CMC">
+				<rotationSpeed>25</rotationSpeed>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<ThingDef ParentName="BaseWeaponTurret" MayRequire="Ludeon.RimWorld.Anomaly">
+		<defName>Gun_Bunker_Fireblaster</defName>
+		<label>charged heavy machine gun(hidden)</label>
+		<description>An auto charged HMG equipped in the bunker, nightmare for light infantry.</description>
+		<graphicData>
+			<texPath>Things/CMC_Void</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.8,1.8)</drawSize>
+		</graphicData>
+		<statBases>
+			<AccuracyTouch>0.98</AccuracyTouch>
+			<AccuracyShort>0.62</AccuracyShort>
+			<AccuracyMedium>0.46</AccuracyMedium>
+			<AccuracyLong>0.35</AccuracyLong>
+			<RangedWeapon_Cooldown>0</RangedWeapon_Cooldown>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Mass>70</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<weaponTags Inherit = "False">
+			<li>Weapon_CMCf</li>
+		</weaponTags>
+		<verbs>
+			<li Class="TOT_DLL_test.VerbProp_Flame">
+				<verbClass>TOT_DLL_test.Verb_PlasmaIncinerator</verbClass>
+				<MotedDef>CMC_Mote_IncineratorBurstWeak</MotedDef>
+				<hasStandardCommand>true</hasStandardCommand>
+				<warmupTime>0.33</warmupTime>
+				<range>21</range>
+				<beamFullWidthRange>7</beamFullWidthRange>
+				<burstShotCount>40</burstShotCount>
+				<showBurstShotStats>false</showBurstShotStats>
+				<requireLineOfSight>true</requireLineOfSight>
+				<beamWidth>4</beamWidth>
+				<ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+				<beamDamageDef>CMC_Vaporize_Plasma</beamDamageDef>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>0</muzzleFlashScale>
+				<soundCastBeam>Flamethrower_Firing</soundCastBeam>
+				<beamGroundFleckDef>Fleck_IncineratorBeamBurn</beamGroundFleckDef>
+				<beamFleckChancePerTick>0.8</beamFleckChancePerTick>
+				<beamMaxDeviation>0.5</beamMaxDeviation>
+				<beamCurvature>0</beamCurvature>
+				<beamEndEffecterDef>IncineratorBeam_End</beamEndEffecterDef>
+				<beamChanceToStartFire>1</beamChanceToStartFire>
+				<beamFireSizeRange>0.85~0.95</beamFireSizeRange>
+				<beamStartOffset>.5</beamStartOffset>
+				<beamHitsNeighborCells>true</beamHitsNeighborCells>
+				<beamCantHitWithinMinRange>true</beamCantHitWithinMinRange>
+				<beamHitsNeighborCellsRequiresLOS>true</beamHitsNeighborCellsRequiresLOS>
+				<beamSetsGroundOnFire>true</beamSetsGroundOnFire>
+				<ai_BeamIsIncendiary>false</ai_BeamIsIncendiary>
+				<beamLineFleckDef>CMC_PulsingDistortionRing</beamLineFleckDef>
+				<highlightColor>(0, 255, 255)</highlightColor>
+				<secondaryHighlightColor>(255, 255, 255)</secondaryHighlightColor>
+				<beamLineFleckChanceCurve>
+					<points>
+						<li>(0, 0)</li>
+						<li>(0.65, 0.02)</li>
+						<li>(1, .5)</li>
+					</points>
+				</beamLineFleckChanceCurve>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<flammabilityAttachFireChanceCurve>
+					<points>
+						<li>(0.6, 0)</li>
+						<li>(0.7, 0.2)</li>
+						<li>(1.2, 0.8)</li>
+					</points>
+				</flammabilityAttachFireChanceCurve>
+				<rangedFireRulepack>Combat_RangedFlamethrower</rangedFireRulepack>
+			</li>
+		</verbs>
+	</ThingDef>
+</Defs>

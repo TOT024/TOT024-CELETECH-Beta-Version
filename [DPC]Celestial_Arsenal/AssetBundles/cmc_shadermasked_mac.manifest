@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.0f1
+CRC: 1730347071
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 75ce7b942c4f5fedd84b7a0335407b0a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 235cbca85ccdf28f10f6ab4fde453a14
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 25fa63e780245e8aa0ff87660a515b8a
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/TOT.CeleTech.MKIII/Materials/Map/UniversalCamoShader_ApparelMasked.shader
+Dependencies: []

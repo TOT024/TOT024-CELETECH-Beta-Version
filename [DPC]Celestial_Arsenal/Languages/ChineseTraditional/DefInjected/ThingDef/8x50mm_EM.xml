@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 8x50mm Electromagnetic (AP) -->
+  <Ammo_8x50mmElectromagnetic_AP.label>TODO</Ammo_8x50mmElectromagnetic_AP.label>
+  <!-- EN: High power electromagnetic projectile ammunition used by advanced railgun battle rifles, machineguns and sniper rifles.
+\n\nEM-rail(AP/EMP):
+\nElectromagnetic rail-launched armor-piercing round, capable of both hard and soft kill. Penetrates heavy armor and releases EMP to disable electronics.
+\n\n使用者: -->
+  <Ammo_8x50mmElectromagnetic_AP.description>TODO</Ammo_8x50mmElectromagnetic_AP.description>
+  
+  <!-- EN: 8x50mm Electromagnetic (Ion) -->
+  <Ammo_8x50mmElectromagnetic_Ion.label>TODO</Ammo_8x50mmElectromagnetic_Ion.label>
+  <!-- EN: High power electromagnetic projectile ammunition used by advanced railgun battle rifles, machineguns and sniper rifles.
+\n\nEM-rail(Ion):
+\nElectromagnetic rail-launched ion round, disrupts target integrity and electronics through ionization, highly effective against shields.
+\n\n使用者: -->
+  <Ammo_8x50mmElectromagnetic_Ion.description>TODO</Ammo_8x50mmElectromagnetic_Ion.description>
+  
+  <!-- EN: 8x50mm Electromagnetic projectile (AP) -->
+  <Bullet_8x50mmElectromagnetic_AP.label>TODO</Bullet_8x50mmElectromagnetic_AP.label>
+  
+  <!-- EN: 8x50mm Electromagnetic projectile (Ion) -->
+  <Bullet_8x50mmElectromagnetic_Ion.label>TODO</Bullet_8x50mmElectromagnetic_Ion.label>
+  
+</LanguageData>

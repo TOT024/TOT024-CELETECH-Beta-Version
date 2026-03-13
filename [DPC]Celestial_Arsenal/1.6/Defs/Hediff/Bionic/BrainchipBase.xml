@@ -1,0 +1,32 @@
+<Defs>
+  <ThingDef Name="BodyPartProstheticCMCBase" ParentName="BodyPartBase" Abstract="True">
+    <techLevel>Spacer</techLevel>
+    <thingCategories>
+      <li>BodyPartsProsthetic</li>
+    </thingCategories>
+	<statBases>
+		<WorkToMake>60000</WorkToMake>
+		<MarketValue>6000</MarketValue>
+		<Mass>0.2</Mass>
+	</statBases>
+    <graphicData>
+        <texPath>Things/Others/CMCChip</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>1.60</drawSize>
+    </graphicData>
+    <recipeMaker>
+		<researchPrerequisite>CMCBio</researchPrerequisite>
+        <displayPriority>600</displayPriority>
+	    <unfinishedThingDef>CMC_UnfinisheChip</unfinishedThingDef>
+	    <recipeUsers>
+			<li>CMC_TableMachining</li>		
+		</recipeUsers>
+    </recipeMaker>
+	<techHediffsTags>
+      <li>CMC</li>
+    </techHediffsTags>
+	<thingSetMakerTags>
+      <li>RewardStandardLowFreq</li>
+    </thingSetMakerTags>
+  </ThingDef>
+</Defs>

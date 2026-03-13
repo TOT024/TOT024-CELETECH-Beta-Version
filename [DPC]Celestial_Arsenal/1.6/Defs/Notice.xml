@@ -1,0 +1,9 @@
+<Defs>
+    <Notice.NoticeDef>
+        <defName>CMC_Update_12312025</defName>
+        <label>CELETECH 2025/12/31-2026/1/1 EMERGENCY Update Notice</label>
+        <description>HAPPY NEW YEAR!\n\nNew Features:\nAdded a trade/airstrike/point shop window.\nFloating Gun/Funnel System Rework.\nNew Weapon Accesory System(recently only available for some weapons).\nNew Weapon Skin System(recently only available for some weapons).\nAdded new research related to bullet penetration.\n\nBug Fixes:\nFixed an issue with cross-map shelling.\nFixed turret height issues in CE and various other weapon bugs.\nFixed sound effect issues for laser weapons.\nFixed XML issues for certain buildings.\nFixed an issue where Air Conditioners would sometimes fail to work.\nFixed an issue where weapons dealt incorrect multiplied damage or inflicted damage even when intercepted by shields.\nFixed incorrect landing behavior of Trade Shuttles.\n\nOptimizations and Adjustments:\nOptimized turret targeting logic and performance; optimized turret animations.\nOptimized weapon rendering, as well as dynamic projectile textures and trails in Vanilla.\nOptimized Anti-Air system performance and interception efficiency.\nOptimized some weapon textures (remaining textures are still in progress).\nBullet damage and penetration in CE are now calculated based on CE formulas.\n\nEMERGENCY BUG FIX on 12/31:\nFixed statworker for existing saves.\nFixed a problem that piercing/homing projectiles are not dealing damage.\nAdded hyperlinks and more information in weapon/accessory/funnel hauler infor panles.\nFixed sound sustainer error caused by laser weapons.\n\nFor existing saves: Please destroy turrets before updating, or download the previous version from GitHub.</description>
+        <key>20251231</key>
+    </Notice.NoticeDef>
+	
+</Defs>

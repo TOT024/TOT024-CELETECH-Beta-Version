@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 8x50mm MTSmart ATB -->
+  <Ammo_8x50mmMTSmart_ATB.label>TODO</Ammo_8x50mmMTSmart_ATB.label>
+  <!-- EN: 8x50mm multi-task smart ammo by CeleTech
+\n\n麻醉弹:
+\n利用弹体内的麻醉剂控制有生目标的神经和肌肉,使其暂时失去抵抗能力。
+\n\n使用者: -->
+  <Ammo_8x50mmMTSmart_ATB.description>TODO</Ammo_8x50mmMTSmart_ATB.description>
+  
+  <!-- EN: 8x50mmMTSmart HE -->
+  <Ammo_8x50mmMTSmart_HE.label>TODO</Ammo_8x50mmMTSmart_HE.label>
+  <!-- EN: 8x50mm multi-task smart ammo by CeleTech
+\n\n高爆弹:
+\n钢质外壳内填装高爆炸药与引信。炸药被引信引爆后，炸裂的外壳变成许多高温锐利的破片以高速四散。
+\n\n使用者: -->
+  <Ammo_8x50mmMTSmart_HE.description>TODO</Ammo_8x50mmMTSmart_HE.description>
+  
+  <!-- EN: 8x50mmMTSmart R -->
+  <Ammo_8x50mmMTSmart_Regular.label>TODO</Ammo_8x50mmMTSmart_Regular.label>
+  <!-- EN: 8x50mm multi-task smart ammo by CeleTech
+\n\nHoming-AP/EMP:
+\nHoming armor-piercing round with trajectory adjustment capability for precision hits, combined with EMP effect for dual damage.
+\n\n使用者: -->
+  <Ammo_8x50mmMTSmart_Regular.description>TODO</Ammo_8x50mmMTSmart_Regular.description>
+  
+  <!-- EN: bullet -->
+  <Bullet_8x50mmMTSmart_ATB.label>TODO</Bullet_8x50mmMTSmart_ATB.label>
+  
+  <!-- EN: bullet -->
+  <Bullet_8x50mmMTSmart_HE.label>TODO</Bullet_8x50mmMTSmart_HE.label>
+  
+  <!-- EN: bullet -->
+  <Bullet_8x50mmMTSmart_Regular.label>TODO</Bullet_8x50mmMTSmart_Regular.label>
+  
+</LanguageData>

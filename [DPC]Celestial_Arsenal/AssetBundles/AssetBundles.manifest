@@ -1,0 +1,15 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.0f1
+CRC: 1318198390
+HashAppended: 0
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: cmc_shader_mac
+      Dependencies: {}
+    Info_1:
+      Name: cmc_shadermasked_mac
+      Dependencies: {}
+    Info_2:
+      Name: cmc_shaderpulse_mac
+      Dependencies: {}

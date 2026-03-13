@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CMC_ZGRangedShieldBelt_MKI"]/statBases/EnergyShieldRechargeRate</xpath>
+    <value>
+        <EnergyShieldRechargeRate>5</EnergyShieldRechargeRate>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CMC_ZGRangedShieldBelt_MKI"]/statBases/EnergyShieldEnergyMax</xpath>
+    <value>
+        <EnergyShieldEnergyMax>3</EnergyShieldEnergyMax>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="CMC_ZGRangedShieldBelt_MKI"]</xpath>
+    <value>
+      <equippedStatOffsets>
+        <Suppressability>-1</Suppressability>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+
+</Patch>

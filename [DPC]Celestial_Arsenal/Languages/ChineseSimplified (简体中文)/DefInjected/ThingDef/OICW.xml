@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: QTS-214 OICW -->
+  <QBZ71_QS.label>QTS-214 OICW</QBZ71_QS.label>
+  <!-- EN: An individual weapon system that accomodates a grenade launcher, an assault rifle and an advanced balistic computer. -->
+  <QBZ71_QS.description>单兵作战武器系统，集成了单发榴弹和大口径电磁步枪。</QBZ71_QS.description>
+  <!-- EN: Using grenade launcher to fire stun grenades that incapables enemy. -->
+  <QBZ71_QS.comps.CompSecondaryVerb_Rework.description>在步枪和榴弹发射器间切换</QBZ71_QS.comps.CompSecondaryVerb_Rework.description>
+  <!-- EN: rifle -->
+  <QBZ71_QS.comps.CompSecondaryVerb_Rework.mainWeaponLabel>使用步枪</QBZ71_QS.comps.CompSecondaryVerb_Rework.mainWeaponLabel>
+  <!-- EN: grenade -->
+  <QBZ71_QS.comps.CompSecondaryVerb_Rework.secondaryWeaponLabel>使用榴弹发射器</QBZ71_QS.comps.CompSecondaryVerb_Rework.secondaryWeaponLabel>
+  <!-- EN: stock -->
+  <QBZ71_QS.tools.stock.label>枪托</QBZ71_QS.tools.stock.label>
+  <!-- EN: barrel -->
+  <QBZ71_QS.tools.barrel.label>枪管</QBZ71_QS.tools.barrel.label>
+  <!-- EN: QTS-214 OICW -->
+  <QBZ71_QS.verbs.Verb_Shoot.label>QTS-214 OICW</QBZ71_QS.verbs.Verb_Shoot.label>
+  
+  <!-- EN: QTS-301 OICW -->
+  <QTS9_OICW.label>QTS-301 OICW</QTS9_OICW.label>
+  <!-- EN: An advanced integrated individual combat weapon system. By dynamically adjusting the rail spacing, it can switch between two firing modes: firing large-caliber electromagnetic rounds for suppressive fire at close to medium range, or switching to micro guided rockets for precision strikes on distant targets, allowing it to flexibly adapt to any combat situation. -->
+  <QTS9_OICW.description>先进的集成式单兵作战武器系统。通过动态调整磁轨间距可在两种射击模式间切换：发射大口径电磁弹进行中近距离压制射击，或切换为微型制导火箭弹精确打击远距离目标，可以灵活应对任何战况。</QTS9_OICW.description>
+  <!-- EN: Fire MGR/rifle -->
+  <QTS9_OICW.comps.CompSecondaryVerb_Rework.description>在步枪和导弹发射器间切换</QTS9_OICW.comps.CompSecondaryVerb_Rework.description>
+  <!-- EN: rifle -->
+  <QTS9_OICW.comps.CompSecondaryVerb_Rework.mainWeaponLabel>使用步枪</QTS9_OICW.comps.CompSecondaryVerb_Rework.mainWeaponLabel>
+  <!-- EN: MGR -->
+  <QTS9_OICW.comps.CompSecondaryVerb_Rework.secondaryWeaponLabel>使用导弹</QTS9_OICW.comps.CompSecondaryVerb_Rework.secondaryWeaponLabel>
+  <!-- EN: stock -->
+  <QTS9_OICW.tools.stock.label>枪托</QTS9_OICW.tools.stock.label>
+  <!-- EN: barrel -->
+  <QTS9_OICW.tools.barrel.label>枪管</QTS9_OICW.tools.barrel.label>
+  <!-- EN: QTS-301 OICW -->
+  <QTS9_OICW.verbs.Verb_Shoot.label>QTS-301 OICW</QTS9_OICW.verbs.Verb_Shoot.label>
+  
+</LanguageData>

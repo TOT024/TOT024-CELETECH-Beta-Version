@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: cargo crate -->
+  <CMC_CargoCrateIncoming.label>TODO</CMC_CargoCrateIncoming.label>
+  
+  <!-- EN: delivery airplane -->
+  <CMC_DeliveryAirplane.label>TODO</CMC_DeliveryAirplane.label>
+  
+  <!-- EN: fighter jet -->
+  <CMC_FighterJet.label>TODO</CMC_FighterJet.label>
+  
+  <!-- EN: fighter jet -->
+  <CMC_FighterJetB.label>TODO</CMC_FighterJetB.label>
+  
+  <!-- EN: fighter jet -->
+  <CMC_FighterJetC.label>TODO</CMC_FighterJetC.label>
+  
+  <!-- EN: fighter jet -->
+  <CMC_FighterJetD.label>TODO</CMC_FighterJetD.label>
+  
+  <!-- EN: skill pawnsaver dummy -->
+  <CMC_SkillDummy.label>TODO</CMC_SkillDummy.label>
+  
+</LanguageData>

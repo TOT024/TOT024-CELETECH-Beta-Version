@@ -1,0 +1,128 @@
+<Defs>
+
+  <TraitDef>
+    <defName>CMC_CloneTraitCommon</defName>
+    <commonality>0</commonality> <degreeDatas>
+      <li>
+        <label>&lt;color=#E7DDFF&gt;CeleTech-Bio Standard Clone&lt;/color&gt;</label>
+        <description>This unit is a mass-produced model from CeleTech-Bio Biotechnology. Imprinted with the memories of disciplined volunteers, it possesses stable mental faculties and enhanced metabolic efficiency. The basic neural dampening suppresses minor personality flaws.</description>
+        <statOffsets>
+          <MoveSpeed>0.20</MoveSpeed>
+          <ToxicResistance>0.10</ToxicResistance>
+          <MentalBreakThreshold>-0.04</MentalBreakThreshold> </statOffsets>
+        <statFactors>
+          <ShootingAccuracyPawn>1.05</ShootingAccuracyPawn>
+          <WorkSpeedGlobal>1.05</WorkSpeedGlobal>
+        </statFactors>
+        <marketValueFactorOffset>0.20</marketValueFactorOffset>
+      </li>
+    </degreeDatas>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <conflictingTraits>
+      <li>Wimp</li> <li>Brawler</li>
+    </conflictingTraits>
+  </TraitDef>
+  
+  <TraitDef>
+    <defName>CMC_CloneTraitRare</defName>
+    <commonality>0</commonality>
+    <degreeDatas>
+      <li>
+        <label>&lt;color=#5DE2E7&gt;CeleTech-Bio Elite Clone&lt;/color&gt;</label>
+        <description>A refined genetic sequence from the CeleTech-Bio production line. This unit carries the memory engrams of veteran officers, granting superior reflexes and focus. Its genetic screening has eliminated common physical and psychological weaknesses.</description>
+        <statOffsets>
+          <MoveSpeed>0.40</MoveSpeed>
+          <AimingDelayFactor>-0.10</AimingDelayFactor>        
+          <ToxicResistance>0.20</ToxicResistance>
+          <MentalBreakThreshold>-0.08</MentalBreakThreshold>
+        </statOffsets>
+        <statFactors>
+          <ShootingAccuracyPawn>1.10</ShootingAccuracyPawn>
+          <WorkSpeedGlobal>1.15</WorkSpeedGlobal>
+        </statFactors>
+        <marketValueFactorOffset>0.50</marketValueFactorOffset>
+      </li>
+    </degreeDatas>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <conflictingTraits>
+      <li>Wimp</li>
+      <li>Delicate</li>
+      <li>SlowLearner</li> <li>Brawler</li>
+    </conflictingTraits>
+  </TraitDef>
+  
+  <TraitDef>
+    <defName>CMC_CloneTraitEpic</defName>
+    <commonality>0</commonality>
+    <degreeDatas>
+      <li>
+        <label>&lt;color=#CC6CE7&gt;CeleTech-Bio Cyber-Vanguard&lt;/color&gt;</label>
+        <description>An experimental combat model designed by CeleTech-Bio Biotech. Integrated with a pre-installed Combat Chip and imprinted with special forces memories, this unit is a weapon of war. The neural override suppresses fear and fragility.</description>
+        <statOffsets>
+          <MoveSpeed>0.60</MoveSpeed>
+          <AimingDelayFactor>-0.20</AimingDelayFactor>        
+          <ToxicResistance>0.35</ToxicResistance>
+          <PainShockThreshold>0.15</PainShockThreshold> <MeleeDodgeChance>10</MeleeDodgeChance> </statOffsets>
+        <statFactors>
+          <ShootingAccuracyPawn>1.20</ShootingAccuracyPawn>
+          <WorkSpeedGlobal>1.25</WorkSpeedGlobal>
+          <IncomingDamageFactor>0.9</IncomingDamageFactor> </statFactors>
+        <marketValueFactorOffset>1.0</marketValueFactorOffset>
+      </li>
+    </degreeDatas>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <conflictingTraits>
+      <li>Wimp</li>
+      <li>Delicate</li>
+      
+      
+	  <li>Brawler</li>
+    </conflictingTraits>
+  </TraitDef>
+  
+  <TraitDef>
+    <defName>CMC_CloneTraitLeng</defName>
+    <commonality>0</commonality>
+    <degreeDatas>
+      <li>
+        <label>&lt;color=#FFDE59&gt;CeleTech-Bio Psylink Prime&lt;/color&gt;</label>
+        <description>The pinnacle of CeleTech-Bio biotechnology. This masterpiece features a fully adapted "Revelation" neural network, capable of channeling psychic entropy. Imprinted with the memories of legendary heroes, it is physically perfect and mentally unbreakable. All significant character flaws have been genetically purged.</description>
+        <statOffsets>
+          <MoveSpeed>1.0</MoveSpeed>
+          <AimingDelayFactor>-0.35</AimingDelayFactor>        
+          <ToxicResistance>0.50</ToxicResistance>
+          <PsychicSensitivity>0.50</PsychicSensitivity>
+		  <PsychicEntropyRecoveryRate>0.2</PsychicEntropyRecoveryRate>
+          <MentalBreakThreshold>-0.20</MentalBreakThreshold>
+        </statOffsets>
+        <statFactors>
+          <ShootingAccuracyPawn>1.40</ShootingAccuracyPawn>
+          <WorkSpeedGlobal>1.50</WorkSpeedGlobal>
+          <IncomingDamageFactor>0.75</IncomingDamageFactor>
+        </statFactors>
+        <marketValueFactorOffset>3.0</marketValueFactorOffset>
+      </li>
+    </degreeDatas>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <conflictingTraits>
+      <li>Wimp</li>
+      <li>Delicate</li>
+      
+      
+      <li>Pyromaniac</li>
+      <li>Gourmand</li>
+      
+      
+	  <li>Brawler</li>
+    </conflictingTraits>
+  </TraitDef>
+
+</Defs>

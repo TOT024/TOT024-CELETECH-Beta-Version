@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 30x390mm Electromagnetic APDS -->
+  <Ammo_CMC_30x390mm_APDS.label>TODO</Ammo_CMC_30x390mm_APDS.label>
+  <!-- EN: TODO
+\n\n磁轨穿甲弹:
+\n当发射时轻金属套环脱落而钨合金弹芯继续飞向目标，极大地提高装甲穿透能力。
+\n\n使用者: -->
+  <Ammo_CMC_30x390mm_APDS.description>TODO</Ammo_CMC_30x390mm_APDS.description>
+  
+  <!-- EN: bullet -->
+  <Bullet_CMC_30x390mm_APDS.label>TODO</Bullet_CMC_30x390mm_APDS.label>
+  
+</LanguageData>

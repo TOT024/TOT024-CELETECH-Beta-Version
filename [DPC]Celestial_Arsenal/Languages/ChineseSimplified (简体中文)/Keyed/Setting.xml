@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!-- EN: <color=#FFD456>CeleTech</color> -->
+  <Setting_CMCName>&lt;color=#FFD456>天工铸造&lt;/color></Setting_CMCName>
+    <!-- EN: Setting:Combat -->
+  <Setting_CMC>设置：战斗</Setting_CMC>
+	<!-- EN: Setting:Trade -->
+  <Setting_label1_CMC2>设置：贸易</Setting_label1_CMC2>
+	<!-- EN: Setting:Misc -->
+  <Setting_CMC3>TODO</Setting_CMC3>
+	<!-- EN: C.A.G. point multiplier -->
+  <CMC_TradePointFactorLabel>信用点获取倍率</CMC_TradePointFactorLabel>
+	<!-- EN: Affects points obtained when trading with merchant shuttles. -->
+  <CMC_TradePointFactorDesc>影响贸易时获得的信用点倍率。</CMC_TradePointFactorDesc>
+    <!-- EN: Non-player characters are in possession of CeleTech heavy weapons(eg.ATGM launcher) -->
+  <Setting1_CMC>非殖民者持有天工重型武器</Setting1_CMC>
+	<!-- EN: Non-player characters are in possession of CeleTech conventional light weapons -->
+  <Setting3_CMC>非殖民者持有天工常规轻武器</Setting3_CMC>
+	<!-- EN: Game numerical multiplier -->
+  <Setting_label1_CMC>游戏数值倍率</Setting_label1_CMC>
+	<!-- EN: Projectile damage multiplier -->
+  <Setting5_CMC>子弹伤害倍率</Setting5_CMC>
+	<!-- EN: Projectile damage -->
+  <Setting5_1_CMC>子弹伤害</Setting5_1_CMC>
+	<!-- EN: Projectile armor piercing multiplier -->
+  <Setting6_CMC>子弹穿甲倍率</Setting6_CMC>
+	<!-- EN: Projectile armor piercing -->
+  <Setting6_1_CMC>子弹穿甲率</Setting6_1_CMC>
+	<!-- EN: Projectile explosion radius multiplier -->
+  <Setting7_CMC>子弹爆炸范围倍率</Setting7_CMC>
+	<!-- EN: Projectile explosion radius -->
+  <Setting7_1_CMC>子弹爆炸范围</Setting7_1_CMC>
+	<!-- EN: Weapon cooldown piercing multiplier[The game needs to be restarted] -->
+  <Setting8_CMC>武器冷却倍率[重启游戏后生效]</Setting8_CMC>
+	<!-- EN: Weapon cooldown piercing[The game needs to be restarted] -->
+  <Setting8_1_CMC>武器冷却倍率[重启游戏后生效]</Setting8_1_CMC>
+	<!-- EN: Weapon warmupTime multiplier -->
+  <Setting9_CMC>武器预热倍率</Setting9_CMC>
+	<!-- EN: Weapon warmupTime -->
+  <Setting9_1_CMC>武器预热倍率</Setting9_1_CMC>
+	<!-- EN: Non-player characters are in possession of CeleTech heavy weapons -->
+  <Setting_D1_CMC>非殖民者持有天工重型武器</Setting_D1_CMC>
+	<!-- EN: Non-player characters are in possession of CeleTech conventional light weapons -->
+  <Setting_D3_CMC>非殖民者持有天工常规轻武器</Setting_D3_CMC>
+	<!-- EN: Funnel hauler layer -->
+  <Setting_FunnelbeltLayer_CMC>浮游炮层级切换</Setting_FunnelbeltLayer_CMC>
+  <!-- EN: On：use indepandent layer；Of：use belt layer(conflict with backpacks) -->
+  <Setting_D_FunnelbeltLayer_CMC>开启：使用独立层级；关闭：使用腰带层（与部分背包冲突）</Setting_D_FunnelbeltLayer_CMC>
+  <!-- EN: Reset All -->
+  <Setting_ResetAll_CMC>恢复所有默认值</Setting_ResetAll_CMC>
+  <!-- EN: Reset all settings to default value? -->
+  <Setting_ResetAll_Confirm_CMC>确定要恢复所有默认设置吗？</Setting_ResetAll_Confirm_CMC>
+  <!-- UNUSED -->
+  <Setting_label1_CMC3>设置：杂项</Setting_label1_CMC3>
+
+</LanguageData>

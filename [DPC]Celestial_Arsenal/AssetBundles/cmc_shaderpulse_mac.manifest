@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.0f1
+CRC: 1321442396
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 146b97476c2712f87b2296ea7093085c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 235cbca85ccdf28f10f6ab4fde453a14
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 1b49b189124669cc76b5dc6d8359fc59
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/TOT.CeleTech.MKIII/Materials/Map/ShaderAnimated_A.shader
+Dependencies: []

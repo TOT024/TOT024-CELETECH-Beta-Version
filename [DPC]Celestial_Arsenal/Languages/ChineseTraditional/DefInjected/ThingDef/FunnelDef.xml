@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: escort DEW -->
+  <Gun_CMCFunnel_LaserLMG.label>护卫定向能武器</Gun_CMCFunnel_LaserLMG.label>
+  <!-- EN: A miniaturized DEW compatible with armed floating platforms. -->
+  <Gun_CMCFunnel_LaserLMG.description>一种适配武装浮空平台的微型定向能武器。</Gun_CMCFunnel_LaserLMG.description>
+  <!-- EN: escort DEW -->
+  <Gun_CMCFunnel_LaserLMG.verbs.Verb_LaserInstantFunnel.label>护卫定向能武器</Gun_CMCFunnel_LaserLMG.verbs.Verb_LaserInstantFunnel.label>
+  
+  <!-- EN: escort DEW -->
+  <Gun_CMCFunnel_LaserLMG_B.label>护卫定向能武器</Gun_CMCFunnel_LaserLMG_B.label>
+  <!-- EN: A miniaturized DEW compatible with armed floating platforms. -->
+  <Gun_CMCFunnel_LaserLMG_B.description>一种适配武装浮空平台的微型定向能武器。</Gun_CMCFunnel_LaserLMG_B.description>
+  <!-- EN: escort DEW -->
+  <Gun_CMCFunnel_LaserLMG_B.verbs.Verb_LaserInstantFunnel.label>护卫定向能武器</Gun_CMCFunnel_LaserLMG_B.verbs.Verb_LaserInstantFunnel.label>
+  
+  <!-- EN: escort EM LMG -->
+  <GUN_FunnelEMLMG.label>护卫电磁轻机枪</GUN_FunnelEMLMG.label>
+  <!-- EN: A miniaturized LMG compatible with armed floating platforms. -->
+  <GUN_FunnelEMLMG.description>一种适配武装浮空平台的微型轻机枪。</GUN_FunnelEMLMG.description>
+  <!-- EN: escort EM LMG -->
+  <GUN_FunnelEMLMG.verbs.Verb_ShootDronePos.label>护卫电磁轻机枪</GUN_FunnelEMLMG.verbs.Verb_ShootDronePos.label>
+  
+  <!-- EN: escort EM sniper -->
+  <GUN_FunnelEMSniper.label>护卫电磁狙击枪</GUN_FunnelEMSniper.label>
+  <!-- EN: A miniaturized sniper compatible with armed floating platforms. -->
+  <GUN_FunnelEMSniper.description>一种适配武装浮空平台的微型狙击枪。</GUN_FunnelEMSniper.description>
+  <!-- EN: escort EM sniper -->
+  <GUN_FunnelEMSniper.verbs.Verb_ShootDronePos.label>护卫电磁狙击枪</GUN_FunnelEMSniper.verbs.Verb_ShootDronePos.label>
+  
+  <!-- EN: E.M.assault funnel -->
+  <TOT_Drone_Base.label>电磁突击浮游炮</TOT_Drone_Base.label>
+  <!-- EN: A mobile Funnel that guards its master and attacks designated targets. Its aggressive AI makes it a priority target for enemy fire. -->
+  <TOT_Drone_Base.description>一种可移动的浮游炮，能够保卫其主人并攻击指定目标。其激进的AI逻辑使其容易成为敌方火力的优先打击目标。</TOT_Drone_Base.description>
+  
+  <!-- EN: P.laser funnel -->
+  <TOT_Drone_Base_Laser.label>脉冲激光浮游炮</TOT_Drone_Base_Laser.label>
+  <!-- EN: A mobile Funnel that guards its master and attacks designated targets. Its aggressive AI makes it a priority target for enemy fire. -->
+  <TOT_Drone_Base_Laser.description>一种可移动的浮游炮，能够保卫其主人并攻击指定目标。其激进的AI逻辑使其容易成为敌方火力的优先打击目标。</TOT_Drone_Base_Laser.description>
+  
+  <!-- EN: P.laser funnel MKII -->
+  <TOT_Drone_Base_Laser_B.label>脉冲激光浮游炮 MKII</TOT_Drone_Base_Laser_B.label>
+  <!-- EN: A mobile Funnel that guards its master and attacks designated targets. Its aggressive AI makes it a priority target for enemy fire. -->
+  <TOT_Drone_Base_Laser_B.description>一种可移动的浮游炮，能够保卫其主人并攻击指定目标。其激进的AI逻辑使其容易成为敌方火力的优先打击目标。</TOT_Drone_Base_Laser_B.description>
+  
+  <!-- EN: E.M.sniper funnel -->
+  <TOT_Drone_Base_Sniper.label>电磁狙击浮游炮</TOT_Drone_Base_Sniper.label>
+  <!-- EN: A mobile Funnel that guards its master and attacks designated targets. Its aggressive AI makes it a priority target for enemy fire. -->
+  <TOT_Drone_Base_Sniper.description>一种可移动的浮游炮，能够保卫其主人并攻击指定目标。其激进的AI逻辑使其容易成为敌方火力的优先打击目标。</TOT_Drone_Base_Sniper.description>
+  
+</LanguageData>

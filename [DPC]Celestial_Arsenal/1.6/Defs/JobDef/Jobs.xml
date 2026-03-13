@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<JobDef>
+		<defName>CMCTS_TradeWithShip</defName>
+		<driverClass>TOT_DLL_test.JobDriver_TradewithCMCTS</driverClass>
+		<reportString>trading with TargetA.</reportString>
+	</JobDef>
+	
+	<JobDef>
+		<defName>CMC_ChangeFunnelConfig</defName>
+		<driverClass>TOT_DLL_test.JobDriver_ChageFunnelConf</driverClass>
+		<reportString>programming funnel on TargetA.</reportString>
+	</JobDef>
+
+    <JobDef>
+        <defName>InstallTurretAccessory</defName>
+        <driverClass>TOT_DLL_test.JobDriver_InstallAccessory</driverClass>
+        <reportString>installing accessory at TargetB.</reportString>
+        <alwaysShowWeapon>true</alwaysShowWeapon>
+    </JobDef>
+
+   <JobDef>
+		<defName>PlaceCarriedWeaponOnBench</defName>
+		<driverClass>TOT_DLL_test.JobDriver_PlaceCarriedWeaponOnBench</driverClass>
+		<reportString>Placing TargetA on TargetBă€‚</reportString>
+   </JobDef>
+
+</Defs>

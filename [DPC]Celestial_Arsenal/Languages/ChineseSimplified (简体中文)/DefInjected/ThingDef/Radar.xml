@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Kunlun Giant Radar Array -->
+  <CMC_CICAESA_Radar.label>「昆仑」巨型雷达阵列</CMC_CICAESA_Radar.label>
+  <!-- EN: A massive phased array radar installation that disrupts enemy precision targeting of the base while guiding friendly missiles for both anti-air and ground attacks.\n\nEffects upon construction:\n-Prevents enemy center drops.\n-Unlocks automatic firing for map-wide anti-tank missile turrets.\n-Guides map-wide anti-air missiles to actively intercept enemy explosive/ballistic projectiles.\n-Designates points of interest within a certain range to guide auto railgun strikes. -->
+  <CMC_CICAESA_Radar.description>巨大的相控阵雷达阵列，能干扰敌人对基地的精确定位，同时引导我方导弹对空和对地攻击。\n\n建造后效果：\n-防止敌军中心空投。\n-解锁全图反坦克导弹炮塔自动开火。\n-可引导全图防空导弹主动拦截敌军爆炸/高弹道投射物\n-可照射一定范围内的据点并引导轨道炮攻击。</CMC_CICAESA_Radar.description>
+  
+  <!-- EN: Emei Shipborne Quad-Phased Array Radar -->
+  <CMC_CICAESA_Radar_Small.label>「峨眉」舰载四面相控阵雷达</CMC_CICAESA_Radar_Small.label>
+  <!-- EN: A miniaturized phased array radar that guides friendly missiles for anti-air and ground attacks, requiring significant power consumption.\n\nEffects upon construction:\n-Unlocks automatic firing for map-wide anti-tank missile turrets.\n-Guides map-wide anti-air missiles to actively intercept enemy explosive/ballistic projectiles.\n-Designates points of interest within a certain range to guide orbital strikes. -->
+  <CMC_CICAESA_Radar_Small.description>小型化的相控阵雷达，能引导我方导弹对空和对地攻击，需要消耗大量电力。\n\n建造后效果：\n-解锁全图反坦克导弹炮塔自动开火。\n-可引导全图防空导弹主动拦截敌军爆炸/高弹道投射物\n-可照射一定范围内的据点并引导轨道炮攻击。</CMC_CICAESA_Radar_Small.description>
+  
+  <!-- EN: Taihang Fire Control Radar -->
+  <CMC_FCradar.label>「太行」火控雷达</CMC_FCradar.label>
+  <!-- EN: A dual-faced active phased array radar that provides data link support to surrounding turrets, significantly improving their firing accuracy. -->
+  <CMC_FCradar.description>双面有源相控阵雷达，能为周围的炮塔提供数据链支持，大幅提高其射击精度。</CMC_FCradar.description>
+  
+</LanguageData>

@@ -1,0 +1,131 @@
+<Defs>
+   <ThingDef ParentName="BuildingBase">
+       <defName>TradeInfoConsole</defName>
+       <label>trade console</label>
+       <description>.</description>
+       <thingClass>TOT_DLL_test.Building_TradeConsole</thingClass>
+       <uiIconPath>Things/Buildings/HologramTC_UI</uiIconPath>
+       <graphicData>
+           <texPath>Things/Buildings/HoloTradeConsole</texPath>
+           <graphicClass>Graphic_Multi</graphicClass>
+           <drawSize>(2.4, 1.6)</drawSize>
+           <damageData>
+               <cornerTL>Damage/Corner</cornerTL>
+               <cornerTR>Damage/Corner</cornerTR>
+               <cornerBL>Damage/Corner</cornerBL>
+               <cornerBR>Damage/Corner</cornerBR>
+           </damageData>
+       </graphicData>
+       <altitudeLayer>Building</altitudeLayer>
+       <passability>PassThroughOnly</passability>
+       <pathCost>50</pathCost>
+       <statBases>
+           <MaxHitPoints>80</MaxHitPoints>
+           <WorkToBuild>4000</WorkToBuild>
+           <Flammability>1.0</Flammability>
+           <Mass>20</Mass>
+       </statBases>
+       <size>(2, 1)</size>
+       <costList>
+           <Steel>80</Steel>
+           <ComponentIndustrial>2</ComponentIndustrial>
+       </costList>
+       <designationCategory>CMC_DefensenProduction</designationCategory>
+       <tickerType>Normal</tickerType>
+       <drawerType>MapMeshAndRealTime</drawerType>
+       <comps>
+           <li Class="CompProperties_Power">
+               <compClass>CompPowerTrader</compClass>
+               <basePowerConsumption>200</basePowerConsumption>
+           </li>
+           <li Class="CompProperties_Flickable"/>
+           <li Class="CompProperties_Glower">
+               <glowRadius>3</glowRadius>
+               <glowColor>(10,255,255,1)</glowColor>
+               <colorPickerEnabled>true</colorPickerEnabled>
+               <darklightToggle>true</darklightToggle>
+           </li>
+           <li Class="TOT_DLL_test.CompProperties_BuildingDrawExtraFourRot">
+               <graphicDataExtra>
+                   <graphicClass>Graphic_Multi</graphicClass>
+                   <shaderType>TransparentPostLight</shaderType>
+                   <texPath>Things/Buildings/Hologram_TC</texPath>
+                   <drawSize>(3.8, 3.8)</drawSize>
+                   <drawOffsetSouth>(0,0,0.73)</drawOffsetSouth>
+                   <drawOffsetNorth>(0,0,0.73)</drawOffsetNorth>
+               </graphicDataExtra>
+               <ChangeColor>false</ChangeColor>
+           </li>
+       </comps>
+       <researchPrerequisites>
+           <li>MicroelectronicsBasics</li>
+       </researchPrerequisites>
+   </ThingDef>
+   <ThingDef ParentName="BuildingBase">
+       <defName>CMC_CommTower</defName>
+       <label>long-range quantum communication tower</label>
+       <description>An interstellar communication node based on quantum entanglement.Its "Heavenly Secret" Quantum Communication Core disregards planetary curvature and physical obstacles, instantly synchronizing information between planetary surfaces and deep space. This technology sustains communications among the Heavenly Industry Commerce League's orbital merchant ships, interstellar destroyers, and ground stations.\n\nOnce constructed, it enables communication with the CAG trade fleet to request dispatch of autonomous trade shuttles or purchase security services.</description>
+       <thingClass>TOT_DLL_test.Building_TradeConsole</thingClass>
+       <uiIconPath>Things/Buildings/CommTower_UI</uiIconPath>
+       <tickerType>Normal</tickerType>
+       <graphicData>
+           <texPath>Things/Buildings/CommTower</texPath>
+           <graphicClass>Graphic_Single</graphicClass>
+           <drawSize>(2,8)</drawSize>
+           <drawOffset>(0,1,2.85)</drawOffset>
+           <shadowData>
+               <volume>(0.3, 0.2, 0.3)</volume>
+               <offset>(0,0,-0.1)</offset>
+           </shadowData>
+           <damageData>
+               <rect>(0.2,0.2,0.6,0.6)</rect>
+           </damageData>
+       </graphicData>
+       <altitudeLayer>Building</altitudeLayer>
+       <statBases>
+           <MaxHitPoints>1500</MaxHitPoints>
+           <WorkToBuild>18000</WorkToBuild>
+           <Flammability>0.05</Flammability>
+       </statBases>
+       <size>(2,2)</size>
+       <drawerType>RealtimeOnly</drawerType>
+       <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+       <fillPercent>0.90</fillPercent>
+       <costList>
+           <Steel>160</Steel>
+           <ComponentIndustrial>2</ComponentIndustrial>
+       </costList>
+       <building>
+           <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+       </building>
+       <comps>
+           <li Class="CompProperties_Power">
+               <compClass>CompPowerTrader</compClass>
+               <basePowerConsumption>1000</basePowerConsumption>
+               <transmitsPower>true</transmitsPower>
+               <soundAmbientProducingPower>ScannerLongRangeMineral_Ambience</soundAmbientProducingPower>
+           </li>
+           <li Class="TOT_DLL_test.CompProperties_BuildingDrawExtraFourRot">
+               <graphicDataExtra>
+                   <graphicClass>Graphic_Multi</graphicClass>
+                   <shaderType>TransparentPostLight</shaderType>
+                   <texPath>Things/Buildings/CommTower_Light</texPath>
+                   <drawSize>(2,8)</drawSize>
+                   <drawOffset>(0,1.1,2.85)</drawOffset>
+               </graphicDataExtra>
+               <ChangeColor>false</ChangeColor>
+           </li>
+       </comps>
+       <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+       <designationCategory>CMC_DefensenProduction</designationCategory>
+       <rotatable>false</rotatable>
+       <passability>PassThroughOnly</passability>
+       <canOverlapZones>true</canOverlapZones>
+       <placeWorkers>
+           <li>PlaceWorker_NotUnderRoof</li>
+       </placeWorkers>
+       <researchPrerequisites>
+           <li>CMC_BasisTrade</li>
+       </researchPrerequisites>
+   </ThingDef>
+</Defs>

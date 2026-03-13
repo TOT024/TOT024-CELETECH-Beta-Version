@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: neutron pulse -->
+  <CMC_NeutronPluse.label>中子脉冲</CMC_NeutronPluse.label>
+  <!-- EN: The weapon releases a deadly pulse of accelerated neutrons.\n\nOnly cause damage to pawns. -->
+  <CMC_NeutronPluse.description>武器释放一道致命的加速中子脉冲。\n\n只对生物或机械单位造成伤害（不会损坏建筑）。</CMC_NeutronPluse.description>
+  
+  <!-- EN: shockwave -->
+  <CMC_ShockwavePush.label>震荡冲击</CMC_ShockwavePush.label>
+  <!-- EN: Releases a powerful shockwave that knocks back and stuns all nearby non-friendly units. Terrain obstacles will stop the knockback. -->
+  <CMC_ShockwavePush.description>释放一道强力的冲击波，击退并眩晕附近所有的非友方单位。地形障碍物会阻挡击退效果。</CMC_ShockwavePush.description>
+  
+  <!-- EN: Initiate Calibration Protocol -->
+  <CMC_UsePrecisionSkill.label>启动校准协议</CMC_UsePrecisionSkill.label>
+  <!-- EN: Activates the prism's remote control protocol. For a short duration, the weapon is guided directly by the fire control system, completely eliminating shooting spread. -->
+  <CMC_UsePrecisionSkill.description>激活棱镜的远程控制协议。在短时间内，武器将由火控系统直接引导，完全消除射击散布。</CMC_UsePrecisionSkill.description>
+  
+</LanguageData>

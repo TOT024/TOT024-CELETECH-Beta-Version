@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<Setting_CMCName>&lt;color=#FFD456>CeleTech&lt;/color></Setting_CMCName>
+    <Setting_CMC>Setting:Combat</Setting_CMC>
+	<Setting_label1_CMC2>Setting:Trade</Setting_label1_CMC2>
+	<Setting_CMC3>Setting:Misc</Setting_CMC3>
+	<CMC_TradePointFactorLabel>C.A.G. point multiplier</CMC_TradePointFactorLabel>
+	<CMC_TradePointFactorDesc>Affects points obtained when trading with merchant shuttles.</CMC_TradePointFactorDesc>
+    <Setting1_CMC>Non-player characters are in possession of CeleTech heavy weapons(eg.ATGM launcher)</Setting1_CMC>
+	<Setting3_CMC>Non-player characters are in possession of CeleTech conventional light weapons</Setting3_CMC>
+	<Setting_label1_CMC>Game numerical multiplier</Setting_label1_CMC>
+	<Setting5_CMC>Projectile damage multiplier</Setting5_CMC>
+	<Setting5_1_CMC>Projectile damage</Setting5_1_CMC>
+	<Setting6_CMC>Projectile armor piercing multiplier</Setting6_CMC>
+	<Setting6_1_CMC>Projectile armor piercing</Setting6_1_CMC>
+	<Setting7_CMC>Projectile explosion radius multiplier</Setting7_CMC>
+	<Setting7_1_CMC>Projectile explosion radius</Setting7_1_CMC>
+	<Setting8_CMC>Weapon cooldown piercing multiplier[The game needs to be restarted]</Setting8_CMC>
+	<Setting8_1_CMC>Weapon cooldown piercing[The game needs to be restarted]</Setting8_1_CMC>
+	<Setting9_CMC>Weapon warmupTime multiplier</Setting9_CMC>
+	<Setting9_1_CMC>Weapon warmupTime</Setting9_1_CMC>
+	<Setting_D1_CMC>Non-player characters are in possession of CeleTech heavy weapons</Setting_D1_CMC>
+	<Setting_D3_CMC>Non-player characters are in possession of CeleTech conventional light weapons</Setting_D3_CMC>
+	<Setting_FunnelbeltLayer_CMC>Funnel hauler layer</Setting_FunnelbeltLayer_CMC>
+  <Setting_D_FunnelbeltLayer_CMC>On：use indepandent layer；Of：use belt layer(conflict with backpacks)</Setting_D_FunnelbeltLayer_CMC>
+  <Setting_ResetAll_CMC>Reset All</Setting_ResetAll_CMC>
+  <Setting_ResetAll_Confirm_CMC>Reset all settings to default value?</Setting_ResetAll_Confirm_CMC>
+</LanguageData>
+

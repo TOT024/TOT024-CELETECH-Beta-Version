@@ -1,0 +1,201 @@
+<Defs>
+	<ThingDef ParentName="BuildingBase">
+		<defName>CMC_FCradar</defName>
+		<label>Taihang Fire Control Radar</label>
+		<description>A dual-faced active phased array radar that provides data link support to surrounding turrets, significantly improving their firing accuracy.</description>
+		<tickerType>Normal</tickerType>
+		<drawerType>RealtimeOnly</drawerType>
+		<fillPercent>0.8</fillPercent>
+		<graphicData>
+		  <texPath>Things/Buildings/CMC_FCradar</texPath>
+		  <graphicClass>Graphic_Single</graphicClass>
+		  <drawSize>(3.3,3.3)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<rotatable>false</rotatable>
+		<uiIconPath>Things/Buildings/CMC_Rader_UI</uiIconPath>
+		<building>
+		  <ai_chillDestination>true</ai_chillDestination>
+		  <buildingTags>
+			<li>Security</li>
+		  </buildingTags>
+		</building>
+		<constructionSkillPrerequisite>7</constructionSkillPrerequisite>
+		<designationCategory>CMC_DefensenProduction</designationCategory>
+		<uiOrder>2420</uiOrder>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+		  <li>BuildingsMisc</li>
+		</thingCategories>
+		<statBases>
+		  <MaxHitPoints>750</MaxHitPoints>
+		  <WorkToBuild>8000</WorkToBuild>
+		  <Mass>25</Mass>
+		  <Flammability>0.5</Flammability>
+		</statBases>
+		<killedLeavings>
+      <ChunkSlagSteel>3</ChunkSlagSteel>
+		</killedLeavings>	
+		<size>(2,2)</size>
+		<costList>
+		  <Steel>100</Steel>
+		  <Plasteel>80</Plasteel>
+          <ComponentIndustrial>4</ComponentIndustrial>
+	      <ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<researchPrerequisites>
+			<li>CMCGunTurrets</li>
+		</researchPrerequisites>
+		<comps>
+		  <li Class="CompProperties_Power">
+			<compClass>CompPowerTrader</compClass>
+			<basePowerConsumption>200</basePowerConsumption>
+		  </li>
+		  <li Class="TOT_DLL_test.CompProperties_FCradar"/>
+		  <li Class="CompProperties_Facility">
+			<statOffsets>
+			  <ShootingAccuracyTurret>0.25</ShootingAccuracyTurret>
+			</statOffsets>
+			<maxSimultaneous>1</maxSimultaneous>
+			<maxDistance>29</maxDistance>
+		  </li>
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    </ThingDef>
+	
+	<ThingDef ParentName="BuildingBase">
+    <defName>CMC_CICAESA_Radar</defName>
+	<thingClass>TOT_DLL_test.Building_AESARadar</thingClass>
+    <label>Kunlun Giant Radar Array</label>
+    <description>A massive phased array radar installation that disrupts enemy precision targeting of the base while guiding friendly missiles for both anti-air and ground attacks.\n\nEffects upon construction:\n-Prevents enemy center drops.\n-Unlocks automatic firing for map-wide anti-tank missile turrets.\n-Guides map-wide anti-air missiles to actively intercept enemy explosive/ballistic projectiles.\n-Designates points of interest within a certain range to guide auto railgun strikes.</description>
+    <size>(7,7)</size>
+	<uiIconPath>Things/Buildings/CMC_CICRadar_UI</uiIconPath>
+	<tickerType>Normal</tickerType>
+	<altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <stealable>false</stealable>
+    <fillPercent>1</fillPercent>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MaxHitPoints>3000</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <MarketValue>10000</MarketValue>
+      <WorkToBuild>399999</WorkToBuild>
+    </statBases>
+	<killedLeavings>
+      <ChunkSlagSteel>1</ChunkSlagSteel>
+    </killedLeavings>
+	<building>
+      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+	  <paintable>true</paintable>
+    </building>
+    <costList>
+      <Steel>3000</Steel>
+	  <Plasteel>2000</Plasteel>
+      <ComponentIndustrial>60</ComponentIndustrial>
+	  <ComponentSpacer>30</ComponentSpacer>
+	  <Silver>300</Silver>
+	  <Gold>50</Gold>
+    </costList>
+    <graphicData>
+      <texPath>Things/Buildings/CMC_CICRadar</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(12,12)</drawSize>
+	  <drawOffset>(0,1,0.25)</drawOffset>
+    </graphicData>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+	<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <designationCategory>CMC_DefensenProduction</designationCategory>
+    <uiOrder>2200</uiOrder>
+    <constructEffect>ConstructMetal</constructEffect>
+    <researchPrerequisites>
+      <li>CMCPowerII</li>
+	  <li>CMCGunTurrets</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>16</constructionSkillPrerequisite>
+	<comps>
+		<li Class="TOT_DLL_test.CompProperties_BuildingDrawExtraFourRot">
+			<graphicDataExtra>
+				<graphicClass>Graphic_Single</graphicClass>
+				<shaderType>TransparentPostLight</shaderType>
+				<texPath>Things/Buildings/CMC_CICRadar_Light</texPath>
+				<drawSize>(12, 12)</drawSize>
+				<drawOffset>(0,1.2,0.25)</drawOffset>
+			</graphicDataExtra>
+		</li>
+		<li Class="CompProperties_Power">
+			<compClass>CompPowerTrader</compClass>
+			<basePowerConsumption>8000</basePowerConsumption>
+		</li>
+	</comps>
+  </ThingDef>
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>CMC_CICAESA_Radar_Small</defName>
+	<thingClass>TOT_DLL_test.Building_AESARadar</thingClass>
+    <label>Emei Shipborne Quad-Phased Array Radar</label>
+    <description>A miniaturized phased array radar that guides friendly missiles for anti-air and ground attacks, requiring significant power consumption.\n\nEffects upon construction:\n-Unlocks automatic firing for map-wide anti-tank missile turrets.\n-Guides map-wide anti-air missiles to actively intercept enemy explosive/ballistic projectiles.\n-Designates points of interest within a certain range to guide orbital strikes.</description>
+    <size>(3,3)</size>
+	<uiIconPath>Things/Buildings/CMC_CICRadar_Mini_UI</uiIconPath>
+	<tickerType>Normal</tickerType>
+	<altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <stealable>false</stealable>
+	<rotatable>false</rotatable>
+    <fillPercent>1</fillPercent>
+    <statBases>
+      <MaxHitPoints>800</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <MarketValue>1000</MarketValue>
+      <WorkToBuild>19999</WorkToBuild>
+    </statBases>
+	<killedLeavings>
+      <ChunkSlagSteel>1</ChunkSlagSteel>
+    </killedLeavings>
+	<building>
+      <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+	  <paintable>true</paintable>
+    </building>
+    <costList>
+      <Steel>900</Steel>
+	  <Plasteel>1600</Plasteel>
+      <ComponentIndustrial>30</ComponentIndustrial>
+	  <ComponentSpacer>5</ComponentSpacer>
+    </costList>
+    <graphicData>
+      <texPath>Things/Buildings/CMC_CICRadar_Mini</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(5.46,5.46)</drawSize>
+	<drawOffset>(0,0,-0.1)</drawOffset>
+    </graphicData>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+	<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <designationCategory>CMC_DefensenProduction</designationCategory>
+    <uiOrder>2200</uiOrder>
+    <constructEffect>ConstructMetal</constructEffect>
+    <researchPrerequisites>
+	  <li>CMCGunTurrets</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>16</constructionSkillPrerequisite>
+	<comps>
+		<li Class="TOT_DLL_test.CompProperties_BuildingDrawExtraFourRot">
+			<graphicDataExtra>
+				<graphicClass>Graphic_Single</graphicClass>
+				<shaderType>TransparentPostLight</shaderType>
+				<texPath>Things/Buildings/CMC_CICRadar_Mini_Light</texPath>
+				<drawSize>(5.46,5.46)</drawSize>
+				<drawOffset>(0,0,-0.1)</drawOffset>
+			</graphicDataExtra>
+		</li>
+		<li Class="CompProperties_Power">
+			<compClass>CompPowerTrader</compClass>
+			<basePowerConsumption>16000</basePowerConsumption>
+		</li>
+	</comps>
+  </ThingDef>
+</Defs>

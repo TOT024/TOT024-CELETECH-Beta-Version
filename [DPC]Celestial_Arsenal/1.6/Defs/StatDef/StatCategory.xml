@@ -1,0 +1,8 @@
+<Defs>
+	<StatCategoryDef>
+		<defName>CMC_WeaponAccessory</defName>
+		<label>Weapon Accessory</label>
+		<displayOrder>45</displayOrder>
+		<displayAllByDefault>true</displayAllByDefault>
+	  </StatCategoryDef>
+</Defs>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: <color=#E7DDFF>CeleTech-Bio Standard Clone</color> -->
+  <CMC_CloneTraitCommon.degreeDatas.colorE7DDFFCeleTechBio_Standard_Clonecolor.label>&lt;color=#E7DDFF>天工标准克隆体&lt;/color></CMC_CloneTraitCommon.degreeDatas.colorE7DDFFCeleTechBio_Standard_Clonecolor.label>
+  <!-- EN: This unit is a mass-produced model from CeleTech-Bio Biotechnology. Imprinted with the memories of disciplined volunteers, it possesses stable mental faculties and enhanced metabolic efficiency. The basic neural dampening suppresses minor personality flaws. -->
+  <CMC_CloneTraitCommon.degreeDatas.colorE7DDFFCeleTechBio_Standard_Clonecolor.description>这是天工生物科技大规模生产的基础型号。通过植入纪律严明的志愿者记忆，该单位拥有稳定的心理素质和强化的代谢效率。基础的神经抑制系统压制了轻微的性格缺陷。</CMC_CloneTraitCommon.degreeDatas.colorE7DDFFCeleTechBio_Standard_Clonecolor.description>
+  
+  <!-- EN: <color=#CC6CE7>CeleTech-Bio Cyber-Vanguard</color> -->
+  <CMC_CloneTraitEpic.degreeDatas.colorCC6CE7CeleTechBio_CyberVanguardcolor.label>&lt;color=#CC6CE7>天工赛博先锋&lt;/color></CMC_CloneTraitEpic.degreeDatas.colorCC6CE7CeleTechBio_CyberVanguardcolor.label>
+  <!-- EN: An experimental combat model designed by CeleTech-Bio Biotech. Integrated with a pre-installed Combat Chip and imprinted with special forces memories, this unit is a weapon of war. The neural override suppresses fear and fragility. -->
+  <CMC_CloneTraitEpic.degreeDatas.colorCC6CE7CeleTechBio_CyberVanguardcolor.description>天工生物科技设计的实验性战斗型号。该单位在培养阶段即适配了战斗芯片，并植入了特种部队的作战记忆，是纯粹的战争兵器。神经覆盖程序彻底压制了恐惧与脆弱感。</CMC_CloneTraitEpic.degreeDatas.colorCC6CE7CeleTechBio_CyberVanguardcolor.description>
+  
+  <!-- EN: <color=#FFDE59>CeleTech-Bio Psylink Prime</color> -->
+  <CMC_CloneTraitLeng.degreeDatas.colorFFDE59CeleTechBio_Psylink_Primecolor.label>&lt;color=#FFDE59>天工启灵原型体&lt;/color></CMC_CloneTraitLeng.degreeDatas.colorFFDE59CeleTechBio_Psylink_Primecolor.label>
+  <!-- EN: The pinnacle of CeleTech-Bio biotechnology. This masterpiece features a fully adapted "Revelation" neural network, capable of channeling psychic entropy. Imprinted with the memories of legendary heroes, it is physically perfect and mentally unbreakable. All significant character flaws have been genetically purged. -->
+  <CMC_CloneTraitLeng.degreeDatas.colorFFDE59CeleTechBio_Psylink_Primecolor.description>天工生物技术的巅峰之作。这件杰作拥有完全适配的“启灵”神经网，能够自如地引导心灵熵。它植入了传说级英雄的记忆片段，拥有完美的生理机能和坚不可摧的心智。所有显著的性格缺陷均已被基因清洗技术彻底清除。</CMC_CloneTraitLeng.degreeDatas.colorFFDE59CeleTechBio_Psylink_Primecolor.description>
+  
+  <!-- EN: <color=#5DE2E7>CeleTech-Bio Elite Clone</color> -->
+  <CMC_CloneTraitRare.degreeDatas.color5DE2E7CeleTechBio_Elite_Clonecolor.label>&lt;color=#5DE2E7>天工精英克隆体&lt;/color></CMC_CloneTraitRare.degreeDatas.color5DE2E7CeleTechBio_Elite_Clonecolor.label>
+  <!-- EN: A refined genetic sequence from the CeleTech-Bio production line. This unit carries the memory engrams of veteran officers, granting superior reflexes and focus. Its genetic screening has eliminated common physical and psychological weaknesses. -->
+  <CMC_CloneTraitRare.degreeDatas.color5DE2E7CeleTechBio_Elite_Clonecolor.description>来自天工生产线的改良基因序列。该单位承载了资深军官的记忆印痕，赋予了其卓越的反应速度和专注力。严格的基因筛查剔除了常见的生理和心理弱点。</CMC_CloneTraitRare.degreeDatas.color5DE2E7CeleTechBio_Elite_Clonecolor.description>
+  
+</LanguageData>

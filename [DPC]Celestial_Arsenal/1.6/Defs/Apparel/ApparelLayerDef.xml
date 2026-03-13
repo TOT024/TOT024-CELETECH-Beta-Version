@@ -1,0 +1,7 @@
+<Defs>
+  <ApparelLayerDef>
+    <defName>TOT_FunnelContainer</defName>
+    <label>funnel backup</label>
+    <drawOrder>310</drawOrder>
+  </ApparelLayerDef>
+</Defs>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: accessory cabinet -->
+  <CMC_AccessoryCabinet.label>配件箱</CMC_AccessoryCabinet.label>
+  <!-- EN: A specialized high-tech cabinet designed to store weapon modification accessories. \n\nWhen placed within 12.9 tiles of a Weapon Modification Bench, accessories stored here can be directly installed onto weapons. -->
+  <CMC_AccessoryCabinet.description>收纳武器配件的特种工具箱，可供附近（12.9格内）的武器改造台使用。</CMC_AccessoryCabinet.description>
+  
+  <!-- EN: CMC facbrication bench -->
+  <CMC_FacBench.label>熔铸加工平台</CMC_FacBench.label>
+  <!-- EN: A multifunctional intelligent heavy-duty machine tools capable of manufacturing large components and missiles. -->
+  <CMC_FacBench.description>工业级重型锻造设备，整合高温等离子熔炉与三维成型技术，用于铸造导弹推进舱、复合装甲板等大型军用构件。</CMC_FacBench.description>
+  
+  <!-- EN: funnel programmer -->
+  <CMC_FunnelProgrammer.label>浮游炮编程终端</CMC_FunnelProgrammer.label>
+  <!-- EN: A quantum programmer used to implement combat AI for funnels, select a pawn with funnel hanger and right click to open funnel config menu. -->
+  <CMC_FunnelProgrammer.description>一种用于为浮游炮写入战斗AI的量子编程设备。选中装备了浮游炮挂架的殖民者并右键点击此终端，即可打开浮游炮配置菜单。</CMC_FunnelProgrammer.description>
+  
+  <!-- EN: CMC workbench -->
+  <CMC_TableMachining.label>纳米数控平台</CMC_TableMachining.label>
+  <!-- EN: A multifunctional intelligent CNC machine tools capable of manufacturing and processing precision weapon components. -->
+  <CMC_TableMachining.description>模块化智能数控机床，采用纳米级定位系统和自适应加工算法，可生产微型传感器、复合陶瓷枪管等精密武器组件。</CMC_TableMachining.description>
+  
+  <!-- EN: weapon modification bench -->
+  <CMC_WeaponModificationBench.label>武器改装台</CMC_WeaponModificationBench.label>
+  <!-- EN: . -->
+  <CMC_WeaponModificationBench.description>一个专用于对现有枪械进行定制化改造的工作台。配备了精密的校准仪器和配件接口工具，允许工匠调整武器参数或安装战术附件，以适应不同的作战需求。</CMC_WeaponModificationBench.description>
+  
+  <!-- EN: CMC cabinet -->
+  <CMCCabinet.label>CMC综合工具柜</CMCCabinet.label>
+  <!-- EN: . -->
+  <CMCCabinet.description>配套CMC系列工作台使用的模块化工具柜。收纳了各类高规格的维护工具、备用微芯片以及全息蓝图数据终端，能有效提升邻近工作台的作业效率。</CMCCabinet.description>
+  
+</LanguageData>

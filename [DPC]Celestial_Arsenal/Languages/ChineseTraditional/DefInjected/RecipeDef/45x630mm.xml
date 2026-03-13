@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: make CMC_Ammo_45x630mm APDS-EMP cartridge x50 -->
+  <MakeAmmo_CMC_Ammo_45x630mm_APDS-EMP.label>TODO</MakeAmmo_CMC_Ammo_45x630mm_APDS-EMP.label>
+  <!-- EN: Craft 50 CMC_Ammo_45x630mm APDS-EMP cartridges. -->
+  <MakeAmmo_CMC_Ammo_45x630mm_APDS-EMP.description>TODO</MakeAmmo_CMC_Ammo_45x630mm_APDS-EMP.description>
+  <!-- EN: Making CMC_Ammo_45x630mm APDS-EMP cartridges. -->
+  <MakeAmmo_CMC_Ammo_45x630mm_APDS-EMP.jobString>TODO</MakeAmmo_CMC_Ammo_45x630mm_APDS-EMP.jobString>
+  
+  <!-- EN: make CMC_Ammo_45x630mm HE cartridge x50 -->
+  <MakeAmmo_CMC_Ammo_45x630mm_APHE.label>TODO</MakeAmmo_CMC_Ammo_45x630mm_APHE.label>
+  <!-- EN: Craft 50 CMC_Ammo_45x630mm HE cartridges. -->
+  <MakeAmmo_CMC_Ammo_45x630mm_APHE.description>TODO</MakeAmmo_CMC_Ammo_45x630mm_APHE.description>
+  <!-- EN: Making CMC_Ammo_45x630mm HE cartridges. -->
+  <MakeAmmo_CMC_Ammo_45x630mm_APHE.jobString>TODO</MakeAmmo_CMC_Ammo_45x630mm_APHE.jobString>
+  
+</LanguageData>

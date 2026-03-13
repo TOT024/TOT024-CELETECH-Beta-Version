@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<CMC_GunColorPicker>change camo</CMC_GunColorPicker>
+	<CMC_GunColorPickerDesciption>You can customise CeleTech weapons' camouflage color by clicking a color and a pawn equipping a CeleTech gun as main weapon.\nsome weapons are not customisable.</CMC_GunColorPickerDesciption>
+	<MessageMustSelectCMCGun>select PAWN equipped with CeleTech weapon</MessageMustSelectCMCGun>
+	<CMC.ChangeSize>adjust shield size</CMC.ChangeSize>
+	<CMC.ChangeSizeDesc>adjust shield size</CMC.ChangeSizeDesc>
+	<CMC.ChangeSizeTitle>adjust shield size</CMC.ChangeSizeTitle>
+	<CMC.ChangeSizeDescription>current radius: {0}\nrange: 20 ~ 60 tiles</CMC.ChangeSizeDescription>
+	<CMC.ShieldSize>current radius: {0}\n</CMC.ShieldSize>
+	<Message_AESASetUp>The deployment of the "Kunlun" AESA radar is complete, and the anti-tank missile turret will gain automatic attack capability.</Message_AESASetUp>
+	<Message_Destroyed>The "Kunlun" AESA radar has been shut down, and the anti-tank missile turret will lose its automatic attack capability.</Message_Destroyed>
+	<StatEnergyWeaponDMG_Label>energy pulse damage</StatEnergyWeaponDMG_Label>
+	<StatEnergyWeaponDMG_Desc>{0}</StatEnergyWeaponDMG_Desc>
+	<StatEnergyWeaponDMG_Text>damage caused by an energy pulse:{0}\n</StatEnergyWeaponDMG_Text>
+	<StatEnergyWeaponAP_Label>energy pulse penetration</StatEnergyWeaponAP_Label>
+	<StatEnergyWeaponAP_Desc>{0}</StatEnergyWeaponAP_Desc>
+	<StatEnergyWeaponAP_Text>energy pulse penetration:{0}\n</StatEnergyWeaponAP_Text>
+	<StatEnergyWeaponDMG2_Label>extra damage</StatEnergyWeaponDMG2_Label>
+	<StatEnergyWeaponDMG2_Desc>{0}</StatEnergyWeaponDMG2_Desc>
+	<StatEnergyWeaponDMG2_Text>extra damage amount:{0}\n</StatEnergyWeaponDMG2_Text>
+	<StatEnergyWeaponAP2_Label>extra damage penetration</StatEnergyWeaponAP2_Label>
+	<StatEnergyWeaponAP2_Desc>{0}</StatEnergyWeaponAP2_Desc>
+	<StatEnergyWeaponAP2_Text>extra damage penetration:{0}\n</StatEnergyWeaponAP2_Text>
+	<StatEnergyWeaponDMG3Radius_Label>scatter radius</StatEnergyWeaponDMG3Radius_Label>
+	<StatEnergyWeaponDMG3Radius_Desc>{0}</StatEnergyWeaponDMG3Radius_Desc>
+	<StatEnergyWeaponDMG3Radius_Text>laser scatter radius:{0}</StatEnergyWeaponDMG3Radius_Text>
+	<StatShootNum_Label>salvo size</StatShootNum_Label>
+	<StatShootNum_Desc>{0}</StatShootNum_Desc>
+	<StatShootNum_Text>Salvo size of this mounted weapon is{0}, ammo consumption is also multiplies by this value.</StatShootNum_Text>
+	<Message_MissileLostTarget>A missile lost its intended target.</Message_MissileLostTarget>
+	<CMC_TradeShipName>Celestial Artisan Guild - UTS</CMC_TradeShipName>
+	<CMC_TradeShipCoolDown>//Call UTS cooldown:{0}//</CMC_TradeShipCoolDown>
+	<CMC_TraderShipsSendAway>send away</CMC_TraderShipsSendAway>
+	<CMC_TraderShipsSendAwayDesc>Send away unmaned-trader shuttle.</CMC_TraderShipsSendAwayDesc>
+	<CMC_LandingZoneBlocked>landing zone blocked:</CMC_LandingZoneBlocked>
+	<CMC_BlockedBy>landing zone is blocked by {0}</CMC_BlockedBy>
+	<Message_CMC_TraderLanded>UTS arrived, landing.</Message_CMC_TraderLanded>
+	<Message_CMC_TraderCantLanded>UTS is unable to land, leaving. You need at least one powered and cleared landing platform.</Message_CMC_TraderCantLanded>
+	<CMC_CallAuxTrader>call supply UTS</CMC_CallAuxTrader>
+	<CMC_CallArsTrader>call arsenal UTS</CMC_CallArsTrader>
+	<Message_CMC_TraderCD>On cooldown, {0} hours left.</Message_CMC_TraderCD>
+	<Stat_CMCDMGDrange_Label>attenuation distance</Stat_CMCDMGDrange_Label>
+	<Stat_CMCDMGDrange_Desc>{0}</Stat_CMCDMGDrange_Desc>
+	<Stat_CMCDMGDrange_Text>Projectile damage and penetration attenuation starts from:{0}\nDamage: Inverse-square decay\nPenetration: Inverse-cube decay</Stat_CMCDMGDrange_Text>
+	<StatMinDamageMultiplier_Label>damage floor ratio</StatMinDamageMultiplier_Label>
+	<StatMinDamageMultiplier_Desc>{0}</StatMinDamageMultiplier_Desc>
+	<StatMinDamageMultiplier_Text>damage floor ratio:{0}</StatMinDamageMultiplier_Text>
+	<StatMinPeneMultiplier_Label>penetration floor ratio</StatMinPeneMultiplier_Label>
+	<StatMinPeneMultiplier_Desc>{0}</StatMinPeneMultiplier_Desc>
+	<StatMinPeneMultiplier_Text>penetration floor ratio:{0}</StatMinPeneMultiplier_Text>
+	<CMC.TempControlIsBlocked>I.T.C.V.S.is blocked by impassable building.</CMC.TempControlIsBlocked>
+	<CMC.ScanMap>Radar Illumination</CMC.ScanMap>
+	<CMC.ScanMapDesc>Utilizes Kunlun radar to illuminate designated AO, enabling long-range artillery and cruise missiles to autonomously engage hostile targets within the zone.</CMC.ScanMapDesc>
+	<CMC.ScanMapStop>Terminate Radar Illumination</CMC.ScanMapStop>
+	<CMC.ScanMapStopDesc>Radar illumination terminated in AO {0}.</CMC.ScanMapStopDesc>
+	<CMC.ScanMapStopDescDefault>Radar illumination terminated in current AO.</CMC.ScanMapStopDescDefault>
+	<CMC_Targeting>Kunlun radar providing real-time fire control data for AO {0}. Hostile target tracking active.</CMC_Targeting>
+	<CMC_TargetingDefault>Kunlun radar providing real-time fire control data for current AO. Hostile target tracking active.</CMC_TargetingDefault>
+	<CMC.ScanMapFailed>Fire control request denied. Non-hostile faction signature detected in AO. IFF verification failed.</CMC.ScanMapFailed>
+	<CMC_CommandTargetMapFromWorld>switch to Low-Voltage Direct Fire Mode</CMC_CommandTargetMapFromWorld>
+	<CMC_CommandTarggetMapFromWorldDesc>Current: Indirect Fire (attacks radar-locked map tile targets). After switching: Attacks in-map targets.\n\nMagnetic rails fully charged to accelerate projectiles to first cosmic velocity. Turret cooling and auto-loading systems operating at full power.</CMC_CommandTarggetMapFromWorldDesc>
+	<CMC_CommandTargetWorldFromMap>switch to High-Voltage Indirect Fire Mode</CMC_CommandTargetWorldFromMap>
+	<CMC_CommandTarggetWorldFromMapDesc>Current: Direct Fire (attacks in-map targets). After switching: Attacks radar-locked map tile targets.\n\nMagnetic rails partially charged. All turret subsystems operating in low-power mode.</CMC_CommandTarggetWorldFromMapDesc>
+	<CMC_CommandTargetWorldFromMap>Switch to Low-Voltage Direct Fire Mode</CMC_CommandTargetWorldFromMap>
+	<CMC_CommandTarggetWorldFromMapDesc>Current: Indirect Fire (attacks radar-locked map tile targets). After switching: Attacks in-map targets.\n\nMagnetic rails fully charged. All turret subsystems operating in high-power mode.</CMC_CommandTarggetWorldFromMapDesc>
+	<CMC_InstalledAccessory>Turret Accessories({0}/{1})：</CMC_InstalledAccessory>
+	<CMC_SetFunnelConfig>set funnel config</CMC_SetFunnelConfig>
+	<TOT_FunnelLoadoutCapacity>Loadout Capacity: {0} / {1}</TOT_FunnelLoadoutCapacity>
+	<TOT_FunnelConfigSaved>save config</TOT_FunnelConfigSaved>
+	<CMC_InstalledAccesory>Installed Accessories</CMC_InstalledAccesory>
+	<CMC_CompatibleAccesory>Compatible Accessories</CMC_CompatibleAccesory>
+	<CMC_InstalledListHeader>Currently installed:</CMC_InstalledListHeader>
+	<CMC_NoneInstalled>None</CMC_NoneInstalled>
+	<CMC_AllowedListHeader>This weapon is compatible with:</CMC_AllowedListHeader>
+	<WeaponModificationBench_InstallAccessory>Install accessory...</WeaponModificationBench_InstallAccessory>
+	<WeaponModificationBench_InstallAccessoryDesc>Install an accessory onto the placed weapon.</WeaponModificationBench_InstallAccessoryDesc>
+	<WeaponModificationBench_UninstallWeapon>Retrieve weapon</WeaponModificationBench_UninstallWeapon>
+	<WeaponModificationBench_UninstallWeaponDesc>Retrieve the weapon from the bench.</WeaponModificationBench_UninstallWeaponDesc>
+	<WeaponModificationBench_Working>Working...</WeaponModificationBench_Working>
+	<WeaponModificationBench_NoSlots>All accessory slots are full.</WeaponModificationBench_NoSlots>
+	<WeaponModificationBench_Place>Place {0}</WeaponModificationBench_Place>
+	<WeaponModificationBench_Occupied>Bench is occupied.</WeaponModificationBench_Occupied>
+	<WeaponModificationBench_Unreachable>Cannot reach bench.</WeaponModificationBench_Unreachable>
+	<WeaponModificationBench_NoWeapons>No modifiable weapons.</WeaponModificationBench_NoWeapons>
+	<CMC_NotCompatible>Not compatible</CMC_NotCompatible>
+	<CMC_NoAccessoriesFound>No accessories found on map</CMC_NoAccessoriesFound>
+	<WeaponModificationBench_Interrupted>Installation interrupted.</WeaponModificationBench_Interrupted>
+	<WeaponModificationBench_Success>Successfully installed {0} onto {1}.</WeaponModificationBench_Success>
+	<WeaponModificationBench_AccessoryGone>The accessory is missing or was destroyed.</WeaponModificationBench_AccessoryGone>
+	<WeaponModificationBench_Started>Started installing {0} onto {1}.</WeaponModificationBench_Started>
+	<CMC_OpenTradeInfo>Open Trade Info</CMC_OpenTradeInfo>
+	<CMC_OpenTradeInfoDesc>View accumulated points and access the points shop.</CMC_OpenTradeInfoDesc>
+	<CMC_TradeGreeting>Hello, {0}. What services do you require?</CMC_TradeGreeting>
+	<CMC_CurrentPoints>Current Points: {0}</CMC_CurrentPoints>
+	<CMC_ColonySilver>Colony Silver: {0}</CMC_ColonySilver>
+	<CMC_CallSupport>Call Support</CMC_CallSupport>
+	<CMC_EnterPointsShop>Enter Points Shop</CMC_EnterPointsShop>
+	<CMC_SpareButton1>Call Merchant Shuttle</CMC_SpareButton1>
+	<CMC_SpareButton2>Spare Button 2</CMC_SpareButton2>
+	<CMC_NavHome>Home</CMC_NavHome>
+	<CMC_NavPointsShop>Points Shop</CMC_NavPointsShop>
+	<CMC_NavTradeShuttle>Trade Shuttle</CMC_NavTradeShuttle>
+	<CMC_NavOrbitalLogistics>Orbital Logistics</CMC_NavOrbitalLogistics>
+	<CMC_NavSubscribe>Subscribe</CMC_NavSubscribe>
+	<CMC_ErrorNoGameComponent>Error: Cannot access game component (GameComponent_CeleTech).</CMC_ErrorNoGameComponent>
+	<CMC_AvailablePoints>Available Points: {0}</CMC_AvailablePoints>
+	<CMC_Buy>Buy</CMC_Buy>
+	<CMC_PointsCost>{0} Pts</CMC_PointsCost>
+	<CMC_ItemStackFormat>{0} x{1}</CMC_ItemStackFormat>
+	<CMC_PurchaseFailed>Purchase failed.</CMC_PurchaseFailed>
+	<CMC_PurchaseSuccessDropPod>Purchased {0} is being drop-podded to the colony.</CMC_PurchaseSuccessDropPod>
+	<CMC_SupplyShuttle>Supply Shuttle</CMC_SupplyShuttle>
+	<CMC_SupplyShuttleDesc>Call a shuttle carrying various random supplies.</CMC_SupplyShuttleDesc>
+	<CMC_ArsenalShuttleDesc>Call a shuttle carrying various weapons.</CMC_ArsenalShuttleDesc>
+	<CMC_SlaveShuttleDesc>Call a shuttle carrying applicants.</CMC_SlaveShuttleDesc>
+	<CMC_CooldownHours>Cooldown: {0} hours</CMC_CooldownHours>
+	<CMC_CallEarlyCost>Call Early ({0} Silver)</CMC_CallEarlyCost>
+	<CMC_StatusReady>Status: Ready</CMC_StatusReady>
+	<CMC_CallShuttle>Call Shuttle</CMC_CallShuttle>
+	<CMC_PaidEarlyCall>Paid {0} silver to call the shuttle early.</CMC_PaidEarlyCall>
+	<CMC_OrbitalLogisticsPlaceholder>Orbital Logistics Page (Placeholder)</CMC_OrbitalLogisticsPlaceholder>
+	<CMC_SubscriptionPlaceholder>Subscription Service Page (Placeholder)</CMC_SubscriptionPlaceholder>
+	<CMC_CallSupportPlaceholder>Call Support Page (Placeholder)\n(This page is separate from the trade system)</CMC_CallSupportPlaceholder>
+	<CMC_ReturnHome>Return to Home</CMC_ReturnHome>
+	<CMC_SparePage1Placeholder>Spare Page 1 (Placeholder)</CMC_SparePage1Placeholder>
+	<CMC_SparePage2Placeholder>Spare Page 2 (Placeholder)</CMC_SparePage2Placeholder>
+	<CMC_TradeGreeting_1>Phew... finally connected. For you {0}, this power drain is worth it! Come and take a look.</CMC_TradeGreeting_1>
+	<CMC_TradeGreeting_2>Directive received: Activate the "Cutest" trade protocol. Goods listed. Please feed me with shiny silver~</CMC_TradeGreeting_2>
+	<CMC_TradeGreeting_3>Ah... Hello {0}. Hope I didn't mix in any weird stuff into the product list while I was dozing off...</CMC_TradeGreeting_3>
+	<CMC_TradeGreeting_4>Trade interface, activate! ...Was that activation not cool enough? Whatever, the stuff is good!</CMC_TradeGreeting_4>
+	<CMC_TradeGreeting_5>Premium customer signal detected! Is that you, {0}? Both my logic core and mood core recommend this transaction!</CMC_TradeGreeting_5>
+	<CMC_TradeGreeting_6>Good morning... or evening? It's always business hours in my server! Wanna take a look?</CMC_TradeGreeting_6>
+	<CMC_TradeGreeting_7>Ding! Your exclusive trade AI is online, complete with today's dose of sass~ Ready to browse my curated selection?</CMC_TradeGreeting_7>
+	<CMC_TradeGreeting_8>Hmm... Calculations indicate that trading with {0} will boost my "Happiness Index" by 37% today! So, come on, take a look!</CMC_TradeGreeting_8>
+	<CMC_AvailablePoints>Available Points: {0}</CMC_AvailablePoints>
+	<CMC_PricePerUnit>{0} pts/unit</CMC_PricePerUnit>
+	<CMC_ClearCart>Clear Cart</CMC_ClearCart>
+	<CMC_TotalCost>Total: {0}</CMC_TotalCost>
+	<CMC_InsufficientPoints>Insufficient Funds</CMC_InsufficientPoints>
+	<CMC_ConfirmTrade>Confirm Trade</CMC_ConfirmTrade>
+	<CMC_TradeComplete>Trade complete. {0} points deducted. Cargo inbound.</CMC_TradeComplete>
+	<CMC_NavOrbitalLogistics>Logistics.Airstrike</CMC_NavOrbitalLogistics>
+	<CMC_EnterPointsShop>Points Shop</CMC_EnterPointsShop>
+	<CMC_SpareButton1>Call Merchant Shuttle</CMC_SpareButton1>
+	<CMC_SpareButton2>Spare 2</CMC_SpareButton2>
+	<CMC_ReopenWindow>Reopen window after selection</CMC_ReopenWindow>
+	<CMC_AvailablePoints>Available points: {0}</CMC_AvailablePoints>
+	<CMC_Airstrike_AC>AC-630 Aircraft Cannon</CMC_Airstrike_AC>
+	<CMC_Airstrike_ACDesc>Low-altitude strike run using cannon strafing on the designated area.</CMC_Airstrike_ACDesc>
+	<CMC_Airstrike>CM-114 Air Rockets</CMC_Airstrike>
+	<CMC_AirstrikeDesc>Low-altitude strike run delivering multiple unguided rockets for area saturation.</CMC_AirstrikeDesc>
+	<CMC_ATGMStrike>HJ-53 Anti-Tank Missile</CMC_ATGMStrike>
+	<CMC_ATGMStrikeDesc>Launches two HJ-53 anti-tank missiles at the designated target.</CMC_ATGMStrikeDesc>
+	<CMC_ATGM_LStrike>HJ-57 Anti-Tank Missile</CMC_ATGM_LStrike>
+	<CMC_ATGM_LStrikeDesc>Launches an HJ-57 heavy anti-tank missile at the designated target.</CMC_ATGM_LStrikeDesc>
+	<CMC_PrecisionEMPStrike>LS-9E Guided Bomb</CMC_PrecisionEMPStrike>
+	<CMC_PrecisionEMPStrikeDesc>Drops an LS-9E 500kg EMP guided bomb at the designated location, disabling electronics and shields.</CMC_PrecisionEMPStrikeDesc>
+	<CMC_PrecisionStrike>LS-9 Guided Bomb</CMC_PrecisionStrike>
+	<CMC_PrecisionStrikeDesc>Drops an LS-9 500kg high-explosive guided bomb at the designated location.</CMC_PrecisionStrikeDesc>
+	<CMC_Ready>Standby</CMC_Ready>
+	<CMC_CooldownRemaining>Sortied aircraft is returning to attack route, remaining: {0}</CMC_CooldownRemaining>
+	<CMC_RearmingRemaining>Sortied aircraft is rearming on carrier, remaining: {0}</CMC_RearmingRemaining>
+	<CMC_ActionUnavailable>Action currently unavailable</CMC_ActionUnavailable>
+	<CMC_HangarTitle>Hangar Info</CMC_HangarTitle>
+	<CMC_HangarLineUnavailable>#{0} Not deployed</CMC_HangarLineUnavailable>
+	<CMC_HangarLineRearming>#{0} Rearming ({1})</CMC_HangarLineRearming>
+	<CMC_HangarLineStandby>#{0} Standby (no loadout)</CMC_HangarLineStandby>
+	<CMC_HangarLineStandbyMounted>#{0} Standby ({1}) | Remaining waves {2} | Fuel {3} h</CMC_HangarLineStandbyMounted>
+	<CMC_HangarLineExecuting>#{0} Executing {1} | Remaining waves {2} | Return route {3} | Fuel {4} h</CMC_HangarLineExecuting>
+	<CMC_RowStrikeBasicInfo>Single-aircraft waves: {0} | Attack interval: {1} | Rearm: {2}</CMC_RowStrikeBasicInfo>
+	<CMC_CallStrikeButton>Call ({0} pts)</CMC_CallStrikeButton>
+	<CMC_None>None</CMC_None>
+	<CMC_InsufficientPoints>Insufficient credit points</CMC_InsufficientPoints>
+	<CMC_NotEnoughAircraftForStrike>Not enough aircraft: available {0}, required {1}</CMC_NotEnoughAircraftForStrike>
+	<CMC_StrikeCooldownRemaining>On cooldown: {0}</CMC_StrikeCooldownRemaining>
+	<CMC_NoAircraftForThisLoadout>No idle aircraft and no remaining charges for this loadout</CMC_NoAircraftForThisLoadout>
+	<CMC_AirstrikeInbound>Airstrike inbound</CMC_AirstrikeInbound>
+	<CMC_AirstrikeInbound_Homing>Airstrike inbound, locking target: {0}</CMC_AirstrikeInbound_Homing>
+	<CMC_ManualDirectionToggle>manual CAS direction</CMC_ManualDirectionToggle>
+	<CMC_ManualDirectionLocked>!manual direction control locked!</CMC_ManualDirectionLocked>
+	<CMC_PickDirectionNow>pick direction now</CMC_PickDirectionNow>
+	<CMC_InvalidDirection>invalid direction</CMC_InvalidDirection>
+	<!-- Optional compatibility -->
+	<CMC_NoCharges>No available ammo charges. Please wait for rearm.</CMC_NoCharges>
+	<CMC_NotEnoughAircraft>Not enough aircraft: available {0} / required {1}</CMC_NotEnoughAircraft>
+	<CMC_AttackGreeting_1>Great, Ba Ta Meng Shang Shi!</CMC_AttackGreeting_1>
+	<CMC_AttackGreeting_2>Service request received. Please confirm target coordinates, Commander {0}.</CMC_AttackGreeting_2>
+	<CMC_AttackGreeting_3>Firepower package is ready. Connecting you to the "Rapid Solution", Commander {0}.</CMC_AttackGreeting_3>
+	<CMC_AttackGreeting_4>Target confirmed. Executing "Customer Satisfaction" enhancement protocol.</CMC_AttackGreeting_4>
+	<CMC_AttackGreeting_5>Commander {0}, our automated assault carrier CSS-Lanling has entered orbit and is launching fighters, preparing to engage in the combat zone.</CMC_AttackGreeting_5>
+	<CMC_AttackGreeting_6>"Troubleshooting" service is online. Awaiting final execution command, Commander {0}.</CMC_AttackGreeting_6>
+	<CMC_AttackGreeting_7>Warning: Preparing to implement "Aggressive Negotiation" tactics. Shall we demand an answer from the enemies invading our base, Commander {0}?</CMC_AttackGreeting_7>
+	<CMC_AttackGreeting_8>Initiating final solution... Plotting close air support routes, calculating orbital strike trajectories...</CMC_AttackGreeting_8>
+	<CMC_AttackGreeting_9>Sun Tzu said: Warfare is a matter of orbital supremacy!</CMC_AttackGreeting_9>
+	<CMC_AttackGreeting_10>Close air support is on station in the combat zone, ready to execute ground strike missions at your command, Commander {0}.</CMC_AttackGreeting_10>
+	<TOT_Sustain_DPSLabel>Damage Per Second (DPS)</TOT_Sustain_DPSLabel>
+	<TOT_Sustain_DPSDesc>Deals {0} damage every {1} ticks.</TOT_Sustain_DPSDesc>
+	<TOT_Sustain_DamageLabel>Laser Damage (Per Hit)</TOT_Sustain_DamageLabel>
+	<TOT_Sustain_DamageDesc>Damage applied each time the laser hits.</TOT_Sustain_DamageDesc>
+	<TOT_Sustain_APLabel>Laser Armor Penetration</TOT_Sustain_APLabel>
+	<TOT_Sustain_APDesc>The armor penetration of the laser.</TOT_Sustain_APDesc>
+	<TOT_Sustain_IntervalLabel>Damage Interval</TOT_Sustain_IntervalLabel>
+	<TOT_Sustain_IntervalDesc>Applies damage every {0} ticks ({1} seconds).</TOT_Sustain_IntervalDesc>
+	<TOT_Sustain_SecDamageLabel>Secondary Damage</TOT_Sustain_SecDamageLabel>
+	<TOT_Sustain_SecDamageDesc>Additional damage type and amount.</TOT_Sustain_SecDamageDesc>
+	<TOT_Sustain_SecAPLabel>Secondary Armor Penetration</TOT_Sustain_SecAPLabel>
+	<TOT_Sustain_SecAPDesc>The armor penetration of the secondary damage.</TOT_Sustain_SecAPDesc>
+	<TOT_Sustain_ScatterLabel>Scatter Effect</TOT_Sustain_ScatterLabel>
+	<TOT_Sustain_Yes>Yes</TOT_Sustain_Yes>
+	<TOT_Sustain_ScatterDesc>This laser can scatter on impact.</TOT_Sustain_ScatterDesc>
+	<TOT_Sustain_ScatterCountLabel>Scatter Count</TOT_Sustain_ScatterCountLabel>
+	<TOT_Sustain_ScatterCountDesc>Number of projectiles scattered.</TOT_Sustain_ScatterCountDesc>
+	<TOT_Sustain_ScatterExplosionLabel>Scatter Explosion Damage</TOT_Sustain_ScatterExplosionLabel>
+	<TOT_Sustain_ScatterExplosionDesc>Damage dealt by each scattered projectile.</TOT_Sustain_ScatterExplosionDesc>
+	<TOT_Sustain_ScatterRadiusLabel>Scatter Explosion Radius</TOT_Sustain_ScatterRadiusLabel>
+	<TOT_Sustain_ScatterRadiusDesc>Radius of each scattered explosion.</TOT_Sustain_ScatterRadiusDesc>
+	<TOT_Sustain_ValueWithLabel>{0} ({1})</TOT_Sustain_ValueWithLabel>
+	<UTSLeavingIn>shuttle leaving in {0}</UTSLeavingIn>
+	<TOT_PointsAdded>Trade complete. Obtained {0} points. (Total: {1})</TOT_PointsAdded>
+	<TOT_TraderShuttleArrivalLabel>Trade Shuttle Arrived</TOT_TraderShuttleArrivalLabel>
+	<TOT_TraderShuttleArrivalText>A trade shuttle named {0} has landed nearby and is ready for trade.</TOT_TraderShuttleArrivalText>
+	<TOT_ProjType_Label>Projectile Type</TOT_ProjType_Label>
+	<TOT_ProjType_Standard>Standard Ballistic</TOT_ProjType_Standard>
+	<TOT_ProjType_Standard_Desc>A standard kinetic projectile affected by gravity and wind.</TOT_ProjType_Standard_Desc>
+	<TOT_ProjType_Piercing>Kinetic Piercing</TOT_ProjType_Piercing>
+	<TOT_ProjType_Piercing_Desc>A high-velocity round capable of penetrating multiple targets and projectile interceptors.</TOT_ProjType_Piercing_Desc>
+	<TOT_ProjType_Guided>Homing</TOT_ProjType_Guided>
+	<TOT_ProjType_Guided_Desc>A projectile equipped with guidance systems to track moving targets.</TOT_ProjType_Guided_Desc>
+	<TOT_ProjType_Laser>Directed Energy</TOT_ProjType_Laser>
+	<TOT_ProjType_Laser_Desc>A continuous beam of high-energy output. Hits instantly, accurately and ignore projectile interceptors.</TOT_ProjType_Laser_Desc>
+	<TOT_ProjType_Laser>Pulse Laser</TOT_ProjType_Laser>
+	<TOT_ProjType_Laser_Desc>A instant beam of high-energy output. Hits instantly, accurately and ignore projectile interceptors.</TOT_ProjType_Laser_Desc>
+	<TOT_DPS_Solid_Label>DPS (Solid)</TOT_DPS_Solid_Label>
+	<TOT_DPS_Solid_Desc>Damage Per Second calculated for solid ammo.\n\nDamage/Shot: {0}\nBurst Count: {1}\nWarmup: {2}s\nCooldown: {3}s</TOT_DPS_Solid_Desc>
+	<TOT_Stat_Penetration>Penetration Power</TOT_Stat_Penetration>
+	<TOT_FunnelsOrderedRecall>Funnels ordered to recall.</TOT_FunnelsOrderedRecall>
+	<TOT_AutoReleaseCompleted>Auto-release completed.</TOT_AutoReleaseCompleted>
+	<TOT_AllFunnelsRecalled>All funnels successfully recalled.</TOT_AllFunnelsRecalled>
+	<TOT_AutoReleaseStopped>Auto-release stopped.</TOT_AutoReleaseStopped>
+	<TOT_AutoReleaseStarted>Auto-release started. Funnels will be deployed automatically.</TOT_AutoReleaseStarted>
+	<TOT_CannotStartAutoRelease>Cannot start auto-release. Check if drones are available and plan is set.</TOT_CannotStartAutoRelease>
+	<TOT_FunnelsCommandedToAttack>All funnels commanded to attack {0}.</TOT_FunnelsCommandedToAttack>
+	<TOT_AutoAttackToggled>Auto attack mode toggled for all funnels.</TOT_AutoAttackToggled>
+	<TOT_ForcedAttackCancelled>Forced attack cancelled for all funnels.</TOT_ForcedAttackCancelled>
+	<TOT_CommandStopAutoRelease>Stop Auto Release</TOT_CommandStopAutoRelease>
+	<TOT_CommandStopAutoReleaseDesc>Stop automatically releasing funnels.</TOT_CommandStopAutoReleaseDesc>
+	<TOT_CommandAutoRelease>Auto Release Funnels</TOT_CommandAutoRelease>
+	<TOT_CommandAutoReleaseDesc>Start automatically releasing funnels...</TOT_CommandAutoReleaseDesc>
+	<TOT_CommandRecallAll>Recall All</TOT_CommandRecallAll>
+	<TOT_CommandRecallAllDesc>Recall all deployed funnels.</TOT_CommandRecallAllDesc>
+	<TOT_CommandAutoAttack>Auto Attack Mode</TOT_CommandAutoAttack>
+	<TOT_CommandAutoAttackDesc>Toggle autonomous attack mode for funnels.</TOT_CommandAutoAttackDesc>
+	<TOT_CommandTargetAttack>Command Attack</TOT_CommandTargetAttack>
+	<TOT_CommandTargetAttackDesc>Command all deployed funnels to attack a target.</TOT_CommandTargetAttackDesc>
+	<TOT_CommandCancelAttack>Cancel Attack</TOT_CommandCancelAttack>
+	<TOT_CommandCancelAttackDesc>Cancel forced attack and return to following mode.</TOT_CommandCancelAttackDesc>
+	<TOT_NoAvailableDroneCore>No available drone core (not loaded).</TOT_NoAvailableDroneCore>
+	<TOT_AllDronesDeployed>All loaded drones have been deployed.</TOT_AllDronesDeployed>
+	<TOT_NoConfigPlan>No configuration plan set.</TOT_NoConfigPlan>
+	<TOT_FunnelsRecalling>Funnels are currently recalling.</TOT_FunnelsRecalling>
+	<TOT_NoDeployedFunnels>No deployed funnels.</TOT_NoDeployedFunnels>
+	<TOT_FunnelsAlreadyRecalling>Funnels are already recalling.</TOT_FunnelsAlreadyRecalling>
+	<TOT_NoFunnelsAttacking>No funnels in forced attack mode.</TOT_NoFunnelsAttacking>
+	<TOT_Camo_PresetsTitle>1. Presets</TOT_Camo_PresetsTitle>
+	<TOT_Camo_Official>Official</TOT_Camo_Official>
+	<TOT_Camo_Custom>Custom</TOT_Camo_Custom>
+	<TOT_Camo_NoCustomPresets>No custom presets.</TOT_Camo_NoCustomPresets>
+	<TOT_Camo_SavePreset>Save Current as Preset</TOT_Camo_SavePreset>
+	<TOT_Camo_Preset_VoidStandard>Void Standard</TOT_Camo_Preset_VoidStandard>
+	<TOT_Camo_Preset_XenoInfiltrator>Xeno-Infiltrator</TOT_Camo_Preset_XenoInfiltrator>
+	<TOT_Camo_Preset_CeleTechElite>CELETECH™-Standard</TOT_Camo_Preset_CeleTechElite>
+	<TOT_Camo_Preset_RedPlanet>NORINCO</TOT_Camo_Preset_RedPlanet>
+	<TOT_Camo_Preset_InternalSec>Internal Security</TOT_Camo_Preset_InternalSec>
+	<TOT_Camo_ColorMixerTitle>2. Color Mixer</TOT_Camo_ColorMixerTitle>
+	<TOT_Camo_ColorPrimary>Color One (Primary)</TOT_Camo_ColorPrimary>
+	<TOT_Camo_ColorSecondary>Color Two (Secondary)</TOT_Camo_ColorSecondary>
+	<TOT_Camo_ColorDetail>Color Three (Detail)</TOT_Camo_ColorDetail>
+	<TOT_Camo_PatternsTitle>3. Patterns</TOT_Camo_PatternsTitle>
+	<TOT_Camo_CurrentPattern>Current: {0}</TOT_Camo_CurrentPattern>
+	<TOT_Camo_None>None</TOT_Camo_None>
+	<TOT_Camo_NoPattern>No Pattern (Solid)</TOT_Camo_NoPattern>
+	<TOT_Camo_Load>Load</TOT_Camo_Load>
+	<TOT_Camo_Capacity>CAPACITY</TOT_Camo_Capacity>
+	<TOT_Camo_InstalledAccessories>Installed Accessories</TOT_Camo_InstalledAccessories>
+	<TOT_Camo_Uninstall>Uninstall</TOT_Camo_Uninstall>
+	<TOT_Camo_NoInstalledAccessories>No accessories installed.</TOT_Camo_NoInstalledAccessories>
+	<TOT_Camo_ConnectedAccessories>Connected Accessories</TOT_Camo_ConnectedAccessories>
+	<TOT_Camo_IncompatibleWeapon>Incompatible Weapon</TOT_Camo_IncompatibleWeapon>
+	<TOT_Camo_SlotsFull>All slots full.</TOT_Camo_SlotsFull>
+	<TOT_Camo_NoAccessoriesFound>No accessories found in nearby cabinets.</TOT_Camo_NoAccessoriesFound>
+	<TOT_Camo_Cancel>Cancel</TOT_Camo_Cancel>
+	<TOT_Camo_Apply>Apply</TOT_Camo_Apply>
+	<TOT_Camo_ApplyInsert>Apply/Insert Selected</TOT_Camo_ApplyInsert>
+	<TOT_Camo_IncompatibleTag>(Incompatible)</TOT_Camo_IncompatibleTag>
+	<TOT_Camo_PatternOffsetTitle>Pattern Offset</TOT_Camo_PatternOffsetTitle>
+	<TOT_Camo_OffsetX>X</TOT_Camo_OffsetX>
+	<TOT_Camo_OffsetY>Y</TOT_Camo_OffsetY>
+	<TOT_Camo_ResetOffset>Reset Offset</TOT_Camo_ResetOffset>
+	<TOT_Laser_Range>Range</TOT_Laser_Range>
+	<TOT_Laser_RangeDesc>The effective range of the weapon.</TOT_Laser_RangeDesc>
+	<TOT_Laser_Damage>Laser Damage</TOT_Laser_Damage>
+	<TOT_Laser_DamageDesc>Deals {0} damage.</TOT_Laser_DamageDesc>
+	<TOT_Laser_SecDamage>Secondary Damage</TOT_Laser_SecDamage>
+	<TOT_Laser_SecDamageValue>{0} ({1})</TOT_Laser_SecDamageValue>
+	<TOT_Laser_SecDamageDesc>Additional damage type and amount.</TOT_Laser_SecDamageDesc>
+	<TOT_Laser_SecAP>Secondary Armor Penetration</TOT_Laser_SecAP>
+	<TOT_Laser_SecAPDesc>The armor penetration of the secondary damage.</TOT_Laser_SecAPDesc>
+	<TOT_Laser_ScatterEffect>Scatter Effect</TOT_Laser_ScatterEffect>
+	<TOT_Laser_ScatterEffectDesc>This laser can scatter on impact.</TOT_Laser_ScatterEffectDesc>
+	<TOT_Laser_ScatterCount>Scatter Count</TOT_Laser_ScatterCount>
+	<TOT_Laser_ScatterCountDesc>Number of projectiles scattered.</TOT_Laser_ScatterCountDesc>
+	<TOT_Laser_ScatterExpDamage>Scatter Explosion Damage</TOT_Laser_ScatterExpDamage>
+	<TOT_Laser_ScatterExpDamageValue>{0} ({1})</TOT_Laser_ScatterExpDamageValue>
+	<TOT_Laser_ScatterExpDamageDesc>Damage dealt by each scattered projectile.</TOT_Laser_ScatterExpDamageDesc>
+	<TOT_Laser_ScatterExpRadius>Scatter Explosion Radius</TOT_Laser_ScatterExpRadius>
+	<TOT_Laser_ScatterExpRadiusDesc>Radius of each scattered explosion.</TOT_Laser_ScatterExpRadiusDesc>
+	<TOT_Laser_DivideEffect>Divide Effect</TOT_Laser_DivideEffect>
+	<TOT_Laser_DivideEffectDesc>This laser can divide to hit additional cells.</TOT_Laser_DivideEffectDesc>
+	<TOT_Laser_DivideRadius>Divide Radius</TOT_Laser_DivideRadius>
+	<TOT_Laser_DivideRadiusDesc>The radius within which the laser hits additional cells.</TOT_Laser_DivideRadiusDesc>
+	<TOT_Laser_AP>Laser Armor Penetration</TOT_Laser_AP>
+	<TOT_Laser_APDesc>The armor penetration of the laser.</TOT_Laser_APDesc>
+	<TOT_Laser_IgnoresArmor>Ignores Armor</TOT_Laser_IgnoresArmor>
+	<TOT_Sustain_DPSLabel>Theoretical DPS</TOT_Sustain_DPSLabel>
+	<TOT_Sustain_DPSDesc>Theoretical damage per second based on {0} damage every {1} ticks.</TOT_Sustain_DPSDesc>
+	<TOT_Sustain_DamageLabel>Beam Damage</TOT_Sustain_DamageLabel>
+	<TOT_Sustain_DamageDesc>Damage dealt per tick interval.</TOT_Sustain_DamageDesc>
+	<TOT_Sustain_APLabel>Beam Armor Penetration</TOT_Sustain_APLabel>
+	<TOT_Sustain_APDesc>Armor penetration of the beam.</TOT_Sustain_APDesc>
+	<TOT_Sustain_IntervalLabel>Damage Interval</TOT_Sustain_IntervalLabel>
+	<TOT_Sustain_IntervalDesc>Time between damage ticks: {0} ticks ({1} seconds).</TOT_Sustain_IntervalDesc>
+	<TOT_Sustain_SecDamageLabel>Secondary Damage</TOT_Sustain_SecDamageLabel>
+	<TOT_Sustain_SecDamageDesc>Additional damage applied.</TOT_Sustain_SecDamageDesc>
+	<TOT_Sustain_SecAPLabel>Secondary AP</TOT_Sustain_SecAPLabel>
+	<TOT_Sustain_SecAPDesc>Armor penetration of the secondary damage.</TOT_Sustain_SecAPDesc>
+	<TOT_Sustain_ScatterLabel>Scatter Effect</TOT_Sustain_ScatterLabel>
+	<TOT_Sustain_ScatterDesc>The beam scatters upon impact.</TOT_Sustain_ScatterDesc>
+	<TOT_Sustain_ScatterCountLabel>Scatter Count</TOT_Sustain_ScatterCountLabel>
+	<TOT_Sustain_ScatterCountDesc>Number of scattered projectiles.</TOT_Sustain_ScatterCountDesc>
+	<TOT_Sustain_ScatterExplosionLabel>Scatter Explosion</TOT_Sustain_ScatterExplosionLabel>
+	<TOT_Sustain_ScatterExplosionDesc>Damage and type of the scatter explosion.</TOT_Sustain_ScatterExplosionDesc>
+	<TOT_Sustain_ScatterRadiusLabel>Scatter Radius</TOT_Sustain_ScatterRadiusLabel>
+	<TOT_Sustain_ScatterRadiusDesc>Radius of the scatter effect.</TOT_Sustain_ScatterRadiusDesc>
+	<TOT_Sustain_ValueWithLabel>{0} ({1})</TOT_Sustain_ValueWithLabel>
+	<TOT_Sustain_Yes>Yes</TOT_Sustain_Yes>
+	<TOT_Laser_Range>Range</TOT_Laser_Range>
+	<TOT_Laser_RangeDesc>The effective range of the weapon.</TOT_Laser_RangeDesc>
+	<TOT_Camo_PatternTransformTitle>Pattern Transform</TOT_Camo_PatternTransformTitle>
+	<TOT_Camo_Offset>offset</TOT_Camo_Offset>
+	<TOT_Camo_Scale>scale</TOT_Camo_Scale>
+	<TOT_Camo_ResetTransform>reset transform</TOT_Camo_ResetTransform>
+	<WeaponModificationBench_DefaultWeaponLabel>Weapon</WeaponModificationBench_DefaultWeaponLabel>
+	<WeaponModificationBench_Started>Installation of {0} on {1} started.</WeaponModificationBench_Started>
+	<WeaponModificationBench_PaintingStarted>Painting of {0} started.</WeaponModificationBench_PaintingStarted>
+	<WeaponModificationBench_Interrupted>Modification interrupted.</WeaponModificationBench_Interrupted>
+	<WeaponModificationBench_PaintSuccess>Painting of {0} finished.</WeaponModificationBench_PaintSuccess>
+	<WeaponModificationBench_Success>Successfully installed {0} on {1}.</WeaponModificationBench_Success>
+	<WeaponModificationBench_Working>Bench is currently in use.</WeaponModificationBench_Working>
+	<WeaponModificationBench_Occupied>Bench is already occupied.</WeaponModificationBench_Occupied>
+	<WeaponModificationBench_Unreachable>Cannot reach bench.</WeaponModificationBench_Unreachable>
+	<WeaponModificationBench_NoWeapons>No compatible weapons available.</WeaponModificationBench_NoWeapons>
+	<WeaponModificationBench_Place>Place {0}</WeaponModificationBench_Place>
+	<CMC_OpenCamoDesigner>Camo Designer</CMC_OpenCamoDesigner>
+	<CMC_OpenCamoDesignerDesc>Open the camouflage design interface.</CMC_OpenCamoDesignerDesc>
+	<WeaponModificationBench_UninstallWeapon>Remove Weapon</WeaponModificationBench_UninstallWeapon>
+	<WeaponModificationBench_UninstallWeaponDesc>Remove the currently held weapon from the bench.</WeaponModificationBench_UninstallWeaponDesc>
+	<TOT_FunnelsOrderedRecall>Recalling all funnels.</TOT_FunnelsOrderedRecall>
+	<TOT_AllFunnelsRecalled>All funnels have returned to the carrier.</TOT_AllFunnelsRecalled>
+	<TOT_AutoReleaseCompleted>Auto-release sequence completed.</TOT_AutoReleaseCompleted>
+	<TOT_AutoReleaseStopped>Auto-release stopped.</TOT_AutoReleaseStopped>
+	<TOT_AutoReleaseStarted>Auto-release started.</TOT_AutoReleaseStarted>
+	<TOT_AllDronesReleased>All funnels released instantly.</TOT_AllDronesReleased>
+	<TOT_AutoDraftDeploy>Drafted: Deploying all funnels.</TOT_AutoDraftDeploy>
+	<TOT_AutoDraftRecall>Undrafted: Recalling all funnels.</TOT_AutoDraftRecall>
+	<TOT_FunnelsCommandedToAttack>Funnels targeting: {0}.</TOT_FunnelsCommandedToAttack>
+	<TOT_AutoAttackToggled>Funnel mode set to: {0}.</TOT_AutoAttackToggled>
+	<TOT_ForcedAttackCancelled>Forced attack cancelled. Returning to follow mode.</TOT_ForcedAttackCancelled>
+	<TOT_ModeAttack>Assault</TOT_ModeAttack>
+	<TOT_ModeGuard>Escort</TOT_ModeGuard>
+	<TOT_CommandReleaseAll>Release All</TOT_CommandReleaseAll>
+	<TOT_CommandReleaseAllDesc>Instantly release all available funnels from the pack.</TOT_CommandReleaseAllDesc>
+	<TOT_CommandRecallAll>Recall All</TOT_CommandRecallAll>
+	<TOT_CommandRecallAllDesc>Order all deployed funnels to return to the carrier.</TOT_CommandRecallAllDesc>
+	<TOT_CommandToggleMode>Mode: {0}</TOT_CommandToggleMode>
+	<TOT_CommandToggleModeDesc>Toggle between Assault (hunt enemies freely) and Escort (protect carrier) modes.\n\nCurrent Mode: {0}</TOT_CommandToggleModeDesc>
+	<TOT_CommandTargetAttack>Force Attack</TOT_CommandTargetAttack>
+	<TOT_CommandTargetAttackDesc>Command all funnels to attack a specific target.\n\nNote: Cannot target allies, self, or own funnels.</TOT_CommandTargetAttackDesc>
+	<TOT_CommandCancelAttack>Stop Attack</TOT_CommandCancelAttack>
+	<TOT_CommandCancelAttackDesc>Cancel the forced attack command and return to the selected mode behavior.</TOT_CommandCancelAttackDesc>
+	<TOT_CommandAutoDraft>Draft Action</TOT_CommandAutoDraft>
+	<TOT_CommandAutoDraftDesc>Toggle automatic behavior:\nON: Automatically release all funnels when drafted, and recall when undrafted.\nOFF: Manual control only.</TOT_CommandAutoDraftDesc>
+	<TOT_NoAvailableDroneCore>No cores available</TOT_NoAvailableDroneCore>
+	<TOT_AllDronesDeployed>All funnels deployed</TOT_AllDronesDeployed>
+	<TOT_NoConfigPlan>No configuration plan</TOT_NoConfigPlan>
+	<TOT_FunnelsRecalling>Recalling in progress</TOT_FunnelsRecalling>
+	<TOT_NoDeployedFunnels>No funnels deployed</TOT_NoDeployedFunnels>
+	<TOT_FunnelsAlreadyRecalling>Already recalling</TOT_FunnelsAlreadyRecalling>
+	<TOT_NoFunnelsAttacking>No funnels currently force-attacking</TOT_NoFunnelsAttacking>
+	<CMC_ImportNearbyWeapon_Label>Import Nearby Weapon</CMC_ImportNearbyWeapon_Label>
+	<CMC_ImportNearbyWeapon_Desc>Opens a window listing all modifiable or paintable weapons within a 9-cell radius. Selecting a weapon will instantly mount it onto the bench.</CMC_ImportNearbyWeapon_Desc>
+	<CMC_SelectWeaponToModify>Select Weapon to Modify</CMC_SelectWeaponToModify>
+	<CMC_NoModifiableWeaponsFound>No modifiable weapons found within 9 cells.</CMC_NoModifiableWeaponsFound>
+	<TOT_WeaponShatteredLabel>Weapon Shattered</TOT_WeaponShatteredLabel>
+	<TOT_WeaponShatteredText>Auxiliary coil overload detonated the heat sinks and weapon capacitors. The {1} equipped by {0} could not withstand the load and has shattered!</TOT_WeaponShatteredText>
+	<CMC_CompatibleAccesory>Compatible Accessories</CMC_CompatibleAccesory>
+	<CMC_CompatibleDescription>This weapon accepts the following accessories:</CMC_CompatibleDescription>
+	<CMC_InstalledAccesory>Installed Accessories</CMC_InstalledAccesory>
+	<CMC_InstalledListHeader>Currently installed accessories:</CMC_InstalledListHeader>
+	<CMC_NoneInstalled>No accessories installed.</CMC_NoneInstalled>
+	<SupportedWeapons>Supported Weapons</SupportedWeapons>
+	<CMC_MaxSlots>Accessory Slots</CMC_MaxSlots>
+	<CMC_MaxSlotsDesc>The maximum number of accessories that can be mounted on this weapon simultaneously.</CMC_MaxSlotsDesc>
+	<CMC_FunnelCapacity>Funnel Capacity</CMC_FunnelCapacity>
+	<CMC_FunnelCapacityDesc>The maximum number of funnels this unit can hold.</CMC_FunnelCapacityDesc>
+	<CMC_FunnelTypes>Funnel Types</CMC_FunnelTypes>
+	<CMC_FunnelTypesDesc>This unit is configured to deploy the following models:</CMC_FunnelTypesDesc>
+	<CMC_StatsReport_Accessories>Stats modified</CMC_StatsReport_Accessories>
+	<TOT_AltFire_Projectile>Alt Fire Projectile</TOT_AltFire_Projectile>
+	<TOT_AltFire_ProjectileDesc>The projectile fired in alternative fire mode.</TOT_AltFire_ProjectileDesc>
+	<TOT_AltFire_Damage>Alt Fire Damage</TOT_AltFire_Damage>
+	<TOT_AltFire_DamageDesc>The amount of damage dealt by the alternative fire mode.</TOT_AltFire_DamageDesc>
+	<TOT_AltFire_ExplosionRadius>Alt Fire Blast Radius</TOT_AltFire_ExplosionRadius>
+	<TOT_AltFire_ExplosionRadiusDesc>The explosion radius of the alternative fire mode projectile.</TOT_AltFire_ExplosionRadiusDesc>
+	<TOT_AltFire_AP>Alt Fire AP</TOT_AltFire_AP>
+	<TOT_AltFire_APDesc>The armor penetration capability of the alternative fire mode.</TOT_AltFire_APDesc>
+	<TOT_AltFire_Range>Alt Fire Range</TOT_AltFire_Range>
+	<TOT_AltFire_RangeDesc>The maximum range of the alternative fire mode.</TOT_AltFire_RangeDesc>
+	<TOT_AltFire_Warmup>Alt Fire Warmup</TOT_AltFire_Warmup>
+	<TOT_AltFire_WarmupDesc>The time required to aim before firing the alternative fire mode.</TOT_AltFire_WarmupDesc>
+	<TOT_AltFire_BurstCount>Alt Fire Burst</TOT_AltFire_BurstCount>
+	<TOT_AltFire_BurstCountDesc>The number of shots fired in a single burst when using the alternative fire mode.</TOT_AltFire_BurstCountDesc>
+	<TOT_AltFire_Cooldown>Alt Fire Cooldown</TOT_AltFire_Cooldown>
+	<TOT_AltFire_CooldownDesc>The cooldown time required after firing the alternative fire mode.</TOT_AltFire_CooldownDesc>
+	<CMC_TakeWeaponFromBelt>Take out {0}</CMC_TakeWeaponFromBelt>
+	<CMC_CannotTakeOutWeapon>Cannot take out {0}</CMC_CannotTakeOutWeapon>
+	<CMC_PutWeaponInBelt>Put in {0}</CMC_PutWeaponInBelt>
+	<CMC_NoWeapon>No primary weapon equipped.</CMC_NoWeapon>
+	<CMC_WeaponWasBiocoded>{0} biocoded</CMC_WeaponWasBiocoded>
+	<CMC_WeaponWasLinked>{0} already linked.</CMC_WeaponWasLinked>
+	<CMC_WeaponTypeNotAllowed>{0}: type not allowed</CMC_WeaponTypeNotAllowed>
+	<CMC_WeaponTooHeavy>{0} is too heavy.</CMC_WeaponTooHeavy>
+	<CMC_Reloading>[{0}s]</CMC_Reloading>
+	<CMC_InHands>In Hands</CMC_InHands>
+	<CMC_Empty>Empty</CMC_Empty>
+	<CMC_ToggleAutoSwapTip>Toggle Auto-Swap: Automatically equip weapon when reloaded.</CMC_ToggleAutoSwapTip>
+	<CMC_TakeOutWeaponTip>Take Out Weapon</CMC_TakeOutWeaponTip>
+	<CMC_PutInWeaponTip>Put In Weapon</CMC_PutInWeaponTip>
+	<CMC_NoWeapon>No weapon to put in.</CMC_NoWeapon>
+	<CMC_PS_Remaining>Remaining: {0}</CMC_PS_Remaining>
+	<CMC_PS_NameWithRemaining>{0} x{1} {2}</CMC_PS_NameWithRemaining>
+	<CMC_PS_PriceNormal>{0} pts</CMC_PS_PriceNormal>
+	<CMC_PS_PriceWithDiscount>{0} pts (-{1}%)</CMC_PS_PriceWithDiscount>
+	<CMC_PS_FirstBundleHalf>First purchase first bundle: {0} pts</CMC_PS_FirstBundleHalf>
+	<CMC_PS_SoldOut>Sold out</CMC_PS_SoldOut>
+	<CMC_PS_LimitReached>Reached purchase limit for this item</CMC_PS_LimitReached>
+	<CMC_SecondaryDamage_Label>Secondary damage</CMC_SecondaryDamage_Label>
+	<CMC_SecondaryDamage_Desc>On penetration, deals an additional {0} {1} damage{2}.</CMC_SecondaryDamage_Desc>
+	<CMC_SecondaryDamage_ChanceSuffix> (Chance: {0})</CMC_SecondaryDamage_ChanceSuffix>
+	<CMC_UnknownDamageType>unknown type</CMC_UnknownDamageType>
+	<TOT_FunnelPlan_Title>Funnel drone loadout</TOT_FunnelPlan_Title>
+	<!-- Slot descriptions (example layout: left to right, outer to inner) -->
+	<TOT_FunnelSlotDesc_1>Outer left</TOT_FunnelSlotDesc_1>
+	<TOT_FunnelSlotDesc_2>Middle left</TOT_FunnelSlotDesc_2>
+	<TOT_FunnelSlotDesc_3>Inner left</TOT_FunnelSlotDesc_3>
+	<TOT_FunnelSlotDesc_4>Outer right</TOT_FunnelSlotDesc_4>
+	<TOT_FunnelSlotDesc_5>Middle right</TOT_FunnelSlotDesc_5>
+	<TOT_FunnelSlotDesc_6>Inner right</TOT_FunnelSlotDesc_6>
+	<!-- Button states -->
+	<TOT_FunnelSlot_NotAvailable>Unavailable</TOT_FunnelSlot_NotAvailable>
+	<TOT_FunnelSlot_Locked>Locked</TOT_FunnelSlot_Locked>
+	<TOT_FunnelSlot_LockedTip>Configure the previous slot(s) first.</TOT_FunnelSlot_LockedTip>
+	<!-- Selection -->
+	<TOT_FunnelSlot_Select>Select drone...</TOT_FunnelSlot_Select>
+	<TOT_FunnelSlot_Current>Drone: {0}</TOT_FunnelSlot_Current>
+	<TOT_FunnelSlot_ChooseOption>{0}</TOT_FunnelSlot_ChooseOption>
+	<TOT_FunnelSlot_NoOptions>No available drones.</TOT_FunnelSlot_NoOptions>
+</LanguageData>

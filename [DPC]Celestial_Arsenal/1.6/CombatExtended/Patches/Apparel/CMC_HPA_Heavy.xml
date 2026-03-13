@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CMC_HPA_Heavy"]/statBases/ArmorRating_Sharp</xpath>
+    <value>
+      <ArmorRating_Sharp>70</ArmorRating_Sharp>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="CMC_HPA_Heavy"]/statBases/ArmorRating_Blunt</xpath>
+    <value>
+      <ArmorRating_Blunt>280</ArmorRating_Blunt>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="CMC_HPA_Heavy"]/statBases</xpath>
+    <value>
+      <Bulk>40</Bulk>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="CMC_HPA_Heavy"]/equippedStatOffsets</xpath>
+    <value>
+        <CarryBulk>140</CarryBulk>
+        <CarryWeight>120</CarryWeight>
+        <Suppressability>-0.5</Suppressability>
+        <ReloadSpeed>1.5</ReloadSpeed>
+    </value>
+  </Operation>
+</Patch>
