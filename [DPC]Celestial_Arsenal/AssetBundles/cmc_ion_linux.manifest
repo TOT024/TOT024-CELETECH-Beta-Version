@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.0f1
+CRC: 4114564065
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 57658ca9d57b849724d4d115b08e242f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 235cbca85ccdf28f10f6ab4fde453a14
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: ca423d22b5af682385d4f518ef839212
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/TOT.CeleTech.MKIII/Materials/Map/CMC_IonUpwardOnly.shader
+Dependencies: []

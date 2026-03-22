@@ -86,6 +86,10 @@
 			<recipeUsers Inherit="False">
 				<li>CMC_FacBench</li>
 			</recipeUsers>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Machining</soundWorking>
 		</recipeMaker>
 		<comps>
 			<li Class="TOT_DLL_test.CompProperties_FunnelHauler">
@@ -170,6 +174,10 @@
 			<recipeUsers Inherit="False">
 				<li>CMC_FacBench</li>
 			</recipeUsers>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Machining</soundWorking>
 		</recipeMaker>
 		<comps>
 			<li Class="CompProperties_ApparelReloadable">
@@ -318,6 +326,10 @@
 			<recipeUsers Inherit="False">
 				<li>CMC_FacBench</li>
 			</recipeUsers>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Machining</soundWorking>
 		</recipeMaker>
 		<comps>
 			<li Class="CompProperties_ApparelReloadable">

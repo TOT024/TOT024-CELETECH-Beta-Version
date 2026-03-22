@@ -1,6 +1,6 @@
 ManifestFileVersion: 0
 UnityVersion: 6000.3.0f1
-CRC: 1318198390
+CRC: 3388112028
 HashAppended: 0
 AssetBundleManifest:
   AssetBundleInfos:
@@ -12,4 +12,13 @@ AssetBundleManifest:
       Dependencies: {}
     Info_2:
       Name: cmc_shaderpulse_mac
+      Dependencies: {}
+    Info_3:
+      Name: cmc_shaderlaser_mac
+      Dependencies: {}
+    Info_4:
+      Name: cmc_ion_mac
+      Dependencies: {}
+    Info_5:
+      Name: cmc_3dholoa_mac
       Dependencies: {}

@@ -119,7 +119,7 @@
         <techLevel>Spacer</techLevel>
         <generateAllowChance>0</generateAllowChance>
         <graphicData>
-            <texPath>Things/Apparel/CMC_Coat/CMC_Coat_Display</texPath>
+            <texPath>Things/Apparel/CMC_Coat_B/CMC_Coat_Display</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <drawSize>1</drawSize>
             <shaderType>CutoutComplex</shaderType>
@@ -147,7 +147,7 @@
                 <li>RoyalTier6</li>
                 <li>RoyalTier7</li>
             </tags>
-            <wornGraphicPath>Things/Apparel/CMC_Coat/CMC_Coat</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/CMC_Coat_B/CMC_Coat</wornGraphicPath>
             <useWornGraphicMask>true</useWornGraphicMask>
             <shellRenderedBehindHead>true</shellRenderedBehindHead>
         </apparel>

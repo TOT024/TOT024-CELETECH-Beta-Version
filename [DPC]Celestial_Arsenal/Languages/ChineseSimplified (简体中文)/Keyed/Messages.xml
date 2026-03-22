@@ -946,4 +946,66 @@
   <TOT_FunnelSlot_ChooseOption>{0}</TOT_FunnelSlot_ChooseOption>
 	<!-- EN: No available drones. -->
   <TOT_FunnelSlot_NoOptions>没有可用的浮游炮。</TOT_FunnelSlot_NoOptions>
+	<!-- EN: No Power -->
+  <CMC_CannotCall_NoPower>未通电，无法呼叫。</CMC_CannotCall_NoPower>
+	<!-- EN: No signal -->
+  <CMC_CannotCall_UnderThickRoof>位于厚岩顶下，无法呼叫。</CMC_CannotCall_UnderThickRoof>
+	<!-- EN: CAS panel -->
+  <TOT_CEF_Main>打开空袭控制</TOT_CEF_Main>
+	<!-- EN: Disabled: need research to unlock! -->
+  <TOT_CEF_Main_Disabled_Research>需要先完成空袭初始化研究</TOT_CEF_Main_Disabled_Research>
+	<!-- EN: Disabled: under thick roof -->
+  <TOT_CEF_Main_Disabled_ThickRoof>厚岩顶下无法使用空袭终端</TOT_CEF_Main_Disabled_ThickRoof>
+	<!-- EN: Toggle Neural supercharge -->
+  <TOT_CEF_Neural>神经超频开关</TOT_CEF_Neural>
+	<!-- EN: Disabled: need research to unlock! -->
+  <TOT_CEF_Neural_Disabled>需要先完成神经科技研究</TOT_CEF_Neural_Disabled>
+	<!-- EN: Toggle: Auto repair equipments -->
+  <TOT_CEF_Repair>装备自修复开关</TOT_CEF_Repair>
+	<!-- Force attack disabled reasons -->
+	<!-- EN: This turret does not expose forced attack controls. -->
+  <TOT_CommandForceAttack_Disabled_Hidden>该炮塔不显示强制攻击功能。</TOT_CommandForceAttack_Disabled_Hidden>
+	<!-- EN: No linked radar/facility available. Forced targeting is unavailable. -->
+  <TOT_CommandForceAttack_Disabled_NoRadar>未连接可用雷达，无法手动指定目标。</TOT_CommandForceAttack_Disabled_NoRadar>
+	<!-- EN: Weapon is not ready. -->
+  <TOT_CommandForceAttack_Disabled_NoVerb>武器未就绪。</TOT_CommandForceAttack_Disabled_NoVerb>
+	<!-- Hold fire -->
+	<!-- EN: Hold fire cannot be toggled right now. -->
+  <TOT_CommandHoldFire_Disabled>当前不可切换停火状态。</TOT_CommandHoldFire_Disabled>
+	<!-- Home area fire mode -->
+	<!-- EN: Home Area Fire Control -->
+  <TOT_CommandHomeAreaMode_Label>居住区火控</TOT_CommandHomeAreaMode_Label>
+	<!-- EN: Current mode: {0}\n{1} -->
+  <TOT_CommandHomeAreaMode_Desc>当前模式: {0}\n{1}</TOT_CommandHomeAreaMode_Desc>
+	<!-- EN: Allow fire in home area -->
+  <TOT_FireMode_Allow_Label>允许攻击居住区</TOT_FireMode_Allow_Label>
+	<!-- EN: Turret may fire at targets inside the home area. -->
+  <TOT_FireMode_Allow_Desc>允许在居住区内射击。</TOT_FireMode_Allow_Desc>
+	<!-- EN: Forbid targets in home area -->
+  <TOT_FireMode_ForbidTarget_Label>禁止攻击居住区目标</TOT_FireMode_ForbidTarget_Label>
+	<!-- EN: Turret will not fire if the target is inside the home area. -->
+  <TOT_FireMode_ForbidTarget_Desc>若目标位于居住区内，不开火。</TOT_FireMode_ForbidTarget_Desc>
+	<!-- EN: Forbid explosions affecting home area -->
+  <TOT_FireMode_ForbidExplosion_Label>禁止爆炸波及居住区</TOT_FireMode_ForbidExplosion_Label>
+	<!-- EN: Turret will not fire if explosion radius would affect any home area cell. -->
+  <TOT_FireMode_ForbidExplosion_Desc>若爆炸范围会影响居住区，不开火。</TOT_FireMode_ForbidExplosion_Desc>
+	<!-- Short mode tags shown on button -->
+	<!-- EN: ALW -->
+  <TOT_FireMode_Short_Allow>允许</TOT_FireMode_Short_Allow>
+	<!-- EN: TGT -->
+  <TOT_FireMode_Short_Target>禁目</TOT_FireMode_Short_Target>
+	<!-- EN: EXP -->
+  <TOT_FireMode_Short_Explosion>禁爆</TOT_FireMode_Short_Explosion>
+	<!-- Ammo / shell controls -->
+	<!-- EN: This turret has no changeable-ammo component. -->
+  <TOT_CommandAmmo_NoComp>该炮塔没有可切换弹药组件。</TOT_CommandAmmo_NoComp>
+	<!-- EN: Cannot extract shell now (not loaded or unavailable). -->
+  <TOT_CommandExtractShell_Disabled>当前无法抽弹（未装填或不可操作）。</TOT_CommandExtractShell_Disabled>
+	<!-- EN: No copied ammo settings in clipboard. -->
+  <TOT_CommandPasteAmmo_NoClipboard>剪贴板没有可粘贴的弹药设置。</TOT_CommandPasteAmmo_NoClipboard>
+	<!-- Optional bunker subclass override -->
+	<!-- EN: Lift Mode -->
+  <TOT_CommandBunkerLift_Label>升降模式</TOT_CommandBunkerLift_Label>
+	<!-- EN: Toggle bunker turret lift/deploy state. -->
+  <TOT_CommandBunkerLift_Desc>切换地堡炮塔升降状态。</TOT_CommandBunkerLift_Desc>
 </LanguageData>

@@ -229,7 +229,7 @@
 		<moveSpeed>75</moveSpeed>
 		<acceleration>0.02</acceleration>
 		<rotationVelocity>20</rotationVelocity>
-		<enableCurveAttack>false</enableCurveAttack>
+		<enableCurveAttack>true</enableCurveAttack>
 		<curveAttackChance>0.35</curveAttackChance>
 		<attackDashTicks>6</attackDashTicks>
 		<attackCurveSideOffset>1.9</attackCurveSideOffset>
@@ -344,12 +344,12 @@
       <li>
         <verbClass>TOT_DLL_test.Verb_Laser_Sustain</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <warmupTime>0</warmupTime>
+        <warmupTime>4</warmupTime>
         <range>19</range>
         <!--这个是攻击次数-->
-        <burstShotCount>60</burstShotCount>
+        <burstShotCount>10</burstShotCount>
         <!--这个是攻击间隔-->
-        <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+        <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>0</muzzleFlashScale>
       </li>
@@ -412,12 +412,12 @@
       <li>
         <verbClass>TOT_DLL_test.Verb_Laser_Sustain</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <warmupTime>0</warmupTime>
+        <warmupTime>3</warmupTime>
         <range>28</range>
         <!--这个是攻击次数-->
-        <burstShotCount>120</burstShotCount>
+        <burstShotCount>25</burstShotCount>
         <!--这个是攻击间隔-->
-        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+        <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>0</muzzleFlashScale>
       </li>

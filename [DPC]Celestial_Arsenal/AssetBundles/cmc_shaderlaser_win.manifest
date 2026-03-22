@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.0f1
+CRC: 3383271489
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c66de20b232a177c802ac6a4eac7b3a8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 235cbca85ccdf28f10f6ab4fde453a14
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: cd7cfacb8649862ed0aace29ed7c0fae
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/TOT.CeleTech.MKIII/Materials/Map/TOT_MoteElectricArc.shader
+Dependencies: []

@@ -39,10 +39,6 @@
 	  <li Class="TOT_DLL_test.CompProperties_PrismTowerTop"/>
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Breakdownable"/>
-	  <li Class="CompProperties_Glower">
-            <glowRadius>3</glowRadius>
-            <glowColor>(255,255,255,0)</glowColor>
-	  </li>
 	  <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>5500</basePowerConsumption>
@@ -68,9 +64,9 @@
 	  <li>CMC_DEWII</li>
     </researchPrerequisites>
 	<designationCategory>CMC_DefensenProduction</designationCategory>
-	<placeWorkers>
-      <li>PlaceWorker_TurretTop</li>
-	  <li>TOT_DLL_test.PlaceWorker_ShowTurretRadius_VerbSupport</li>
+	<placeWorkers Inherit="False">
+      <!--li>PlaceWorker_TurretTop</li>
+	  <li>TOT_DLL_test.PlaceWorker_ShowTurretRadius_VerbSupport</li-->
     </placeWorkers>
   </ThingDef>
   
@@ -88,7 +84,7 @@
       <AccuracyShort>1</AccuracyShort>
       <AccuracyMedium>1</AccuracyMedium>
       <AccuracyLong>1</AccuracyLong>
-      <RangedWeapon_Cooldown>2.25</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>1.35</RangedWeapon_Cooldown>
       <DeteriorationRate>0</DeteriorationRate>
       <Mass>80</Mass>
       <Flammability>0</Flammability>
@@ -100,7 +96,6 @@
         <defaultProjectile>Bullet_Fake_LaserRifle</defaultProjectile>
         <warmupTime>0.9</warmupTime>
         <range>40</range>
-		<minRange>3.9</minRange>
         <burstShotCount>1</burstShotCount>
         <soundCast>SL</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
@@ -141,7 +136,7 @@
         <!--这个是造成伤害的类型-->
         <DamageDef>InfernoBeamPlus</DamageDef>
         <!--这个是造成伤害的数值-->
-        <DamageNum>20</DamageNum>
+        <DamageNum>40</DamageNum>
         <!--这个是护甲穿透-->
         <DamageArmorPenetration>1</DamageArmorPenetration>
         <!--是否同时造成第二种伤害-->

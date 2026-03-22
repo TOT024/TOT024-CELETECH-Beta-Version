@@ -475,4 +475,38 @@
 	<TOT_FunnelSlot_Current>Drone: {0}</TOT_FunnelSlot_Current>
 	<TOT_FunnelSlot_ChooseOption>{0}</TOT_FunnelSlot_ChooseOption>
 	<TOT_FunnelSlot_NoOptions>No available drones.</TOT_FunnelSlot_NoOptions>
+	<CMC_CannotCall_NoPower>No Power</CMC_CannotCall_NoPower>
+	<CMC_CannotCall_UnderThickRoof>No signal</CMC_CannotCall_UnderThickRoof>
+	<TOT_CEF_Main>CAS panel</TOT_CEF_Main>
+	<TOT_CEF_Main_Disabled_Research>Disabled: need research to unlock!</TOT_CEF_Main_Disabled_Research>
+	<TOT_CEF_Main_Disabled_ThickRoof>Disabled: under thick roof</TOT_CEF_Main_Disabled_ThickRoof>
+	<TOT_CEF_Neural>Toggle Neural supercharge</TOT_CEF_Neural>
+	<TOT_CEF_Neural_Disabled>Disabled: need research to unlock!</TOT_CEF_Neural_Disabled>
+	<TOT_CEF_Repair>Toggle: Auto repair equipments</TOT_CEF_Repair>
+	<!-- Force attack disabled reasons -->
+	<TOT_CommandForceAttack_Disabled_Hidden>This turret does not expose forced attack controls.</TOT_CommandForceAttack_Disabled_Hidden>
+	<TOT_CommandForceAttack_Disabled_NoRadar>No linked radar/facility available. Forced targeting is unavailable.</TOT_CommandForceAttack_Disabled_NoRadar>
+	<TOT_CommandForceAttack_Disabled_NoVerb>Weapon is not ready.</TOT_CommandForceAttack_Disabled_NoVerb>
+	<!-- Hold fire -->
+	<TOT_CommandHoldFire_Disabled>Hold fire cannot be toggled right now.</TOT_CommandHoldFire_Disabled>
+	<!-- Home area fire mode -->
+	<TOT_CommandHomeAreaMode_Label>Home Area Fire Control</TOT_CommandHomeAreaMode_Label>
+	<TOT_CommandHomeAreaMode_Desc>Current mode: {0}\n{1}</TOT_CommandHomeAreaMode_Desc>
+	<TOT_FireMode_Allow_Label>Allow fire in home area</TOT_FireMode_Allow_Label>
+	<TOT_FireMode_Allow_Desc>Turret may fire at targets inside the home area.</TOT_FireMode_Allow_Desc>
+	<TOT_FireMode_ForbidTarget_Label>Forbid targets in home area</TOT_FireMode_ForbidTarget_Label>
+	<TOT_FireMode_ForbidTarget_Desc>Turret will not fire if the target is inside the home area.</TOT_FireMode_ForbidTarget_Desc>
+	<TOT_FireMode_ForbidExplosion_Label>Forbid explosions affecting home area</TOT_FireMode_ForbidExplosion_Label>
+	<TOT_FireMode_ForbidExplosion_Desc>Turret will not fire if explosion radius would affect any home area cell.</TOT_FireMode_ForbidExplosion_Desc>
+	<!-- Short mode tags shown on button -->
+	<TOT_FireMode_Short_Allow>ALW</TOT_FireMode_Short_Allow>
+	<TOT_FireMode_Short_Target>TGT</TOT_FireMode_Short_Target>
+	<TOT_FireMode_Short_Explosion>EXP</TOT_FireMode_Short_Explosion>
+	<!-- Ammo / shell controls -->
+	<TOT_CommandAmmo_NoComp>This turret has no changeable-ammo component.</TOT_CommandAmmo_NoComp>
+	<TOT_CommandExtractShell_Disabled>Cannot extract shell now (not loaded or unavailable).</TOT_CommandExtractShell_Disabled>
+	<TOT_CommandPasteAmmo_NoClipboard>No copied ammo settings in clipboard.</TOT_CommandPasteAmmo_NoClipboard>
+	<!-- Optional bunker subclass override -->
+	<TOT_CommandBunkerLift_Label>Lift Mode</TOT_CommandBunkerLift_Label>
+	<TOT_CommandBunkerLift_Desc>Toggle bunker turret lift/deploy state.</TOT_CommandBunkerLift_Desc>
 </LanguageData>

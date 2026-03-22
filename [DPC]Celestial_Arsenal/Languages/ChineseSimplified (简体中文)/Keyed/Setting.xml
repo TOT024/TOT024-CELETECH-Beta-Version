@@ -50,6 +50,10 @@
   <Setting_ResetAll_CMC>恢复所有默认值</Setting_ResetAll_CMC>
   <!-- EN: Reset all settings to default value? -->
   <Setting_ResetAll_Confirm_CMC>确定要恢复所有默认设置吗？</Setting_ResetAll_Confirm_CMC>
+  <!-- EN: Use integrated turret gizmo -->
+  <TOT_Setting_UseIntegratedTurretGizmo_Label>炮塔面板模式</TOT_Setting_UseIntegratedTurretGizmo_Label>
+<!-- EN: If enabled, turrets use the 2:1 integrated command panel. If disabled, turrets use separate vanilla-style command buttons. -->
+  <TOT_Setting_UseIntegratedTurretGizmo_Desc>切换使用2：1集成式组件或原版模式独立组件（如强制攻击，停火等），用于处理炮塔组件过多的情况。</TOT_Setting_UseIntegratedTurretGizmo_Desc>
   <!-- UNUSED -->
   <Setting_label1_CMC3>设置：杂项</Setting_label1_CMC3>
 

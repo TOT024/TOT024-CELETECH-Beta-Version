@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
+  <!-- EN: weapon -->
+  <TOT_BackpackWeaponContainer.label>TODO</TOT_BackpackWeaponContainer.label>
+  
   <!-- EN: funnel backup -->
   <TOT_FunnelContainer.label>TODO</TOT_FunnelContainer.label>
   

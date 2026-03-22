@@ -269,6 +269,11 @@
                        <modifier>Multiply</modifier>
                        <value>0.75</value>
                    </li>
+				   <li>
+                       <stat>RangedWeapon_RangeMultiplier</stat>
+                       <modifier>Add</modifier>
+                       <value>0.45</value>
+                   </li>
                </stats>
 			   <abilities>
                    <li>

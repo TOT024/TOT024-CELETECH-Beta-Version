@@ -1,0 +1,21 @@
+<Defs>
+  <ShaderTypeDef>
+    <defName>CMC_ElectricArc_Mote</defName>
+    <shaderPath>Map/TOT_MoteElectricArc</shaderPath>
+  </ShaderTypeDef>
+  
+  <ShaderTypeDef>
+    <defName>CMC_Electric_Mote</defName>
+    <shaderPath>Map/ShaderAnimated_A</shaderPath>
+  </ShaderTypeDef>
+  
+  <ShaderTypeDef>
+    <defName>CMC_Ion_Mote</defName>
+    <shaderPath>Map/CMC_IonUpwardOnly</shaderPath>
+  </ShaderTypeDef>
+  
+  <ShaderTypeDef>
+    <defName>CMC_3D_A</defName>
+    <shaderPath>Map/CMC_3DHologram</shaderPath>
+  </ShaderTypeDef>
+</Defs>

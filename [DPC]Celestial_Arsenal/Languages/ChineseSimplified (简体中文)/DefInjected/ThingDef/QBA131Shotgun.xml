@@ -11,12 +11,12 @@
   <CMC_QBAfournine.verbs.Verb_Shoot.label>QBA-131R 霰弹枪</CMC_QBAfournine.verbs.Verb_Shoot.label>
   
   <!-- EN: <color=#FFD456>QBA-131F shotgun</color> -->
-  <CMC_QBAfournineFlame.label>TODO</CMC_QBAfournineFlame.label>
+  <CMC_QBAfournineFlame.label>&lt;color=#FFD456>SG-131F「麒麟」霰弹枪&lt;/color></CMC_QBAfournineFlame.label>
   <!-- EN: . -->
   <CMC_QBAfournineFlame.description>TODO</CMC_QBAfournineFlame.description>
   <!-- EN: barrel -->
   <CMC_QBAfournineFlame.tools.barrel.label>TODO</CMC_QBAfournineFlame.tools.barrel.label>
   <!-- EN: <color=#FFD456>QBA-131F shotgun</color> -->
-  <CMC_QBAfournineFlame.verbs.Verb_Shoot.label>TODO</CMC_QBAfournineFlame.verbs.Verb_Shoot.label>
+  <CMC_QBAfournineFlame.verbs.Verb_Shoot.label>&lt;color=#FFD456>SG-131F「麒麟」霰弹枪&lt;/color></CMC_QBAfournineFlame.verbs.Verb_Shoot.label>
   
 </LanguageData>

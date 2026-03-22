@@ -421,7 +421,7 @@
   
   <ThingDef ParentName="AutocannonTurret">
        <defName>CMC_Svcannon</defName>
-       <label>20mm sniper EML</label>
+       <label>30mm sniper EML</label>
        <thingClass>TOT_DLL_test.Building_CMCTurretGun</thingClass>
        <description>Equipped with advanced electro-optical and infrared sensors, this smart sniper turret “Zhanlu Soulhunter” launches large-caliber smart autocannon rounds capable of tracking enemies.</description>
        <uiIconPath>Things/Buildings/CMCCannon_UI</uiIconPath>
@@ -480,13 +480,13 @@
                <BarrelTexture>
                    <texPath>Things/Buildings/CMC_LaserP_Barrel</texPath>
                    <graphicClass>Graphic_Single</graphicClass>
-                   <drawSize>(3.88,3.88)</drawSize>
+                   <drawSize>(4.2,4.2)</drawSize>
                </BarrelTexture>
                <OverHeatTexture>
                    <texPath>Things/Buildings/CMC_LaserP_BarrelOH</texPath>
                    <graphicClass>Graphic_Single</graphicClass>
                    <shaderType>MoteGlow</shaderType>
-                   <drawSize>(3.88,3.88)</drawSize>
+                   <drawSize>(4.2,4.2)</drawSize>
                </OverHeatTexture>
                <totalTicks>30</totalTicks>
                <rapidPhase>5</rapidPhase>
@@ -510,8 +510,8 @@
        </damageMultipliers>
        <building>
            <turretGunDef>Gun_CMCMSVcannon</turretGunDef>
-           <turretBurstCooldownTime>1.5</turretBurstCooldownTime>
-           <turretTopDrawSize>3.882</turretTopDrawSize>
+           <turretBurstCooldownTime>1.65</turretBurstCooldownTime>
+           <turretTopDrawSize>4.2</turretTopDrawSize>
            <ai_combatDangerous>false</ai_combatDangerous>
        </building>
        <researchPrerequisites>
@@ -539,7 +539,7 @@
            <AccuracyShort>0.92</AccuracyShort>
            <AccuracyMedium>0.86</AccuracyMedium>
            <AccuracyLong>0.85</AccuracyLong>
-           <RangedWeapon_Cooldown>2.25</RangedWeapon_Cooldown>
+           <RangedWeapon_Cooldown>1.05</RangedWeapon_Cooldown>
            <DeteriorationRate>0</DeteriorationRate>
            <Mass>40</Mass>
            <Flammability>0</Flammability>
@@ -552,7 +552,7 @@
                <verbClass>Verb_Shoot</verbClass>
                <defaultProjectile>Bullet_XuanMing</defaultProjectile>
                <warmupTime>0.11</warmupTime>
-               <range>69.9</range>
+               <range>79.9</range>
                <burstShotCount>1</burstShotCount>
                <soundCast>Sound_Cannon30mm_Sinper</soundCast>
                <soundCastTail>GunTail_Heavy</soundCastTail>

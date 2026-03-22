@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.0f1
+CRC: 269755794
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 2f4b3a54887ecfcc411676b7752aa241
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 235cbca85ccdf28f10f6ab4fde453a14
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 18c0584d0d890aa4c06c00db9bb01ef2
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/TOT.CeleTech.MKIII/Materials/Map/CMC_3DHologram.shader
+Dependencies: []

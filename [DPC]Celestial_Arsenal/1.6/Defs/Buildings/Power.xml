@@ -162,11 +162,11 @@
   
   <ThingDef ParentName="BuildingBase">
     <defName>CMC_ZPReactor_Large</defName>
-	<thingClass>TOT_DLL_test.BuildingZPR</thingClass>
+	<!--thingClass>TOT_DLL_test.BuildingZPR</thingClass-->
     <label>ZP-reactor group</label>
     <description>A group of zero-point reactors.</description>
     <size>(3,3)</size>
-	<uiIconPath>Things/Buildings/CMC_ZPGenerator</uiIconPath>
+	<uiIconPath>Things/Buildings/CMC_ZPGenerator_UI</uiIconPath>
 	<tickerType>Normal</tickerType>
 	<altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
@@ -187,13 +187,16 @@
 	<building>
       <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
     </building>
+	<placeWorkers Inherit="False">
+		<li>PlaceWorker_BandNode</li>
+	</placeWorkers>
     <costList>
-      <Steel>3000</Steel>
-	  <Plasteel>1500</Plasteel>
-      <ComponentIndustrial>60</ComponentIndustrial>
-	  <ComponentSpacer>30</ComponentSpacer>
+      <Steel>2000</Steel>
+	  <Plasteel>1000</Plasteel>
+      <ComponentIndustrial>80</ComponentIndustrial>
+	  <ComponentSpacer>60</ComponentSpacer>
 	  <Silver>300</Silver>
-	  <Gold>50</Gold>
+	  <Gold>80</Gold>
     </costList>
     <graphicData>
       <texPath>Things/Buildings/CMC_ZPGenerator</texPath>
@@ -203,17 +206,36 @@
     </graphicData>
     <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
     <comps>
-	<li Class="CompProperties_Power">
+		<li Class="CompProperties_Power">
         <compClass>CompPowerPlant</compClass>
         <basePowerConsumption>-80000</basePowerConsumption>
         <transmitsPower>true</transmitsPower>
         <soundAmbientProducingPower>ChemfuelFiredGenerator_Ambience</soundAmbientProducingPower>
       </li>
-      <li Class="CompProperties_Flickable" />
-      <li Class="CompProperties_Glower">
-            <glowRadius>7</glowRadius>
-            <glowColor>(255,255,255,0)</glowColor>
-	  </li>
+	  <li Class="TOT_DLL_test.CompProperties_BuildingDrawExtraFourRot">
+			<graphicDataExtra>
+				<graphicClass>Graphic_Single</graphicClass>
+				<shaderType>CMC_Ion_Mote</shaderType>
+				<texPath>Things/Buildings/CMC_ZPGenerator_Base</texPath>
+				<drawSize>(4.8,7.2)</drawSize>
+				<drawOffsetSouth>(0,0.12,1.7)</drawOffsetSouth>
+				<drawOffsetNorth>(0,0.12,1.7)</drawOffsetNorth>
+				<drawOffsetEast>(0,0.12,1.7)</drawOffsetEast>
+				<drawOffsetWest>(0,0.12,1.7)</drawOffsetWest>
+			</graphicDataExtra>
+		</li>
+		<li Class="TOT_DLL_test.CompProperties_BuildingDrawExtraFourRot">
+			<graphicDataExtra>
+				<graphicClass>Graphic_Single</graphicClass>
+				<shaderType>MoteGlow</shaderType>
+				<texPath>Things/Buildings/CMC_ZPGenerator_Light</texPath>
+				<drawSize>(4.8,7.2)</drawSize>
+				<drawOffsetSouth>(0,0.11,1.7)</drawOffsetSouth>
+				<drawOffsetNorth>(0,0.11,1.7)</drawOffsetNorth>
+				<drawOffsetEast>(0,0.11,1.7)</drawOffsetEast>
+				<drawOffsetWest>(0,0.11,1.7)</drawOffsetWest>
+			</graphicDataExtra>
+		</li>
     </comps>
 	<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <designationCategory>CMC_DefensenProduction</designationCategory>

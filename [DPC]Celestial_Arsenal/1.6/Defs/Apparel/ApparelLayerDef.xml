@@ -4,4 +4,10 @@
     <label>funnel backup</label>
     <drawOrder>310</drawOrder>
   </ApparelLayerDef>
+  
+  <ApparelLayerDef>
+    <defName>TOT_BackpackWeaponContainer</defName>
+    <label>weapon</label>
+    <drawOrder>320</drawOrder>
+  </ApparelLayerDef>
 </Defs>

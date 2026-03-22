@@ -336,8 +336,8 @@
 	
 	<ThingDef ParentName="ApparelBase">
 		<defName>CMC_personalterminal</defName>
-		<label>C.E.F. personal terminal</label>
-		<description>.</description>
+		<label>CEF Personal Data Terminal</label>
+		<description>A tactical terminal integrating communication, positioning, scanning, and other functions. Powered by a small fusion cell, it can utilize micro-nanorobots to repair equipment and weapons, or provide the wearer with continuous neural overclocking stimulation. It can also use an infrared laser to designate targets for aircraft and orbital strikes.\n\n&lt;color=#FF0000>UASGE NOTICE：&lt;/color>>\nAccording to incomplete statistics, 11.4% of users have added ↑→↓↓↓ to their quick-access menu, resulting in accidental activations causing casualties. Please strictly adhere to the CEF Personal Data Terminal Safety Regulations. TianGong Foundry™ shall not be liable for any loss of life or property resulting from improper operation.</description>
 		<thingClass>TOT_DLL_test.Apparel_PersonalTerminal</thingClass>
 		<tickerType>Normal</tickerType>
 		<recipeMaker>
@@ -407,8 +407,8 @@
 				<li>RoyalTier7</li>
 			</tags>
 		</apparel>
-		<comps>
+		<!--comps>
 			<li Class="TOT_DLL_test.CompProperties_AutoRepair"></li>
-		</comps>
+		</comps-->
 	</ThingDef>
 </Defs>

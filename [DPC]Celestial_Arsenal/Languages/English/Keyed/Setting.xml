@@ -25,5 +25,7 @@
   <Setting_D_FunnelbeltLayer_CMC>On：use indepandent layer；Of：use belt layer(conflict with backpacks)</Setting_D_FunnelbeltLayer_CMC>
   <Setting_ResetAll_CMC>Reset All</Setting_ResetAll_CMC>
   <Setting_ResetAll_Confirm_CMC>Reset all settings to default value?</Setting_ResetAll_Confirm_CMC>
+  <TOT_Setting_UseIntegratedTurretGizmo_Label>Use integrated turret gizmo</TOT_Setting_UseIntegratedTurretGizmo_Label>
+<TOT_Setting_UseIntegratedTurretGizmo_Desc>If enabled, turrets use the 2:1 integrated command panel. If disabled, turrets use separate vanilla-style command buttons.</TOT_Setting_UseIntegratedTurretGizmo_Desc>
 </LanguageData>
 

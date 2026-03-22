@@ -16,4 +16,13 @@
   <!-- EN: Mote -->
   <CMC_Laser_Stay_MoteRed_Wide.label>TODO</CMC_Laser_Stay_MoteRed_Wide.label>
   
+  <!-- EN: Mote -->
+  <TOT_Mote_LaserBeam.label>TODO</TOT_Mote_LaserBeam.label>
+  
+  <!-- EN: Mote -->
+  <TOT_Mote_LaserCharge.label>TODO</TOT_Mote_LaserCharge.label>
+  
+  <!-- EN: Mote -->
+  <TOT_Mote_LaserImpact.label>TODO</TOT_Mote_LaserImpact.label>
+  
 </LanguageData>

@@ -1,17 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<ThingDef ParentName="TOT_Weapons" MayRequire="Ludeon.RimWorld.Biotech">
 		<defName>QLUX_Pulse_Projector_Persona</defName>
-		<label>&lt;color=#FFAA00&gt;&lt;i&gt;QLU-X-ZHII pulse cannon&lt;/i&gt;&lt;/color&gt;</label>
+		<label>QLU-X pulse plasma cannon</label>
 		<description>A prototype plasma cannon originated of QLU-X, with enhanced firepower. Its energy pulse can also emit EMP burst upon contact.</description>
 		<techLevel>Spacer</techLevel>
 		<useHitPoints>false</useHitPoints>
 		<smeltable>false</smeltable>
+		<tickerType>Normal</tickerType>
 		<uiIconPath>Things/Weapons/QLUX_EMPPersona_UI</uiIconPath>
 		<graphicData>
-		  <texPath>Things/Weapons/QLUX_EMPPersona</texPath>
-		  <graphicClass>Graphic_Single</graphicClass>
-		  <drawSize>(1.5,1.5)</drawSize>
+			<texPath>Things/Weapons/QLUX_EMPPersona</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.2,1.2)</drawSize>
 		</graphicData>
+		<statBases>
+			<WorkToMake>95000</WorkToMake>
+			<Mass>12.3</Mass>
+			<AccuracyTouch>1</AccuracyTouch>
+			<AccuracyShort>0.9</AccuracyShort>
+			<AccuracyMedium>0.82</AccuracyMedium>
+			<AccuracyLong>0.8</AccuracyLong>
+			<RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
+			<Flammability>0</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>CMC_ZhurongProtocol</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>12</Crafting>
+			</skillRequirements>
+			<displayPriority>200</displayPriority>
+		</recipeMaker>
+		<costList>
+			<Steel>220</Steel>
+			<Plasteel>150</Plasteel>
+			<ComponentSpacer>16</ComponentSpacer>
+			<AIPersonaCore>1</AIPersonaCore>
+		</costList>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.75</MoveSpeed>
+			<RangedWeapon_DamageMultiplier>0.12</RangedWeapon_DamageMultiplier>
+		</equippedStatOffsets>
+		<thingSetMakerTags>
+			<li>RewardStandardLowFreq</li>
+			<li>RewardStandardQualitySuper</li>
+		</thingSetMakerTags>
+		<tradeTags>
+			<li>WeaponRanged</li>
+		</tradeTags>
+		<weaponClasses>
+			<li>RangedHeavy</li>
+		</weaponClasses>
+		<verbs>
+			<li>
+				<verbClass>TOT_DLL_test.Verb_ShootWithAppWeaTransferAmmo</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Projectile_QLUX_GiantExplosion</defaultProjectile>
+				<warmupTime>2.28</warmupTime>
+				<!--forcedMissRadius>0</forcedMissRadius-->
+				<range>78</range>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>Sound_Cannon</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<ai_AvoidFriendlyFireRadius>5</ai_AvoidFriendlyFireRadius>
+				<minRange>4.9</minRange>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+					<canTargetPawns>true</canTargetPawns>
+				</targetParams>
+				<canGoWild>false</canGoWild>
+				<aimingTargetMote>Mote_HellsphereCannon_Target</aimingTargetMote>
+			</li>
+		</verbs>
+		<comps Inherit="False">
+			<li Class="TOT_DLL_test.CompProperties_WeaponRenderStatic">
+                <TexturePath>Things/Weapons/QLUX_EMPPersona_Light</TexturePath>
+                <TexturePath_Camo>Things/Weapons/QLUX_EMPPersonam</TexturePath_Camo>
+            </li>
+			<li Class="CompProperties_BladelinkWeapon" MayRequire="Ludeon.RimWorld.Royalty">
+				<biocodeOnEquip>true</biocodeOnEquip>
+			</li>
+			<li Class="CompProperties_Art">
+				<nameMaker>NamerArtWeapon</nameMaker>
+				<descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
+				<minQualityForArtistic>Excellent</minQualityForArtistic>
+			</li>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Styleable"/>
+			<li Class="TOT_DLL_test.CompProperties_AppWeaTransferEquippableBridge" />
+			<li Class="TOT_DLL_test.CompProperties_AppWeaTransferWeaponAmmo">
+				<maxMagAmmo>1</maxMagAmmo>
+				<reloadTicks>900</reloadTicks>
+				<ammoPerReload>1</ammoPerReload>
+			</li>
+			<li Class="TOT_DLL_test.CompProperties_AppWeaTransferWeaponPart">
+				<expectedApparelDefName>QLUX_Pulse_Projector_Persona_Apparel</expectedApparelDefName>
+				<autoHolsterToStoredApparel>true</autoHolsterToStoredApparel>
+				<autoGenerateApparelWhenMissing>true</autoGenerateApparelWhenMissing>
+				<autoGenerateApparelDefName>QLUX_Pulse_Projector_Persona_Apparel</autoGenerateApparelDefName>
+				<copyWeaponQualityToGeneratedApparel>true</copyWeaponQualityToGeneratedApparel>
+			</li>
+		</comps>
+		<tools>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>25</power>
+				<cooldownTime>1.6</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+	
+	<ThingDef ParentName="ArmorMachineableBase">
+		<defName>QLUX_Pulse_Projector_Persona_Apparel</defName>
+		<label>&lt;color=#FFAA00&gt;&lt;i&gt;QLU-X-ZHII pulse cannon&lt;/i&gt;&lt;/color&gt;</label>
+		<description>.</description>
+		<generateCommonality>0</generateCommonality>
+		<generateAllowChance>0</generateAllowChance>
+		<uiIconPath>Things/Weapons/QLUX_EMPPersona_UI</uiIconPath>
+		<graphicData>
+			<texPath>Things/Weapons/QLUX_EMPPersona</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.2,1.2)</drawSize>
+		</graphicData>
+		<techLevel>Spacer</techLevel>
+		<tradeability>Sellable</tradeability>
+		<costList>
+			<Steel>220</Steel>
+			<Plasteel>150</Plasteel>
+			<ComponentSpacer>16</ComponentSpacer>
+			<AIPersonaCore>1</AIPersonaCore>
+		</costList>
+		<tickerType>Normal</tickerType>
 		<statBases>
 			<WorkToMake>95000</WorkToMake>
 			<Mass>12.3</Mass>
@@ -23,76 +151,88 @@
 			<Flammability>0</Flammability>
 			<DeteriorationRate>0</DeteriorationRate>
 		</statBases>
-		<recipeMaker>
-		  <researchPrerequisite>CMC_ZhurongProtocol</researchPrerequisite>
-		  <skillRequirements>
-			<Crafting>12</Crafting>
-		  </skillRequirements>
-		  <displayPriority>200</displayPriority>
-		</recipeMaker>
-		<costList>
-		  <Steel>220</Steel>
-		  <Plasteel>150</Plasteel>
-		  <ComponentSpacer>16</ComponentSpacer>
-		  <AIPersonaCore>1</AIPersonaCore>
-		</costList>
-		<equippedStatOffsets>
-			<MoveSpeed>-0.75</MoveSpeed>
-			<RangedWeapon_DamageMultiplier>0.12</RangedWeapon_DamageMultiplier>
-		</equippedStatOffsets>
+		<thingCategories Inherit="False">
+			<li>ApparelArmor</li>
+		</thingCategories>
 		<thingSetMakerTags>
-		  <li>RewardStandardLowFreq</li>
-		  <li>RewardStandardQualitySuper</li>
+			<li>RewardSpecial</li>
 		</thingSetMakerTags>
-		<tradeTags>
-		  <li>WeaponRanged</li>
-		</tradeTags>
-		<weaponClasses>
-		  <li>RangedHeavy</li>
-		</weaponClasses>
-		<verbs>
-		  <li>
-			<verbClass>Verb_Shoot</verbClass>
-			<hasStandardCommand>true</hasStandardCommand>
-			<defaultProjectile>Projectile_QLUX_GiantExplosion</defaultProjectile>
-			<warmupTime>4.8</warmupTime>
-			<forcedMissRadius>1.9</forcedMissRadius>
-			<range>78</range>
-			<burstShotCount>1</burstShotCount>
-			<soundCast>Sound_Cannon</soundCast>
-			<soundCastTail>GunTail_Heavy</soundCastTail>
-			<muzzleFlashScale>9</muzzleFlashScale>
-			<ai_AvoidFriendlyFireRadius>9</ai_AvoidFriendlyFireRadius>
-			<minRange>11.9</minRange>
-			<targetParams>
-			  <canTargetLocations>true</canTargetLocations>
-			  <canTargetPawns>true</canTargetPawns>
-			</targetParams>
-			<canGoWild>false</canGoWild>
-			<aimingTargetMote>Mote_HellsphereCannon_Target</aimingTargetMote>
-		  </li>
-		</verbs>
-		<comps>
-	  <li Class="CompProperties_BladelinkWeapon" MayRequire="Ludeon.RimWorld.Royalty">
-        <biocodeOnEquip>true</biocodeOnEquip>
-      </li>
-      <li Class="CompProperties_Art">
-        <nameMaker>NamerArtWeapon</nameMaker>
-        <descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
-        <minQualityForArtistic>Excellent</minQualityForArtistic>
-      </li>
-	  <li Class="TOT_DLL_test.CompProperties_ColorSaver"></li>
-    </comps>
-		<tools>
-		  <li>
-			<label>barrel</label>
-			<capacities>
-			  <li>Blunt</li>
-			  <li>Poke</li>
-			</capacities>
-			<power>25</power>
-			<cooldownTime>1.6</cooldownTime>
-		  </li>
-		</tools>
+		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<scoreOffset>4</scoreOffset>
+			<wornGraphicData>
+				<renderUtilityAsPack>true</renderUtilityAsPack>
+			</wornGraphicData>
+			<careIfWornByCorpse>false</careIfWornByCorpse>
+			<careIfDamaged>false</careIfDamaged>
+			<wearPerDay>0</wearPerDay>
+			<bodyPartGroups>
+				<li>Torso</li>
+			</bodyPartGroups>
+			<layers>
+				<li>TOT_BackpackWeaponContainer</li>
+			</layers>
+			<renderNodeProperties>
+				<li Class = "TOT_DLL_test.PawnRenderNodeProperties_WeaponAsPack">
+					<nodeClass>TOT_DLL_test.PawnRenderNode_WeaponAsPack</nodeClass>
+					<workerClass>TOT_DLL_test.PawnRenderNodeWorker_WeaponAsPack</workerClass>
+					<debugLabel>CMC_QLUX</debugLabel>
+					<pawnType>Any</pawnType>
+					<texPath>Things/Weapons/Apparel_QLUX_EMPPersona</texPath>
+					<baseLayer>60</baseLayer>
+					<parentTagDef>Body</parentTagDef>
+					<overrideMeshSize>(1.2,1.2)</overrideMeshSize>
+					<drawData>
+						<dataEast>
+							<offset>(-0.32,0,0.1)</offset>
+							<layer>-100</layer>
+						</dataEast>
+						<dataWest>
+							<offset>(0.32,0,0.1)</offset>
+							<layer>100</layer>
+						</dataWest>
+						<dataSouth>
+							<layer>-100</layer>
+						</dataSouth>
+						<dataNorth>
+							<layer>100</layer>
+						</dataNorth>
+					</drawData>
+				</li>
+			</renderNodeProperties>
+		</apparel>
+		<recipeMaker Inherit="False"/>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(1,1,1)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<comps Inherit="False">
+			<li Class="TOT_DLL_test.CompProperties_AppWeaTransferAppPart">
+				<useDefNameCheck>true</useDefNameCheck>
+				<autoGenerateWeapon>true</autoGenerateWeapon>
+				<autoGenerateWeaponDefName>QLUX_Pulse_Projector_Persona</autoGenerateWeaponDefName>
+				<allowedDefNames>
+					<li>QLUX_Pulse_Projector_Persona</li>
+				</allowedDefNames>
+				<expectedWeaponDefName>QLUX_Pulse_Projector_Persona</expectedWeaponDefName>
+				<removeApparelWhenWeaponActive>true</removeApparelWhenWeaponActive>
+				<autoWearBackOnHolster>true</autoWearBackOnHolster>
+				<TextWeaponSilhouetteTexPath>UI/CMC_QLUX_UI</TextWeaponSilhouetteTexPath>
+				<LabelOverride>QLU-X</LabelOverride>
+			</li>
+			<li Class="TOT_DLL_test.CompProperties_BackpackAmmo">
+				<UseAmmo>false</UseAmmo>
+				<maxCharges>999</maxCharges>
+				<ammoDef>Steel</ammoDef>
+				<ammoCountPerCharge>20</ammoCountPerCharge>
+				<baseReloadTicks>900</baseReloadTicks>
+				<soundReload>Standard_Reload</soundReload>
+				<chargeNoun>Ammo</chargeNoun>
+			</li>
+		</comps>
 	</ThingDef>
 </Defs>

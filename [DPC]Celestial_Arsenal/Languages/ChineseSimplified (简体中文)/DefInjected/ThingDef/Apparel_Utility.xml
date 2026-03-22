@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   
-  <!-- EN: C.E.F. personal terminal -->
-  <CMC_personalterminal.label>TODO</CMC_personalterminal.label>
-  <!-- EN: . -->
-  <CMC_personalterminal.description>TODO</CMC_personalterminal.description>
+  <!-- EN: CEF Personal Data Terminal -->
+  <CMC_personalterminal.label>CEF个人数据终端</CMC_personalterminal.label>
+  <!-- EN: A tactical terminal integrating communication, positioning, scanning, and other functions. Powered by a small fusion cell, it can utilize micro-nanorobots to repair equipment and weapons, or provide the wearer with continuous neural overclocking stimulation. It can also use an infrared laser to designate targets for aircraft and orbital strikes.\n\n<color=#FF0000>UASGE NOTICE：</color>>\nAccording to incomplete statistics, 11.4% of users have added ↑→↓↓↓ to their quick-access menu, resulting in accidental activations causing casualties. Please strictly adhere to the CEF Personal Data Terminal Safety Regulations. TianGong Foundry™ shall not be liable for any loss of life or property resulting from improper operation. -->
+  <CMC_personalterminal.description>集成了通讯，定位，扫描和等功能的战术终端，使用小型聚变电池功能，可以使用微型纳米机器人修复装备和武器，或是为穿戴者提供持续的神经超频刺激，还能使用红外激光为战机和轨道炮标定攻击目标。\n\n&lt;color=#FF0000>使用须知：&lt;/color>\n据不完全统计，有11.4%的使用者将↑→↓↓↓加入了快捷呼出页面并有误触造成伤亡的案例。请严格遵守CEF个人数据终端使用安全条例，天工铸造™不会对违规操作造成的任何生命财产损失负责。</CMC_personalterminal.description>
   
   <!-- EN: BB-01Z "Chaofeng" Pulse Jetpack -->
   <CMC_rocketpack.label>BB-01Z「嘲风」脉冲推进背包</CMC_rocketpack.label>
